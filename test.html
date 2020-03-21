@@ -57,7 +57,7 @@
     </style>
     
 <body>
-    
+
     <div class="container" id="container">
         <div class="knop" id="knop-1" onclick="SetVersion1()">Versie 1</div>
         <div class="knop" id="knop-2" onclick="SetVersion2()">Versie 2</div>
@@ -65,23 +65,23 @@
         <div class="versie-1" id="versie-1"> 
             
             <div class="slideshow">
-                <img class="slideshow-content" name="slide" id="slideProduct" width="100%" height="auto" src="content/cases/gedel/d1.png"/>   
+                <img class="slideshow-content" name="slide" id="heteroproject" width="100%" height="auto" src="content/cases/gedel/d1.jpg"/>   
             </div>
-            <a class="prev" onclick="product.prev()">&#10094;</a>
-            <a class="next" onclick="product.next()">&#10095;</a>
+            <a class="prev" onclick="slideshowControls.prev('heteroproject')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('heteroproject')">&#10095;</a>
             
         </div>
     
-        <div class="versie-2" id="versie-2">
+        <div class="versie-2" id="versie-2" style="display: block;">
             <div class="test">
                 bla bla bla
             </div>
 
             <div class="slideshow">  
-                <img class="slideshow-content" name="slide" id="slideProces" width="100%" height="auto" src="content/cases/gedel/c1.jpg"/>  
+                <img class="slideshow-content" name="slide" id="gayproject" width="100%" height="auto" src="content/cases/gedel/c1.jpg"/>  
             </div>
-            <a class="prev" onclick="proces.prev()">&#10094;</a>
-            <a class="next" onclick="proces.next()">&#10095;</a>
+            <a class="prev" onclick="slideshowControls.prev('gayproject')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('gayproject')">&#10095;</a>
                 
                 
             
@@ -95,69 +95,78 @@
     <script>
     var versie = 1; 
         
-    function SetVersion1() {
-        $("#versie-2").css("display", "none");
-        $("#versie-1").css("display", "block");
-        console.log("Version 1 set");
-    }
+    // function SetVersion1() {
+    //     $("#versie-2").css("display", "none");
+    //     $("#versie-1").css("display", "block");
+    //     console.log("Version 1 set");
+    // }
         
-    function SetVersion2() {
-        $("#versie-1").css("display", "none");
-        $("#versie-2").css("display", "block");
-        console.log("Version 2 set");
-    }
+    // function SetVersion2() {
+    //     $("#versie-1").css("display", "none");
+    //     $("#versie-2").css("display", "block");
+    //     console.log("Version 2 set");
+    // }
         
       
-    var a = 0;    
-    // SLIDESHOW PROCES 
-    var image = new Array();   
-        image[0] = "content/cases/gedel/c1.jpg"; 
-        image[1] = "content/cases/gedel/c2.jpg";
-        image[2] = "content/cases/gedel/c3.jpg"; 
-        image[3] = "content/cases/gedel/c4.jpg";
-        image[4] = "content/cases/gedel/c5.jpg"; 
-        image[5] = "content/cases/gedel/c6.jpg";
-        image[6] = "content/cases/gedel/c7.jpg"; 
-        image[7] = "content/cases/gedel/c8.jpg";
-        image[8] = "content/cases/gedel/c9.jpg"; 
-        image[9] = "content/cases/gedel/c10.jpg";
+    // var a = 0;    
+    // // SLIDESHOW PROCES 
+    // var image = new Array();   
+    //     image[0] = "content/cases/gedel/c1.jpg"; 
+    //     image[1] = "content/cases/gedel/c2.jpg";
+    //     image[2] = "content/cases/gedel/c3.jpg"; 
+    //     image[3] = "content/cases/gedel/c4.jpg";
+    //     image[4] = "content/cases/gedel/c5.jpg"; 
+    //     image[5] = "content/cases/gedel/c6.jpg";
+    //     image[6] = "content/cases/gedel/c7.jpg"; 
+    //     image[7] = "content/cases/gedel/c8.jpg";
+    //     image[8] = "content/cases/gedel/c9.jpg"; 
+    //     image[9] = "content/cases/gedel/c10.jpg";
         
-    // SLIDESHOW PRODUCT 
-        var picProduct = new Array();   
-        picProduct[0] = "content/cases/gedel/d1.jpg"; 
-        picProduct[1] = "content/cases/gedel/d2.jpg"; 
-        picProduct[2] = "content/cases/gedel/d3.jpg";
-        picProduct[3] = "content/cases/gedel/d4.jpg";   
-        picProduct[4] = "content/cases/gedel/d5.jpg";  
+    // // SLIDESHOW PRODUCT 
+    //     var picProduct = new Array();   
+    //     picProduct[0] = "content/cases/gedel/d1.jpg"; 
+    //     picProduct[1] = "content/cases/gedel/d2.jpg"; 
+    //     picProduct[2] = "content/cases/gedel/d3.jpg";
+    //     picProduct[3] = "content/cases/gedel/d4.jpg";   
+    //     picProduct[4] = "content/cases/gedel/d5.jpg";  
        
-    var k = image.length-1;     
-    var proces = {
-        next : function() {
-            var img= document.getElementById("slideProces"); 
-            img.src= image[a]; 
-            if(a < k ) { a++;}  
-            else  { a = 0; }
-        },
-        prev : function() {
-            var img= document.getElementById("slideProces"); 
-            img.src= image[a]; 
-            if(a > 0 ) { a--;}  
-            else  { a = k; }     
-        },
-        swapImages: function(){ 
-            var img= document.getElementById("slideProces"); 
-            img.src= image[a]; 
-            if(a < k ) { a++;}  
-            else  { a = 0; } 
-            setTimeout("swapImage()",300000); 
-        },
-         addLoadEvent: function (func) { 
-             func(); 
-        }
-    }
-    proces.addLoadEvent(function() { 
-            proces.swapImages(); 
-    });
+    // var k = image.length-1;     
+    // var proces = {
+    //     next : function() {
+    //         var img= document.getElementById("slideProces"); 
+    //         // img.src= image[a];
+    //         img.src= images.slideshow_proces[a]; 
+    //         if(a < k ) { 
+    //             a++;
+    //         }
+    //         else  { 
+    //             a = 0;
+    //         };
+    //     },
+    //     prev : function() {
+    //         var img= document.getElementById("slideProces"); 
+    //         img.src= image[a]; 
+    //         if(a > 0 ) { a--;}  
+    //         else  { a = k; }     
+    //     },
+    //     swapImages: function(){ 
+    //         var img= document.getElementById("slideProces"); 
+    //         img.src= image[a]; 
+    //         if(a < k ) { 
+    //             a++;
+    //         }  
+    //         else  { 
+    //             a = 0;
+    //         };
+    //         setTimeout("swapImage()",300000); 
+    //     },
+    //      addLoadEvent: function (func) { 
+    //          func(); 
+    //     }
+    // }
+    // proces.addLoadEvent(function() { 
+    //         proces.swapImages(); 
+    // });
         
         
         
@@ -176,18 +185,8 @@
 //    function Switch() {
 //        
 //    }
-        
-        
-        
-  
-    
-    
     
     </script>
+    <script src="script.js"></script>
 
 </html>
-
-
-    
-    
-    
