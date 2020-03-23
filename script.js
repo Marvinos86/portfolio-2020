@@ -31,20 +31,12 @@ var slideshowControls = {
         }
 
         var img = document.getElementById(projectName); 
-        
-        // Zet voor het gemak de huidige imagesnummer en totale image nummer weg in variabelen
         var currentImageNumber = images['slideshow_'+projectName+'_current_imgNumber'];
         var totalImagesNumber = images['slideshow_'+projectName].length;
 
         if(currentImageNumber < totalImagesNumber) {
-
-            // verhoog de huidige image nummer met 1
             currentImageNumber++;
-
-            // Schrijf de nieuwe huidige image nummer (zie hierboven) weg in de property
             images['slideshow_'+projectName+'_current_imgNumber'] = currentImageNumber;
-
-            // haal de imagesrcpath op die correspondeert met het nieuwe nummertje
             img.src= images['slideshow_'+projectName][currentImageNumber]; 
         }
         else  { 
@@ -60,7 +52,6 @@ var slideshowControls = {
         }
 
         var img = document.getElementById(projectName);
-
         var currentImageNumber = images['slideshow_'+projectName+'_current_imgNumber'];
         var totalImagesNumber = images['slideshow_'+projectName].length;
 
