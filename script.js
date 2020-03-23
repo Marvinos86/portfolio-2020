@@ -1,5 +1,5 @@
 var images = {
-    slideshow_gayproject: [
+    slideshow_gedelproces: [
         "content/cases/gedel/c1.jpg",
         "content/cases/gedel/c2.jpg",
         "content/cases/gedel/c3.jpg",
@@ -11,16 +11,16 @@ var images = {
         "content/cases/gedel/c9.jpg",
         "content/cases/gedel/c10.jpg"
     ],
-    slideshow_gayproject_current_imgNumber: 0,
+    slideshow_gedelproces_current_imgNumber: 0,
 
-    slideshow_heteroproject: [
+    slideshow_gedelproduct: [
         "content/cases/gedel/d1.jpg",
         "content/cases/gedel/d2.jpg",
         "content/cases/gedel/d3.jpg",
         "content/cases/gedel/d4.jpg",
         "content/cases/gedel/d5.jpg"
     ],
-    slideshow_heteroproject_current_imgNumber: 0,
+    slideshow_gedelproduct_current_imgNumber: 0,
 };
 
 var slideshowControls = {
