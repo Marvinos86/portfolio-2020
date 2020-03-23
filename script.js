@@ -1,3 +1,4 @@
+// Images for project slideshows
 var images = {
     slideshow_gedelproces: [
         "content/cases/gedel/c1.jpg",
@@ -23,6 +24,7 @@ var images = {
     slideshow_gedelproduct_current_imgNumber: 0,
 };
 
+// Functions for controling slideshows
 var slideshowControls = {
     next: function(projectName) {
 
@@ -67,3 +69,14 @@ var slideshowControls = {
         };    
     }
 };
+
+// Functions for hiding and showing product or proces
+function SetVersion1() {
+ $("#versie-2").css("display", "none");
+ $("#versie-1").css("display", "block");
+}
+
+function SetVersion2() {
+ $("#versie-1").css("display", "none");
+ $("#versie-2").css("display", "block");
+}
