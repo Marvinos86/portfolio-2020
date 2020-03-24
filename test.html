@@ -34,50 +34,32 @@
             padding: 30px;
             display: none;
         }
-        .knop {
+        .button-switch {
             width: 80px;
             height: 30px;
             background-color: yellow;
             text-align: center;
             border: 1px solid black;
         }
-        .test-1 {
-            display: block;
-        }
-        .test {
-            height: 100px; 
-            width: 100px;
-            background-color: yellow;
-            display: inline-block;
-        }
-    
-    
-    
     </style>
     
 <body>
 
     <div class="container" id="container">
-        <div class="knop" id="knop-1" onclick="SetVersion1()">Versie 1</div>
-        <div class="knop" id="knop-2" onclick="SetVersion2()">Versie 2</div>
+        <div class="button-switch" onclick="SetVersion1()">Versie 1</div>
+        <div class="button-switch" onclick="SetVersion2()">Versie 2</div>
         
         <div class="product-container" id="versie-1"> 
-            
             <div class="slideshow">
-                <img class="slideshow-content" name="slide" id="gedelproduct" width="100%" height="auto" src="content/cases/gedel/d1.jpg"/>   
+                <img class="slideshow-content" id="gedelproduct" width="100%" height="auto" src="content/cases/gedel/d1.jpg"/>   
             </div>
             <a class="prev" onclick="slideshowControls.prev('gedelproduct')">&#10094;</a>
             <a class="next" onclick="slideshowControls.next('gedelproduct')">&#10095;</a>
-            
         </div>
     
         <div class="proces-container" id="versie-2">
-            <div class="test">
-                bla bla bla
-            </div>
-
             <div class="slideshow">  
-                <img class="slideshow-content" name="slide" id="gedelproces" width="100%" height="auto" src="content/cases/gedel/c1.jpg"/>  
+                <img class="slideshow-content" id="gedelproces" width="100%" height="auto" src="content/cases/gedel/c1.jpg"/>  
             </div>
             <a class="prev" onclick="slideshowControls.prev('gedelproces')">&#10094;</a>
             <a class="next" onclick="slideshowControls.next('gedelproces')">&#10095;</a>    
