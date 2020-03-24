@@ -134,3 +134,24 @@ function ShowProcesPantry() {
  $("#product-pantry").css("display", "none");
  $("#proces-pantry").css("display", "block");
 }
+
+// Demo Pagina: hide/show product/proces
+function ShowProductDemo() {
+ $("#proces-demo").css("display", "none");
+ $("#product-demo").css("display", "block");
+}
+function ShowProcesDemo() {
+ $("#product-demo").css("display", "none");
+ $("#proces-demo").css("display", "block");
+}
+
+
+
+
+
+
+
+
+
+
+
