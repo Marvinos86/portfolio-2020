@@ -1,0 +1,29 @@
+.container {
+    height: 1000px;
+    width: 100%;
+    background-color: black;
+    padding: 50px;
+}
+.product-container {
+    height: 600px;
+    width: 800px;
+    background-color: red;
+    display: block;
+    padding: 30px;
+    display: block;
+}
+.proces-container {
+    height: 600px;
+    width: 800px;
+    background-color: blue;
+    display: none;
+    padding: 30px;
+    display: none;
+}
+.button-switch {
+    width: 80px;
+    height: 30px;
+    background-color: yellow;
+    text-align: center;
+    border: 1px solid black;
+}
