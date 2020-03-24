@@ -22,6 +22,29 @@ var images = {
         "content/cases/gedel/c10.jpg"
     ],
     slideshow_gedelproces_current_imgNumber: 0,
+    
+    slideshow_pantryproduct: [
+        "content/cases/pantry/p1.jpg",
+        "content/cases/pantry/p2.jpg",
+        "content/cases/pantry/p3.jpg",
+        "content/cases/pantry/p4.jpg",
+        "content/cases/pantry/p5.jpg"
+    ],
+    slideshow_pantryproduct_current_imgNumber: 0,
+    
+    slideshow_pantryproces: [
+        "content/cases/pantry/d1.jpg",
+        "content/cases/pantry/d2.jpg",
+        "content/cases/pantry/d3.jpg",
+        "content/cases/pantry/d4.jpg",
+        "content/cases/pantry/d5.jpg",
+        "content/cases/pantry/d6.jpg",
+        "content/cases/pantry/d7.jpg",
+        "content/cases/pantry/d8.jpg",
+        "content/cases/pantry/d9.jpg",
+        "content/cases/pantry/d10.jpg"
+    ],
+    slideshow_pantryproces_current_imgNumber: 0,   
 };
 
 // Functions for controling slideshows
