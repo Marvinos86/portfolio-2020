@@ -180,6 +180,16 @@ function ShowProcesDemo() {
  $("#proces-demo").css("display", "block");
 }
 
+// E-coach Appl: hide/show product/proces
+function ShowProductEcoach() {
+ $("#proces-ecoach").css("display", "none");
+ $("#product-ecoach").css("display", "block");
+}
+function ShowProcesEcoach() {
+ $("#product-ecoach").css("display", "none");
+ $("#proces-ecoach").css("display", "block");
+}
+
 
 
 
