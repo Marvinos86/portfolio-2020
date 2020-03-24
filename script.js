@@ -93,7 +93,7 @@ var slideshowControls = {
     }
 };
 
-// Functions for hiding and showing product or proces
+// Gedelegeerden App: hide/show product/proces
 function ShowProductGedel() {
  $("#proces-gedel").css("display", "none");
  $("#product-gedel").css("display", "block");
@@ -101,4 +101,14 @@ function ShowProductGedel() {
 function ShowProcesGedel() {
  $("#product-gedel").css("display", "none");
  $("#proces-gedel").css("display", "block");
+}
+
+// Pantry App: hide/show product/proces
+function ShowProductPantry() {
+ $("#proces-pantry").css("display", "none");
+ $("#product-pantry").css("display", "block");
+}
+function ShowProcesPantry() {
+ $("#product-pantry").css("display", "none");
+ $("#proces-pantry").css("display", "block");
 }
