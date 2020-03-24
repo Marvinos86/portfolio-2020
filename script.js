@@ -79,7 +79,7 @@ var images = {
     ],
     slideshow_ecoachproduct_current_imgNumber: 0,
     
-    slideshow_ecoachproduct: [
+    slideshow_ecoachproces: [
         "content/cases/coach/c1.jpg",
         "content/cases/coach/c2.jpg",
         "content/cases/coach/c3.jpg",
@@ -100,7 +100,7 @@ var images = {
         "content/cases/coach/c18.jpg",
         "content/cases/coach/c19.jpg"
     ],
-    slideshow_ecoachproduct_current_imgNumber: 0,
+    slideshow_ecoachproces_current_imgNumber: 0,
     
 };
 
