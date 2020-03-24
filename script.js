@@ -1,5 +1,14 @@
 // Images for project slideshows
 var images = {
+    slideshow_gedelproduct: [
+        "content/cases/gedel/d1.jpg",
+        "content/cases/gedel/d2.jpg",
+        "content/cases/gedel/d3.jpg",
+        "content/cases/gedel/d4.jpg",
+        "content/cases/gedel/d5.jpg"
+    ],
+    slideshow_gedelproduct_current_imgNumber: 0,
+    
     slideshow_gedelproces: [
         "content/cases/gedel/c1.jpg",
         "content/cases/gedel/c2.jpg",
@@ -13,15 +22,6 @@ var images = {
         "content/cases/gedel/c10.jpg"
     ],
     slideshow_gedelproces_current_imgNumber: 0,
-
-    slideshow_gedelproduct: [
-        "content/cases/gedel/d1.jpg",
-        "content/cases/gedel/d2.jpg",
-        "content/cases/gedel/d3.jpg",
-        "content/cases/gedel/d4.jpg",
-        "content/cases/gedel/d5.jpg"
-    ],
-    slideshow_gedelproduct_current_imgNumber: 0,
 };
 
 // Functions for controling slideshows
