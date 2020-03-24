@@ -66,6 +66,41 @@ var images = {
     ],
     slideshow_demoproces_current_imgNumber: 0, 
     
+    slideshow_ecoachproduct: [
+        "content/cases/coach/s1.jpg",
+        "content/cases/coach/s2.jpg",
+        "content/cases/coach/s3.jpg",
+        "content/cases/coach/s4.jpg",
+        "content/cases/coach/s5.jpg",
+        "content/cases/coach/s6.jpg",
+        "content/cases/coach/s7.jpg",
+        "content/cases/coach/s8.jpg",
+        "content/cases/coach/s9.jpg"
+    ],
+    slideshow_ecoachproduct_current_imgNumber: 0,
+    
+    slideshow_ecoachproduct: [
+        "content/cases/coach/c1.jpg",
+        "content/cases/coach/c2.jpg",
+        "content/cases/coach/c3.jpg",
+        "content/cases/coach/c4.jpg",
+        "content/cases/coach/c5.jpg",
+        "content/cases/coach/c6.jpg",
+        "content/cases/coach/c7.jpg",
+        "content/cases/coach/c8.jpg",
+        "content/cases/coach/c9.jpg",
+        "content/cases/coach/c10.jpg",
+        "content/cases/coach/c11.jpg",
+        "content/cases/coach/c12.jpg",
+        "content/cases/coach/c13.jpg",
+        "content/cases/coach/c14.jpg",
+        "content/cases/coach/c15.jpg",
+        "content/cases/coach/c16.jpg",
+        "content/cases/coach/c17.jpg",
+        "content/cases/coach/c18.jpg",
+        "content/cases/coach/c19.jpg"
+    ],
+    slideshow_ecoachproduct_current_imgNumber: 0,
     
 };
 
