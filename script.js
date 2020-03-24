@@ -44,7 +44,29 @@ var images = {
         "content/cases/pantry/d9.jpg",
         "content/cases/pantry/d10.jpg"
     ],
-    slideshow_pantryproces_current_imgNumber: 0,   
+    slideshow_pantryproces_current_imgNumber: 0, 
+    
+    slideshow_demoproduct: [
+        "content/cases/demo/p1.jpg",
+        "content/cases/demo/p2.jpg",
+        "content/cases/demo/p3.jpg",
+        "content/cases/demo/p4.jpg"
+    ],
+    slideshow_demoproduct_current_imgNumber: 0,
+    
+    slideshow_demoproces: [
+        "content/cases/demo/d1.jpg",
+        "content/cases/demo/d2.jpg",
+        "content/cases/demo/d3.jpg",
+        "content/cases/demo/d4.jpg",
+        "content/cases/demo/d5.jpg",
+        "content/cases/demo/d6.jpg",
+        "content/cases/demo/d7.jpg",
+        "content/cases/demo/d8.jpg"
+    ],
+    slideshow_demoproces_current_imgNumber: 0, 
+    
+    
 };
 
 // Functions for controling slideshows
