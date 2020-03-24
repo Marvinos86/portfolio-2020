@@ -14,11 +14,12 @@
     
 <body>
 
+<!-- Project Gedelegeerden App --> 
     <div class="container" id="container">
-        <div class="button-switch" onclick="SetVersion1()">Versie 1</div>
-        <div class="button-switch" onclick="SetVersion2()">Versie 2</div>
+        <div class="button-switch" onclick="ShowProductGedel()">Versie 1</div>
+        <div class="button-switch" onclick="ShowProcesGedel()">Versie 2</div>
         
-        <div class="product-container" id="versie-1"> 
+        <div class="product-container" id="product-gedel"> 
             <div class="slideshow">
                 <img class="slideshow-content" id="gedelproduct" width="100%" height="auto" src="content/cases/gedel/d1.jpg"/>   
             </div>
@@ -26,14 +27,13 @@
             <a class="next" onclick="slideshowControls.next('gedelproduct')">&#10095;</a>
         </div>
     
-        <div class="proces-container" id="versie-2">
+        <div class="proces-container" id="proces-gedel">
             <div class="slideshow">  
                 <img class="slideshow-content" id="gedelproces" width="100%" height="auto" src="content/cases/gedel/c1.jpg"/>  
             </div>
             <a class="prev" onclick="slideshowControls.prev('gedelproces')">&#10094;</a>
             <a class="next" onclick="slideshowControls.next('gedelproces')">&#10095;</a>    
-        </div>  
-        
+        </div>      
     </div>
   
 

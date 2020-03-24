@@ -94,12 +94,11 @@ var slideshowControls = {
 };
 
 // Functions for hiding and showing product or proces
-function SetVersion1() {
- $("#versie-2").css("display", "none");
- $("#versie-1").css("display", "block");
+function ShowProductGedel() {
+ $("#proces-gedel").css("display", "none");
+ $("#product-gedel").css("display", "block");
 }
-
-function SetVersion2() {
- $("#versie-1").css("display", "none");
- $("#versie-2").css("display", "block");
+function ShowProcesGedel() {
+ $("#product-gedel").css("display", "none");
+ $("#proces-gedel").css("display", "block");
 }
