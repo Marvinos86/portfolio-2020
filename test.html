@@ -35,7 +35,28 @@
             <a class="next" onclick="slideshowControls.next('gedelproces')">&#10095;</a>    
         </div>      
     </div>
-  
+    
+<!-- Project Pantry App --> 
+    <div class="container" id="container">
+        <div class="button-switch" onclick="ShowProductPantry()">Versie 1</div>
+        <div class="button-switch" onclick="ShowProcesPantry()">Versie 2</div>
+        
+        <div class="product-container" id="product-pantry"> 
+            <div class="slideshow">
+                <img class="slideshow-content" id="pantryproduct" width="100%" height="auto" src="content/cases/pantry/p1.jpg"/>   
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('pantryproduct')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('pantryproduct')">&#10095;</a>
+        </div>
+    
+        <div class="proces-container" id="proces-pantry">
+            <div class="slideshow">  
+                <img class="slideshow-content" id="pantryproces" width="100%" height="auto" src="content/cases/pantry/d1.jpg"/>  
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('pantryproces')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('pantryproces')">&#10095;</a>    
+        </div>      
+    </div> 
 
 </body>
     <script src="script.js"></script>
