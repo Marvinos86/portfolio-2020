@@ -213,10 +213,11 @@ function ShowProcesEcoach() {
 }
 
 // Rad van Fortuin 
+function ShowProductRad() {
  $("#proces-rad").css("display", "none");
  $("#product-rad").css("display", "block");
 }
-function ShowProcesEcoach() {
+function ShowProcesRad() {
  $("#product-rad").css("display", "none");
  $("#proces-rad").css("display", "block");
 }
