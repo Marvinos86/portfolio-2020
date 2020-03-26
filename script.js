@@ -120,8 +120,30 @@ var images = {
     ],
     slideshow_radproces_current_imgNumber: 0,
     
+    slideshow_vdsproduct: [
+        "content/cases/vds/y1.jpg",
+        "content/cases/vds/y2.jpg",
+        "content/cases/vds/y3.jpg",
+        "content/cases/vds/y4.jpg",
+        "content/cases/vds/y5.jpg"
+    ],
+    slideshow_vdsproduct_current_imgNumber: 0,
     
-    
+    slideshow_vdsproces: [
+        "content/cases/vds/q1.jpg",
+        "content/cases/vds/q2.jpg",
+        "content/cases/vds/q3.jpg",
+        "content/cases/vds/q4.jpg",
+        "content/cases/vds/q5.jpg",
+        "content/cases/vds/q6.jpg",
+        "content/cases/vds/q7.jpg",
+        "content/cases/vds/q8.jpg",
+        "content/cases/vds/q9.jpg",
+        "content/cases/vds/q10.jpg",
+        "content/cases/vds/q11.jpg",
+        "content/cases/vds/q12.jpg"
+    ],
+    slideshow_vdsproces_current_imgNumber: 0,
     
 
 };
