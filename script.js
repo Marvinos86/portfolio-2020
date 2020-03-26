@@ -244,6 +244,16 @@ function ShowProcesRad() {
  $("#proces-rad").css("display", "block");
 }
 
+// VDS
+function ShowProductVds() {
+ $("#proces-vds").css("display", "none");
+ $("#product-vds").css("display", "block");
+}
+function ShowProcesVds() {
+ $("#product-vds").css("display", "none");
+ $("#proces-vds").css("display", "block");
+}
+
 
 
 
