@@ -102,6 +102,28 @@ var images = {
     ],
     slideshow_ecoachproces_current_imgNumber: 0,
     
+    slideshow_radproduct: [
+        "content/cases/rad/p1.jpg",
+        "content/cases/rad/p2.jpg"
+    ],
+    slideshow_radproduct_current_imgNumber: 0,
+    
+    slideshow_radproces: [
+        "content/cases/rad/s1.jpg",
+        "content/cases/rad/s2.jpg",
+        "content/cases/rad/s3.jpg",
+        "content/cases/rad/s4.jpg",
+        "content/cases/rad/s5.jpg",
+        "content/cases/rad/s6.jpg",
+        "content/cases/rad/s7.jpg",
+        "content/cases/rad/s8.jpg"
+    ],
+    slideshow_radproces_current_imgNumber: 0,
+    
+    
+    
+    
+
 };
 
 // Functions for controling slideshows
