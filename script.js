@@ -202,7 +202,7 @@ function ShowProcesDemo() {
  $("#proces-demo").css("display", "block");
 }
 
-// E-coach Appl: hide/show product/proces
+// E-coach App: hide/show product/proces
 function ShowProductEcoach() {
  $("#proces-ecoach").css("display", "none");
  $("#product-ecoach").css("display", "block");
@@ -210,6 +210,15 @@ function ShowProductEcoach() {
 function ShowProcesEcoach() {
  $("#product-ecoach").css("display", "none");
  $("#proces-ecoach").css("display", "block");
+}
+
+// Rad van Fortuin 
+ $("#proces-rad").css("display", "none");
+ $("#product-rad").css("display", "block");
+}
+function ShowProcesEcoach() {
+ $("#product-rad").css("display", "none");
+ $("#proces-rad").css("display", "block");
 }
 
 
