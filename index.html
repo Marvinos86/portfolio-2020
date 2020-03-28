@@ -34,9 +34,13 @@
     </div>
 
 <!-- Project Gedelegeerden App --> 
-    <div class="container" id="container">
-        <div class="button-switch" onclick="ShowProductGedel()">Product</div>
-        <div class="button-switch" onclick="ShowProcesGedel()">Proces</div>
+    <div class="container" id="gedel">
+
+        <div class="button-switch" data-project="product" onclick="ToggleProductProces(event)">Product</div>
+        <div class="button-switch" data-project="proces" onclick="ToggleProductProces(event)">Proces</div>
+
+        <!-- <div class="button-switch" onclick="ShowProductGedel()">Product</div>
+        <div class="button-switch" onclick="ShowProcesGedel()">Proces</div> -->
         
         <div class="product-container" id="product-gedel"> 
             <div class="slideshow">
@@ -56,9 +60,13 @@
     </div>
     
 <!-- Project Pantry App --> 
-    <div class="container" id="container">
-        <div class="button-switch" onclick="ShowProductPantry()">Product</div>
-        <div class="button-switch" onclick="ShowProcesPantry()">Proces</div>
+    <div class="container" id="pantry">
+
+        <div class="button-switch" data-project="product" onclick="ToggleProductProces(event)">Product</div>
+        <div class="button-switch" data-project="proces" onclick="ToggleProductProces(event)">Proces</div>
+
+        <!-- <div class="button-switch" onclick="ShowProductPantry()">Product</div>
+        <div class="button-switch" onclick="ShowProcesPantry()">Proces</div> -->
         
         <div class="product-container" id="product-pantry"> 
             <div class="slideshow">
@@ -123,6 +131,7 @@
     
 <!-- Rad van Fortuin --> 
     <div class="container" id="container">
+
         <div class="button-switch" onclick="ShowProductRad()">Product</div>
         <div class="button-switch" onclick="ShowProcesRad()">Proces</div>
         
