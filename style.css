@@ -10,6 +10,9 @@
 
   Tip: Bekijk regelmatig de terminal voor eventuele fouten in SASS mochten die optreden
 */
+body {
+    background-color: #00000;
+}
 
 /** Menu **/ 
 .top-bar {
@@ -52,7 +55,6 @@
 }
 
 /** Mobile Menu **/ 
-
 .left-bar {
     background-color: #222;
     width: 50px;
@@ -105,7 +107,6 @@
     background-color: #404040;
 }
 
-
 /** Containers **/ 
 .container {
     height: 100vh;
@@ -146,10 +147,6 @@
     padding: 20px;
     border: 2px solid #fff;
 }
-.slideshow{ 
-
-}
-
 .prev, .next {
     cursor: pointer;
     position: relative;
@@ -162,20 +159,17 @@
     background: rgba(0, 0, 0, .8);
     color: #e60000; 
 }
-
 .next:hover {
     color: #fff;
 }
 .prev:hover {
     color: #fff;
 }
-
 .prev {
     left: 0;
     border-radius: 0 10px 10px 0;
 }
-.next { 
-    
+.next {   
     right: 0;
     border-radius: 10px 0 0 10px;
 }
