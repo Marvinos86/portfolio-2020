@@ -285,7 +285,7 @@ var slideshowControls = {
 
         var img = document.getElementById(projectName); 
         var currentImageNumber = images['slideshow_'+projectName+'_current_imgNumber'];
-        var totalImagesNumber = images['slideshow_'+projectName].length;
+        var totalImagesNumber = images['slideshow_'+projectName].length + -1;
 
         if(currentImageNumber < totalImagesNumber) {
             currentImageNumber++;
@@ -306,15 +306,15 @@ var slideshowControls = {
 
         var img = document.getElementById(projectName);
         var currentImageNumber = images['slideshow_'+projectName+'_current_imgNumber'];
-        var totalImagesNumber = images['slideshow_'+projectName].length;
+        var totalImagesNumber = images['slideshow_'+projectName].length + -1;
 
-        if(currentImageNumber < totalImagesNumber) {
+        if(currentImageNumber > 0) {
             currentImageNumber--;
             images['slideshow_'+projectName+'_current_imgNumber'] = currentImageNumber;
             img.src= images['slideshow_'+projectName][currentImageNumber];
         }
         else  { 
-            currentImageNumber = 0;
+            currentImageNumber = totalImagesNumber;
             images['slideshow_'+projectName+'_current_imgNumber'] = currentImageNumber;
             img.src= images['slideshow_'+projectName][currentImageNumber];
         };    
