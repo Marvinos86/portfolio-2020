@@ -192,6 +192,14 @@ var images = {
         "content/skills/interactiondesign/d7.jpg"
     ],
     slideshow_interactiondesign_current_imgNumber: 0,
+    
+    slideshow_prototyping: [
+        "content/skills/prototyping/f1.jpg", 
+        "content/skills/prototyping/f2.jpg", 
+        "content/skills/prototyping/f3.jpg", 
+        "content/skills/prototyping/f4.jpg"
+    ],
+    slideshow_prototyping_current_imgNumber: 0,
 };
 
 // Functions for controling slideshows
