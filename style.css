@@ -92,11 +92,6 @@
     background-color: #404040;
 }
 
-/** #222 **/ 
-
-
-
-
 
 /** Containers **/ 
 .container {
@@ -104,18 +99,18 @@
     width: 100%;
     background-color: black;
     padding: 20px;
-    text-align: center;
+    margin: 10%;
 }
 .product-container {
     height: 600px;
-    width: 800px;
+    width: 80%;
     background-color: red;
     display: block;
     padding: 30px;
 }
 .proces-container {
     height: 600px;
-    width: 800px;
+    width: 80%;
     background-color: blue;
     display: none;
     padding: 30px;
