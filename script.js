@@ -355,68 +355,6 @@ function ToggleProductProces(event) {
 
 }
 
-// Gedelegeerden App: hide/show product/proces
-function ShowProductGedel() {
-    $("#proces-gedel").css("display", "none");
-    $("#product-gedel").css("display", "block");
-}
-function ShowProcesGedel() {
-    $("#product-gedel").css("display", "none");
-    $("#proces-gedel").css("display", "block");
-}
-
-// Pantry App: hide/show product/proces
-function ShowProductPantry() {
-    $("#proces-pantry").css("display", "none");
-    $("#product-pantry").css("display", "block");
-}
-function ShowProcesPantry() {
-    $("#product-pantry").css("display", "none");
-    $("#proces-pantry").css("display", "block");
-}
-
-// Demo Pagina: hide/show product/proces
-function ShowProductDemo() {
-    $("#proces-demo").css("display", "none");
-    $("#product-demo").css("display", "block");
-}
-function ShowProcesDemo() {
-    $("#product-demo").css("display", "none");
-    $("#proces-demo").css("display", "block");
-}
-
-// E-coach App: hide/show product/proces
-function ShowProductEcoach() {
-    $("#proces-ecoach").css("display", "none");
-    $("#product-ecoach").css("display", "block");
-}
-function ShowProcesEcoach() {
-    $("#product-ecoach").css("display", "none");
-    $("#proces-ecoach").css("display", "block");
-}
-
-// Rad van Fortuin 
-function ShowProductRad() {
-    $("#proces-rad").css("display", "none");
-    $("#product-rad").css("display", "block");
-}
-function ShowProcesRad() {
-    $("#product-rad").css("display", "none");
-    $("#proces-rad").css("display", "block");
-}
-
-// VDS
-function ShowProductVds() {
-    $("#proces-vds").css("display", "none");
-    $("#product-vds").css("display", "block");
-}
-function ShowProcesVds() {
-    $("#product-vds").css("display", "none");
-    $("#proces-vds").css("display", "block");
-}
-
-
-
 window.mobilecheck = function () {
     var check = false;
     (function (a) {
