@@ -1,0 +1,16 @@
+{
+  "name": "marvinportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass sass/ -o css/",
+    "sass-watch": "node-sass -w sass/ -o css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
