@@ -22,7 +22,7 @@
     color: #fff;
     letter-spacing: 1px;
 }
-.top-menu-button:hover {
+.button-top-menu:hover {
     border-bottom:  4px solid #fff;
 }
 .button-selected {
