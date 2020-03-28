@@ -170,6 +170,17 @@ var images = {
     ],
     slideshow_infodesign_current_imgNumber: 0,
     
+    slideshow_interfacedesign: [
+        "content/skills/interfacedesign/c1.jpg", 
+        "content/skills/interfacedesign/c2.jpg", 
+        "content/skills/interfacedesign/c3.jpg", 
+        "content/skills/interfacedesign/c4.jpg", 
+        "content/skills/interfacedesign/c5.jpg", 
+        "content/skills/interfacedesign/c6.jpg", 
+        "content/skills/interfacedesign/c7.jpg", 
+        "content/skills/interfacedesign/c8.jpg"
+    ],
+    slideshow_interfacedesign_current_imgNumber: 0,
 
 };
 
