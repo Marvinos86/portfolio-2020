@@ -1,5 +1,7 @@
-// Images for project slideshows
+
 var images = {
+    
+// Images for slideshows projects
     slideshow_gedelproduct: [
         "content/cases/gedel/d1.jpg",
         "content/cases/gedel/d2.jpg",
@@ -144,6 +146,22 @@ var images = {
         "content/cases/vds/q12.jpg"
     ],
     slideshow_vdsproces_current_imgNumber: 0,
+    
+    // Images for slideshows skills
+    
+    slideshow_userresearch: [
+        "content/skills/userresearch/a1.jpg"; 
+        "content/skills/userresearch/a2.jpg", 
+        "content/skills/userresearch/a3.jpg", 
+        "content/skills/userresearch/a4.jpg", 
+        "content/skills/userresearch/a5.jpg", 
+        "content/skills/userresearch/a6.jpg", 
+        "content/skills/userresearch/a7.jpg", 
+        "content/skills/userresearch/a8.jpg", 
+        "content/skills/userresearch/a9.jpg", 
+        "content/skills/userresearch/a10.jpg" 
+    ],
+    slideshow_userresearch_current_imgNumber: 0,
     
 
 };
