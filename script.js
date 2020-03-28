@@ -211,6 +211,27 @@ var images = {
     ],
     slideshow_usertesting_current_imgNumber: 0,
     
+    slideshow_visualdesign: [
+        "content/skills/visualdesign/v1.jpg", 
+        "content/skills/visualdesign/v2.jpg", 
+        "content/skills/visualdesign/v3.jpg", 
+        "content/skills/visualdesign/v4.jpg", 
+        "content/skills/visualdesign/v5.jpg", 
+        "content/skills/visualdesign/v6.jpg", 
+        "content/skills/visualdesign/v7.jpg", 
+        "content/skills/visualdesign/v8.jpg", 
+        "content/skills/visualdesign/v9.jpg", 
+        "content/skills/visualdesign/v10.jpg", 
+        "content/skills/visualdesign/v11.jpg", 
+        "content/skills/visualdesign/v12.jpg", 
+        "content/skills/visualdesign/v13.jpg", 
+        "content/skills/visualdesign/v14.jpg", 
+        "content/skills/visualdesign/v15.jpg", 
+        "content/skills/visualdesign/v16.jpg", 
+        "content/skills/visualdesign/v17.jpg"
+    ],
+    slideshow_visualdesign_current_imgNumber: 0,
+    
     
 };
 
