@@ -182,6 +182,16 @@ var images = {
     ],
     slideshow_interfacedesign_current_imgNumber: 0,
 
+    slideshow_interactiondesign: [
+        "content/skills/interactiondesign/d1.jpg", 
+        "content/skills/interactiondesign/d2.jpg", 
+        "content/skills/interactiondesign/d3.jpg", 
+        "content/skills/interactiondesign/d4.jpg", 
+        "content/skills/interactiondesign/d5.jpg", 
+        "content/skills/interactiondesign/d6.jpg", 
+        "content/skills/interactiondesign/d7.jpg"
+    ],
+    slideshow_interactiondesign_current_imgNumber: 0,
 };
 
 // Functions for controling slideshows
