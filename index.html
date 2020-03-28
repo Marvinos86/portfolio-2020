@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 2.0">
+    <title>Portfolio Marvin</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
+</head>
+    
+<body>
+    <div class="left-bar" id="left-bar"></div>
+    <div class="toggle-button" onclick="toggleSidebar()" id="toggle-button"></div>
+    
+<!-- DESKTOP MENU --> 
+    <div class="top-bar">
+        <div class="top-menu">
+            <a href="index.html"><div class="button-selected">PROJECTEN</div></a>
+            <a href="skills.html"><div class="button-top-menu">SKILLS</div></a>
+            <a href="Marvin_Pelger_CV.pdf" target="_blank"><div class="button-top-menu">CV</div></a>
+            <a href="https://www.linkedin.com/in/marvin-pelger-309b2112/" target="_blank"><div class="button-top-menu">LINKEDIN</div></a>
+        </div>
+    </div>
+    
+<!-- MOBILE MENU --> 
+    <div class="sidebar" id="sidebar"> 
+        <a href="index.html"><div class="button-sidebar">Projecten</div></a>
+        <a href="skills.html"><div class="button-sidebar">Skills</div></a>
+        <a href="https://www.linkedin.com/in/marvin-pelger-309b2112/" target="_blank"><div class="button-sidebar">LinkedIn</div></a>
+        <a href="Marvin_Pelger_CV.pdf" target="_blank"><div class="button-sidebar">CV</div></a>
+    </div>
+
+<!-- Project Gedelegeerden App --> 
+    <div class="container" id="container">
+        <div class="button-switch" onclick="ShowProductGedel()">Product</div>
+        <div class="button-switch" onclick="ShowProcesGedel()">Proces</div>
+        
+        <div class="product-container" id="product-gedel"> 
+            <div class="slideshow">
+                <img id="gedelproduct" width="100%" height="auto" src="content/cases/gedel/d1.jpg"/>   
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('gedelproduct')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('gedelproduct')">&#10095;</a>
+        </div>
+    
+        <div class="proces-container" id="proces-gedel">
+            <div class="slideshow">  
+                <img id="gedelproces" width="100%" height="auto" src="content/cases/gedel/c1.jpg"/>  
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('gedelproces')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('gedelproces')">&#10095;</a>    
+        </div>      
+    </div>
+    
+<!-- Project Pantry App --> 
+    <div class="container" id="container">
+        <div class="button-switch" onclick="ShowProductPantry()">Product</div>
+        <div class="button-switch" onclick="ShowProcesPantry()">Proces</div>
+        
+        <div class="product-container" id="product-pantry"> 
+            <div class="slideshow">
+                <img id="pantryproduct" width="100%" height="auto" src="content/cases/pantry/p1.jpg"/>   
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('pantryproduct')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('pantryproduct')">&#10095;</a>
+        </div>
+    
+        <div class="proces-container" id="proces-pantry">
+            <div class="slideshow">  
+                <img id="pantryproces" width="100%" height="auto" src="content/cases/pantry/d1.jpg"/>  
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('pantryproces')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('pantryproces')">&#10095;</a>    
+        </div>      
+    </div> 
+    
+<!-- Project Demo Pagina --> 
+    <div class="container" id="container">
+        <div class="button-switch" onclick="ShowProductDemo()">Product</div>
+        <div class="button-switch" onclick="ShowProcesDemo()">Proces</div>
+        
+        <div class="product-container" id="product-demo"> 
+            <div class="slideshow">
+                <img id="demoproduct" width="100%" height="auto" src="content/cases/demo/p1.jpg"/>   
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('demoproduct')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('demoproduct')">&#10095;</a>
+        </div>
+    
+        <div class="proces-container" id="proces-demo">
+            <div class="slideshow">  
+                <img id="demoproces" width="100%" height="auto" src="content/cases/demo/d1.jpg"/>  
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('demoproces')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('demoproces')">&#10095;</a>    
+        </div>      
+    </div>
+    
+<!-- Project E-coach Applicatie --> 
+    <div class="container" id="container">
+        <div class="button-switch" onclick="ShowProductEcoach()">Product</div>
+        <div class="button-switch" onclick="ShowProcesEcoach()">Proces</div>
+        
+        <div class="product-container" id="product-ecoach"> 
+            <div class="slideshow">
+                <img id="ecoachproduct" width="100%" height="auto" src="content/cases/coach/s1.jpg"/>   
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('ecoachproduct')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('ecoachproduct')">&#10095;</a>
+        </div>
+    
+        <div class="proces-container" id="proces-ecoach">
+            <div class="slideshow">  
+                <img id="ecoachproces" width="100%" height="auto" src="content/cases/coach/c1.jpg"/>  
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('ecoachproces')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('ecoachproces')">&#10095;</a>    
+        </div>      
+    </div>
+    
+<!-- Rad van Fortuin --> 
+    <div class="container" id="container">
+        <div class="button-switch" onclick="ShowProductRad()">Product</div>
+        <div class="button-switch" onclick="ShowProcesRad()">Proces</div>
+        
+        <div class="product-container" id="product-rad"> 
+            <div class="slideshow">
+                <img id="radproduct" width="100%" height="auto" src="content/cases/rad/p1.jpg"/>   
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('radproduct')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('radproduct')">&#10095;</a>
+        </div>
+    
+        <div class="proces-container" id="proces-rad">
+            <div class="slideshow">  
+                <img id="radproces" width="100%" height="auto" src="content/cases/rad/s1.jpg"/>  
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('radproces')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('radproces')">&#10095;</a>    
+        </div>      
+    </div>
+    
+    <!-- VDS --> 
+    <div class="container" id="container">
+        <div class="button-switch" onclick="ShowProductVds()">Product</div>
+        <div class="button-switch" onclick="ShowProcesVds()">Proces</div>
+        
+        <div class="product-container" id="product-vds"> 
+            <div class="slideshow">
+                <img id="vdsproduct" width="100%" height="auto" src="content/cases/vds/y1.jpg"/>   
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('vdsproduct')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('vdsproduct')">&#10095;</a>
+        </div>
+    
+        <div class="proces-container" id="proces-vds">
+            <div class="slideshow">  
+                <img id="vdsproces" width="100%" height="auto" src="content/cases/vds/q1.jpg"/>  
+            </div>
+            <a class="prev" onclick="slideshowControls.prev('vdsproces')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('vdsproces')">&#10095;</a>    
+        </div>      
+    </div>
+    
+    
+       
+
+</body>
+    <script src="script.js"></script>
+
+</html>
