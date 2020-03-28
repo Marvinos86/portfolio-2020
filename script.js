@@ -200,6 +200,18 @@ var images = {
         "content/skills/prototyping/f4.jpg"
     ],
     slideshow_prototyping_current_imgNumber: 0,
+    
+    slideshow_usertesting: [
+        "content/skills/usertesting/g1.jpg", 
+        "content/skills/usertesting/g2.jpg", 
+        "content/skills/usertesting/g3.jpg", 
+        "content/skills/usertesting/g4.jpg", 
+        "content/skills/usertesting/g5.jpg", 
+        "content/skills/usertesting/g6.jpg"
+    ],
+    slideshow_usertesting_current_imgNumber: 0,
+    
+    
 };
 
 // Functions for controling slideshows
