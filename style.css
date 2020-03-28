@@ -114,6 +114,7 @@
     display: block;
     padding: 30px;
     display: block;
+    align-content: center;
 }
 .proces-container {
     height: 600px;
