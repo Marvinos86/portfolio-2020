@@ -150,7 +150,7 @@ var images = {
     // Images for slideshows skills
     
     slideshow_userresearch: [
-        "content/skills/userresearch/a1.jpg"; 
+        "content/skills/userresearch/a1.jpg", 
         "content/skills/userresearch/a2.jpg", 
         "content/skills/userresearch/a3.jpg", 
         "content/skills/userresearch/a4.jpg", 
