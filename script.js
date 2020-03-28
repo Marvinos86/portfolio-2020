@@ -163,6 +163,13 @@ var images = {
     ],
     slideshow_userresearch_current_imgNumber: 0,
     
+    slideshow_infodesign: [
+        "content/skills/informationdesign/b1.jpg", 
+        "content/skills/informationdesign/b2.jpg", 
+        "content/skills/informationdesign/b3.jpg" 
+    ],
+    slideshow_infodesign_current_imgNumber: 0,
+    
 
 };
 
