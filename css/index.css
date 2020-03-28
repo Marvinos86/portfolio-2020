@@ -1,0 +1,7 @@
+button {
+  background-color: red;
+  background-color: "blue";
+  color: black; }
+
+div {
+  border: 1px solid black; }
