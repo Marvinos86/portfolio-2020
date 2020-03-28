@@ -87,9 +87,15 @@
     </div> 
     
 <!-- Project Demo Pagina --> 
-    <div class="container" id="container">
-        <div class="button-switch" onclick="ShowProductDemo()">Product</div>
-        <div class="button-switch" onclick="ShowProcesDemo()">Proces</div>
+    <div class="container" id="demo">
+        
+        <div class="button-switch" data-project="product" onclick="ToggleProductProces(event)">Product</div>
+        <div class="button-switch" data-project="proces" onclick="ToggleProductProces(event)">Proces</div>
+        
+
+        <!-- <div class="button-switch" onclick="ShowProductDemo()">Product</div>
+        <div class="button-switch" onclick="ShowProcesDemo()">Proces</div> -->
+
         
         <div class="product-container" id="product-demo"> 
             <div class="slideshow">
@@ -109,9 +115,13 @@
     </div>
     
 <!-- Project E-coach Applicatie --> 
-    <div class="container" id="container">
-        <div class="button-switch" onclick="ShowProductEcoach()">Product</div>
-        <div class="button-switch" onclick="ShowProcesEcoach()">Proces</div>
+    <div class="container" id="ecoach">
+        
+        <div class="button-switch" data-project="product" onclick="ToggleProductProces(event)">Product</div>
+        <div class="button-switch" data-project="proces" onclick="ToggleProductProces(event)">Proces</div>
+        
+        <!-- <div class="button-switch" onclick="ShowProductEcoach()">Product</div>
+        <div class="button-switch" onclick="ShowProcesEcoach()">Proces</div> --> 
         
         <div class="product-container" id="product-ecoach"> 
             <div class="slideshow">
@@ -131,10 +141,13 @@
     </div>
     
 <!-- Rad van Fortuin --> 
-    <div class="container" id="container">
+    <div class="container" id="rad">
+        
+        <div class="button-switch" data-project="product" onclick="ToggleProductProces(event)">Product</div>
+        <div class="button-switch" data-project="proces" onclick="ToggleProductProces(event)">Proces</div>
 
-        <div class="button-switch" onclick="ShowProductRad()">Product</div>
-        <div class="button-switch" onclick="ShowProcesRad()">Proces</div>
+        <!-- <div class="button-switch" onclick="ShowProductRad()">Product</div>
+        <div class="button-switch" onclick="ShowProcesRad()">Proces</div>  --> 
         
         <div class="product-container" id="product-rad"> 
             <div class="slideshow">
@@ -154,9 +167,14 @@
     </div>
     
     <!-- VDS --> 
-    <div class="container" id="container">
-        <div class="button-switch" onclick="ShowProductVds()">Product</div>
-        <div class="button-switch" onclick="ShowProcesVds()">Proces</div>
+    <div class="container" id="vds">
+        
+        <div class="button-switch" data-project="product" onclick="ToggleProductProces(event)">Product</div>
+        <div class="button-switch" data-project="proces" onclick="ToggleProductProces(event)">Proces</div>
+        
+        
+        <!-- <div class="button-switch" onclick="ShowProductVds()">Product</div>
+        <div class="button-switch" onclick="ShowProcesVds()">Proces</div> --> 
         
         <div class="product-container" id="product-vds"> 
             <div class="slideshow">
