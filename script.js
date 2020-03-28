@@ -251,6 +251,25 @@ var images = {
     ],
     slideshow_frontend_current_imgNumber: 0,
     
+    slideshow_animation: [
+        "content/skills/3ddesign/t1.jpg", 
+        "content/skills/3ddesign/t2.jpg", 
+        "content/skills/3ddesign/t3.jpg", 
+        "content/skills/3ddesign/t4.jpg", 
+        "content/skills/3ddesign/t5.jpg", 
+        "content/skills/3ddesign/t6.jpg", 
+        "content/skills/3ddesign/t7.jpg", 
+        "content/skills/3ddesign/t8.jpg", 
+        "content/skills/3ddesign/t9.jpg", 
+        "content/skills/3ddesign/t10.jpg", 
+        "content/skills/3ddesign/t11.jpg", 
+        "content/skills/3ddesign/t12.jpg", 
+        "content/skills/3ddesign/t13.jpg", 
+        "content/skills/3ddesign/t14.jpg", 
+        "content/skills/3ddesign/t15.jpg"
+    ],
+    slideshow_animation_current_imgNumber: 0,
+    
 };
 
 // Functions for controling slideshows
