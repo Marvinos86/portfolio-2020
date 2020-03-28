@@ -66,6 +66,10 @@
     top: 50px;
     padding-left: 0px;
 }
+.sidebar.active {
+    left: 0px;
+    left: 0px;
+}
 .button-sidebar {
     height: 50px;
     width: 100%;
