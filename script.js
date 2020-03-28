@@ -232,6 +232,24 @@ var images = {
     ],
     slideshow_visualdesign_current_imgNumber: 0,
     
+    slideshow_frontend: [
+        "content/skills/frontend/h1.jpg", 
+        "content/skills/frontend/h2.jpg", 
+        "content/skills/frontend/h3.jpg", 
+        "content/skills/frontend/h4.jpg", 
+        "content/skills/frontend/h5.jpg", 
+        "content/skills/frontend/h6.jpg", 
+        "content/skills/frontend/h7.jpg", 
+        "content/skills/frontend/h8.jpg", 
+        "content/skills/frontend/h9.jpg", 
+        "content/skills/frontend/h10.jpg", 
+        "content/skills/frontend/h11.jpg", 
+        "content/skills/frontend/h12.jpg", 
+        "content/skills/frontend/h13.jpg", 
+        "content/skills/frontend/h14.jpg", 
+        "content/skills/frontend/h15.jpg"
+    ],
+    slideshow_frontend_current_imgNumber: 0,
     
 };
 
