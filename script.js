@@ -321,6 +321,40 @@ var slideshowControls = {
     }
 };
 
+// Toggle product or proces
+function ToggleProductProces(event){
+    
+    // Get product or proces property of button
+    var projectButton = event.currentTarget.dataset.project;
+
+    // Get id of the parnet container
+    var projectContainer = event.currentTarget.parentElement.id;
+
+    // Get references for product & proces child containers
+    var productSlideshow = $('#'+projectContainer+' #product-'+projectContainer);
+    var procesSlideshow = $('#'+projectContainer+' #proces-'+projectContainer);
+
+    // Toggle slideshow (for a single 'toggle' button)
+    // if (productSlideshow.is(":visible")) { 
+    //     productSlideshow.hide();
+    //     procesSlideshow.show();
+    // }
+    // else {
+    //     productSlideshow.show();
+    //     procesSlideshow.hide();
+    // }   
+
+    // Toggle slideshow #2 (for two buttons)
+    if(projectButton === "product"){
+        productSlideshow.show();
+        procesSlideshow.hide();
+    } else {
+        productSlideshow.hide();
+        procesSlideshow.show();
+    }
+
+}
+
 // Gedelegeerden App: hide/show product/proces
 function ShowProductGedel() {
  $("#proces-gedel").css("display", "none");
