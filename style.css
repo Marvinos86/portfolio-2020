@@ -1,3 +1,48 @@
+/** Menu **/ 
+.top-bar {
+    width: 100vw;
+    height: 50px;
+    background-color: #666666;
+    position: fixed;
+    z-index: 1000;
+}
+.top-menu {
+    position: absolute;
+    left: 50%;
+    margin-top: 10px;
+}
+.button-top-menu {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.top-menu-button:hover {
+    border-bottom:  4px solid #fff;
+}
+.button-selected {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: 1px;
+    border-bottom: 4px solid #e60000;
+}
+
+
+
+
+
+
 .container {
     height: 100vh;
     width: 100%;
