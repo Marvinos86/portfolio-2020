@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
 </head>
     
-<body>
+<body unselectable="on">
     <div class="left-bar" id="left-bar"></div>
     <div class="toggle-button" onclick="toggleSidebar()" id="toggle-button"></div>  
     <!-- fix toggle met css --> 
@@ -46,8 +46,8 @@
             <div class="slideshow">
                 <img id="gedelproduct" width="100%" height="auto" src="content/cases/gedel/d1.jpg"/>   
             </div>
-            <a class="prev" onclick="slideshowControls.prev('gedelproduct')" unselectable="on">&#10094;</a>
-            <a class="next" onclick="slideshowControls.next('gedelproduct')" unselectable="on">&#10095;</a>
+            <a class="prev" onclick="slideshowControls.prev('gedelproduct')">&#10094;</a>
+            <a class="next" onclick="slideshowControls.next('gedelproduct')">&#10095;</a>
         </div>
     
         <div class="proces-container" id="proces-gedel">

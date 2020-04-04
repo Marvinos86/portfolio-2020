@@ -1,5 +1,13 @@
 body {
-  background-color: #000000; }
+  background-color: #000000;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */ }
 
 /** Menu **/
 .top-bar {
@@ -149,15 +157,7 @@ body {
   font-weight: 100;
   font-size: 40px;
   background: rgba(0, 0, 0, 0.8);
-  color: #e60000;
-  -webkit-user-select: none;
-  /* Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+/Edge */
-  user-select: none;
-  /* Standard */ }
+  color: #e60000; }
 
 .next:hover {
   color: #fff; }
