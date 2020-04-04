@@ -105,7 +105,8 @@ body {
   background-color: red;
   display: block;
   padding: 30px;
-  margin: 10%; }
+  margin: 10%;
+  position: relative; }
 
 .proces-container {
   height: 600px;
@@ -113,7 +114,8 @@ body {
   background-color: blue;
   display: none;
   padding: 30px;
-  margin: 10%; }
+  margin: 10%;
+  position: relative; }
 
 .button-switch-container {
   width: 100%;
