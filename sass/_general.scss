@@ -166,8 +166,10 @@ body {
 .prev {
     left: 0;
     border-radius: 0 10px 10px 0;
+    float: left;
 }
 .next {  
     right: 0;
     border-radius: 10px 0 0 10px;
+    float: right;
 }
