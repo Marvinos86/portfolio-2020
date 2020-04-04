@@ -1,3 +1,19 @@
+body {
+  background-color: #000000; }
+
+/** Menu **/
+.top-bar {
+  width: 100vw;
+  height: 50px;
+  background-color: #666666;
+  position: fixed;
+  z-index: 1000; }
+
+.top-menu {
+  position: absolute;
+  left: 50%;
+  margin-top: 10px; }
+
 .button-top-menu {
   font-size: 20px;
   font-weight: bold;
@@ -23,73 +39,6 @@
   color: #fff;
   letter-spacing: 1px;
   border-bottom: 4px solid #e60000; }
-
-.button-sidebar {
-  height: 50px;
-  width: 100%;
-  background-color: #2b2b2b;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #ccc;
-  left: 0px;
-  padding-left: 20px;
-  padding-top: 10px; }
-
-.button-sidebar:hover {
-  background-color: #404040; }
-
-.button-switch {
-  position: relative;
-  top: 50px;
-  left: 200px;
-  width: 80px;
-  height: 30px;
-  background-color: yellow;
-  text-align: center;
-  border: 1px solid black; }
-
-.prev, .next {
-  cursor: pointer;
-  position: relative;
-  top: -230px;
-  width: 40px;
-  height: 100px;
-  padding: 8px;
-  font-weight: 100;
-  font-size: 40px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #e60000; }
-
-.next:hover {
-  color: #fff; }
-
-.prev:hover {
-  color: #fff; }
-
-.prev {
-  left: 0;
-  border-radius: 0 10px 10px 0; }
-
-.next {
-  right: 0;
-  border-radius: 10px 0 0 10px; }
-
-body {
-  background-color: #000000; }
-
-/** Menu **/
-.top-bar {
-  width: 100vw;
-  height: 50px;
-  background-color: #666666;
-  position: fixed;
-  z-index: 1000; }
-
-.top-menu {
-  position: absolute;
-  left: 50%;
-  margin-top: 10px; }
 
 /** Mobile Menu **/
 .left-bar {
@@ -128,11 +77,25 @@ body {
 .active {
   left: 0px; }
 
+.button-sidebar {
+  height: 50px;
+  width: 100%;
+  background-color: #2b2b2b;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ccc;
+  left: 0px;
+  padding-left: 20px;
+  padding-top: 10px; }
+
+.button-sidebar:hover {
+  background-color: #404040; }
+
 /** Containers **/
 .container {
   height: 100vh;
   width: 100%;
-  border: 2px solid red;
   padding: 20px; }
 
 .product-container {
@@ -151,9 +114,45 @@ body {
   padding: 30px;
   margin: 10%; }
 
+.button-switch {
+  position: relative;
+  top: 50px;
+  left: 200px;
+  width: 80px;
+  height: 30px;
+  background-color: yellow;
+  text-align: center;
+  border: 1px solid black; }
+
 .skill-container {
   height: auto;
   width: 50%;
   background-color: black;
   padding: 20px;
   border: 2px solid #fff; }
+
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: -230px;
+  width: 40px;
+  height: 100px;
+  padding: 8px;
+  font-weight: 100;
+  font-size: 40px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #e60000; }
+
+.next:hover {
+  color: #fff; }
+
+.prev:hover {
+  color: #fff; }
+
+.prev {
+  left: 0;
+  border-radius: 0 10px 10px 0; }
+
+.next {
+  right: 0;
+  border-radius: 10px 0 0 10px; }
