@@ -1,3 +1,119 @@
 @import "vars";
 @import "buttons";
-@import "general";
+@import "slideshows";
+
+body {
+    background-color: #000000;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */ }
+  
+  /** Menu **/
+  .left-bar {
+    background-color: #222;
+    width: 50px;
+    height: 100vh;
+    position: fixed;
+    z-index: 3500; 
+}
+  .top-bar {
+    width: 100vw;
+    height: 50px;
+    background-color: #666666;
+    position: fixed;
+    z-index: 1000; 
+}
+  .top-menu {
+    position: absolute;
+    left: 50%;
+    margin-top: 10px; 
+}
+  
+  /** Containers **/
+  .container {
+    height: 100vh;
+    width: 100%;
+    border: 2px solid red;
+    padding: 20px; 
+}
+  .product-container {
+    height: $content-container-height;
+    width: $content-container-width;
+    background-color: red;
+    display: block;
+    padding: 30px;
+    margin-left: 10%; 
+}
+  .proces-container {
+    height: $content-container-height;
+    width: $content-container-width;
+    background-color: blue;
+    display: none;
+    padding: 30px;
+    margin-left: 10%; 
+}
+  .button-switch-container {
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin-top: 70px;
+    text-align: center; 
+}
+
+  .skill-container {
+    height: auto;
+    width: 50%;
+    background-color: black;
+    padding: 20px;
+    border: 2px solid #fff; 
+}
+
+        //   .toggle-button {
+        //     display: block;
+        //     position: fixed;
+        //     margin-left: -8px;
+        //     top: 40px;
+        //     left: 15px;
+        //     width: 30px;
+        //     height: 30px;
+        //     background-image: url(content/hamburger.png);
+        //     background-position: 0 0;
+        //     background-size: 100% 100%;
+        //     z-index: 3500;
+        //     visibility: visible; }
+          
+        //   .sidebar {
+        //     background-color: #2b2b2b;
+        //     top: 0px;
+        //     left: -400px;
+        //     width: 250px;
+        //     height: 100vh;
+        //     padding-left: 50px;
+        //     position: fixed;
+        //     z-index: 3000;
+        //     padding-top: 30px;
+        //     transition: 0.5s; }
+          
+        //   .active {
+        //     left: 0px; }
+          
+        //   .button-sidebar {
+        //     height: 50px;
+        //     width: 100%;
+        //     background-color: #2b2b2b;
+        //     font-size: 20px;
+        //     font-weight: bold;
+        //     letter-spacing: 2px;
+        //     color: #ccc;
+        //     left: 0px;
+        //     padding-left: 20px;
+        //     padding-top: 10px; }
+          
+        //   .button-sidebar:hover {
+        //     background-color: #404040; }
+          
