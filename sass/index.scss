@@ -2,6 +2,12 @@
 @import "buttons";
 @import "general";
 
+a { color: #fff; text-decoration: none; }
+a:visited { text-decoration: none; color: #fff; }
+a:hover { text-decoration: none; color: #fff; }
+a:focus { text-decoration: none; color: #fff; }
+a:hover, a:active { text-decoration: none; color: #fff }
+
 body {
   background-color: #000000;
   -webkit-user-select: none;
