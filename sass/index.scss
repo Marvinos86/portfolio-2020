@@ -66,8 +66,8 @@ body {
 }
 
   .skill-container {
-    height: auto;
-    width: 50%;
+    height: $content-container-height;
+    width: $content-container-width;
     background-color: black;
     padding: 20px;
     border: 2px solid #fff; 
