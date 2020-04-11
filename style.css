@@ -115,16 +115,16 @@ body {
     padding: 20px;
 }
 .product-container {
-    height: 600px;
-    width: 80%;
+    height: $content-container-height;
+    width: $content-container-width;
     background-color: red;
     display: block;
     padding: 30px;
     margin: 10%;
 }
 .proces-container {
-    height: 600px;
-    width: 80%;
+    height: $content-container-height;
+    width: $content-container-width;
     background-color: blue;
     display: none;
     padding: 30px;
