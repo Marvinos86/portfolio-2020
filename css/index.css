@@ -142,7 +142,10 @@ body {
 .title-container {
   height: 30px;
   width: 100%;
-  background-color: purple; }
+  background-color: purple;
+  color: #ffffff;
+  top: 50px;
+  text-align: center; }
 
 .product-container {
   height: auto;
