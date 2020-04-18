@@ -34,6 +34,16 @@
   display: inline-block;
   line-height: 30px; }
 
+.button-content {
+  position: relative;
+  width: 80px;
+  height: 30px;
+  background-color: yellow;
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+  line-height: 30px; }
+
 .slideshow {
   width: auto;
   height: auto;
@@ -170,3 +180,12 @@ body {
   background-color: black;
   display: block;
   padding: 30px; }
+
+.content-containter {
+  height: auto; }
+
+.description {
+  height: auto; }
+
+.link-container {
+  height: auto; }
