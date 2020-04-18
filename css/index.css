@@ -200,6 +200,12 @@ body {
 
 .description {
   float: left;
+  width: 100%;
+  padding: 10px;
+  background-color: green; }
+
+.description-and-link {
+  float: left;
   width: 80%;
   padding: 10px;
   background-color: green; }
