@@ -181,11 +181,35 @@ body {
   display: block;
   padding: 30px; }
 
-.content-containter {
-  height: auto; }
+.content-container {
+  height: auto;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  flex-wrap: wrap; }
+
+.content-container:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 .description {
-  height: auto; }
+  float: left;
+  width: 80%;
+  padding: 10px;
+  background-color: green; }
 
 .link-container {
-  height: auto; }
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background-color: sandybrown;
+  padding: 50px; }
+
+@media screen and (max-width: 800px) {
+  .link-container {
+    width: 100%;
+    order: 1; }
+  .description {
+    width: 100%;
+    order: 2; } }
