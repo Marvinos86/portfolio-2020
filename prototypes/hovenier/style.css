@@ -1,0 +1,179 @@
+/******* CSS Style-Sheet C.J. Alblas Hovenier ********/ 
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic);
+@red: #AA223C;
+@blue: #004481;
+@green: #83B817;
+
+.body{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;  
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+}
+
+/**** Menu ****/ 
+.menu{
+    height: 15vh;
+    padding-top: 10px;  
+    background-color: #fff;
+}
+.logo{
+    height: 100px;
+    width: 250px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+.logo1{
+    background-image: url(content/logo.jpg); 
+    margin-left: 50%;
+}
+.logo2{
+    background-image: url(content/boomkwekerij.jpg);
+    margin-left: 30%;
+}
+.buttonBar{
+    padding-top: 15px;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+}
+ul{
+	margin-top: 40px;
+	list-style-type:none;
+}
+ul a{
+	font-size:22px;
+    font-weight: bold;
+	color:#83B817;
+	text-decoration:none;
+	padding:10px 15px;
+}
+ul a:hover{
+	color: #fff;
+	background-color:#83B817;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+}
+li{
+	display: inline-block;
+    margin-left: 2%;
+}
+.button{
+    font-size: 24px;
+    width: 250px;
+    color: #fff;
+	background-color:#83B817;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+    margin-left: 30%;
+}
+.button:hover{
+    background-color: #709f14;
+    cursor: pointer;
+}
+
+/*** Slideshow ****/ 
+.slider {
+	float:center;
+	padding-top: 0px;	
+	max-width:1400px;
+	max-height: 500px;
+	line-height:30px;
+	text-align:center;
+	margin: 0 auto;
+}
+
+/*** Elementen ****/ 
+.block{
+/*    height: 100vh; */
+    padding-bottom: 80px;
+    padding-top: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    border-top: 4px solid #004481;
+    font-size: 30px;
+    color: #AA223C;
+}
+
+.half{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.content{
+    font-weight: normal;
+    color: #fff;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 40px;  
+}
+.textframe{
+    background-color: #000;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+/**** Contact ****/ 
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    resize: none;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: #83B817;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type=submit]:hover{
+    background-color: #709f14;
+}
+.contact{
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.gegevens{
+    font-size: 24px;
+    margin-left: -20%;
+}
+.maps{
+    background-image: url(content/maps.jpg);
+    background-size: 400px;
+    height: 300px;
+    width: 90%;
+    line-height: 100px;
+    background-repeat: no-repeat;
+    text-align: right;
+    cursor: pointer;
+    margin-top: 40px;
+}

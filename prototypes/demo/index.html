@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable=no">
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-48.png" sizes="48x48">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/favicon-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/favicon-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/favicon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon/favicon-76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-72.png">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Mobile Water demo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+
+    <div class="background">
+        </div>
+    <div class="top_banner" id="top_banner">
+        </div>
+
+    <div class="container"> 
+        <div class="logo">  
+            </div>
+
+    <div class="grid">
+<!-- Group Pop-up -->
+    <div class="pop pop_border1" id="pop">      
+        <div class="pop-button pop_border2" id="pop-btn">
+           <div class="mid pop_mid ">
+                <i class="icon-icon-Profiel" id="iconProfile"></i>
+            </div>
+        </div>
+        <div class="form">
+              <p class="ask">Vind jij ook dat klantinteracties persoonlijker kunnen?</p>
+               <input type="text" id="userName" name="name" placeholder="Voornaam" class="form-control">
+               <input type="text" id="userPhone" name="phone" placeholder="06-nummer" class="form-control">
+               <input type="submit" class="buttonx" id="addUser" value="Ga verder" style="background-color: #80b671;">
+                <div class="remark" id="remarkProfile"></div>
+        </div>               
+    </div>
+
+<!-- Group Cases --> 
+    <div class="group_cases">
+        <div class="block cases case cases_border" id="cases" style="z-index: 5; position: absolute; color: #ffffff;">
+           <div class="middle cases_close" id="cases_middle" >
+                <i class="icon-icon-Cases" id="iconCases"></i>
+                <div class="name">Cases</div>
+            </div>
+        </div>
+           
+            <div class="block case cases_border" id="game">
+               <div class="middle main_open">
+                  <div class="image">
+                       <img src="img/logo-Ziggo_3D.png" alt="Ziggo" class="img-responsive">
+                   </div>
+                </div>
+            </div>
+            
+            <div class="block case cases_border" id="kerst" >
+               <div class="middle main_open">
+                   <div class="image">
+                       <img src="img/logo-Vodafone_3D.png" alt="Vodafone" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="block case cases_border" id="rad" >
+               <div class="middle main_open">
+                   <div class="image">
+                       <img src="img/logo-MobileWater_3D.png" alt="Rad" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="block case cases_border" id="vodafone">
+                <div class="middle main_open">
+                    <div class="image">
+                        <img src="img/logo-thomas-cook_3D.png" alt="ThomasCook" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="block case cases_border" id="quest" >
+               <div class="middle main_open">
+                   <div class="image">
+                       <img src="img/logo-lebara_3D.png" alt="Lebara" class="img-responsive">
+                    </div>
+                </div>
+            </div>           
+    </div>
+ 
+<!-- Group Connect --> 
+    <div  class="group_send">
+	    <div class="block connect connect_border" id="send" style="z-index: 5; position: absolute; color: #ffffff;">
+             <div class="middle connect_close" id="connect_middle">
+                  <i class="icon-icon-Connect" id="iconConnect"></i>
+                   <div class="name" id="nameConnect">Connect</div>
+            </div>
+        </div>
+          
+      <div class="block expand connect connect_border" id="share">
+               <div class="middle big connect_close" id="share_middle">
+                    <i class="icon-icon-Share" id="iconShare"></i>
+                        <div class="name" id="nameShare">Share</div> 
+                    <div class="content" id="contentShare"> 
+                       <div class="descr">Delen via Whatsapp.</div>
+                            <a href="whatsapp://send?text=Hi%2C%20zie%20onderstaand%20een%20link%20naar%20de%20demosite%20van%20Mobile%20Water.%20Zie%20http%3A%2F%2Fdemo.mobilewater.nl%2F%3Fch%3Dshare%20groetjes%20<?=$user->firstname?>" style="color:black" data-action="share/whatsapp/share">
+                            <input type="submit" class="buttonx" id="shareButton" value="Delen"></a>
+                            <div class="remark" id="remarkShare"> Delen via Whatsapp kan alleen op mobiele apparaten.
+                            </div>
+                   </div>
+                </div> 
+        </div>	
+           
+        <div class="block expand connect connect_border" id="app">
+             <div class="middle big connect_close" id="app_middle">
+                     <i class="icon-icon-App" id="iconApp"></i>
+                      <div class="name" id="nameApp">App</div>
+                        <div class="content" id="contentApp">
+                            <div class="descr">Ontvang een Whatsapp.</div>   
+                             <input type="submit" class="buttonx" id="appButton" onclick="sendwa()" value="Stuur Whatsapp">
+                             <div class="remark" id="remarkApp"> 
+                                </div>
+                        </div>
+                </div>
+            </div>
+                
+            <div class="block expand connect connect_border" id="sms">
+               <div class="middle big connect_close" id="sms_middle">
+                   <i class="icon-icon-Sms" id="iconSms"></i>
+                      <div class="name" id="nameSms">SMS</div>
+                        <div class="content" id="contentSms">
+                            <div class="descr">Ontvang een SMS.</div>
+                                 <input type="submit" class="buttonx" id="smsButton" onclick="sendsms()" value="Stuur SMS">
+                                 <div class="remark" id="remarkSms"> 
+                                </div>
+                        </div>
+                </div>
+           </div>      
+    </div>    
+                
+<!-- Group Info --> 
+    <div class="group_info">
+            <div class="block info info_border" id="info" style="z-index: 5; position: absolute; color: #ffffff;">
+                   <div class="middle info_close" id="info_middle">
+                        <i class="icon-icon-Info" id="iconInfo"></i>
+                        <div class="name">Info</div>
+                </div>
+            </div>
+
+        <a href="http://www.mobilewater.nl/" target="_blank" alt="MobileWaterWebsite">
+               <div class="block info info_border" id="website" style="color: #ffffff;">
+                   <div class="middle info_close">
+                       <i class="icon-icon-Website" id="iconWebsite"></i>
+                        <div class="name" id="nameWebsite">Website</div>
+                   </div>
+            </div></a>
+
+            <div class="block expand info info_border" id="contact">
+                     <div class="middle big info_close" id="contact_middle">
+                          <i class="icon-icon-Contact" id="iconContact"></i>
+                               <div class="name" id="nameContact">Contact</div>  
+                        <div class="content" id="contentContact">
+                           <div class="half-content">
+                                                Mobile Water
+                                     <br>   Wolwevershaven 30Q
+                                     <br>   3311AW Dordrecht  
+                                </div>
+                             <div class="half-content">
+                                                     <a href="mailto:info@mobilewater.nl">
+                                                     info@mobilewater.nl</a>
+                                 <br><div id="callMobile"><a href="tel:+0627086850">0627086850</a></div>
+                                 <div id="callDesktop">0627086850</div>
+                            </div>
+                            <a href="http://demo.mobilewater.nl/vcard/mobilewatercontact.vcf" style="color:black; text-decoration:none;">
+                                <input type="submit" class="buttonx" id="vCard" value="Contact details">
+                            </a>
+                        </div>
+                    </div> 
+            </div>
+    </div>
+
+</div><!-- end grid  --> 
+</div><!-- End container -->   
+
+<!-- Jquery & JavaScript sources --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.2/mobile-detect.min.js"></script>
+    <script type="text/javascript" src="js/logic.js"></script>         
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>    
+ <!-- <script src="js/docs.min.js"></script> -->
+     
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<input type="hidden" id="appsend" name="appsend" value="false">
+<script type="text/javascript">
+    
+// ADDS NEW USER   
+    $("#addUser").on('click', function(){
+        $.post( "user.php", { name: $("#userName").val(), phone: $("#userPhone").val() })
+            .done(function( data ) {
+                var json = data;
+                console.log("User data:" + data);
+                //var json = JSON.parse(data);
+                if(json.success) {
+                    console.log("Nieuwe UUID:" + json.uuid);
+                    window.location.replace("index.php?uuid=" + json.uuid); 
+//                  document.location.hash = json.uuid;    
+                userOnline();
+                } else {
+                    console.log(data);
+                    console.log("Account kon niet worden aangemaakt.");
+                }
+            });
+    });
+    
+// CHECKS IF ?uuid= EXISTS IN URL TO CONTROL REGISTRATION 
+    function userOnline(data) {    
+        if(window.location.href.indexOf("?uuid=") > -1) {
+           uuidFound = true; 
+        }
+        else {
+            uuidFound = false;
+        }
+        console.log('Found UUID:' + uuidFound);
+
+        if(uuidFound == true) {
+            $('#userName').hide(); 
+            $('#userPhone').hide(); 
+            $('#addUser').hide(); 
+            
+            $('#remarkProfile').show(); 
+            $("#remarkProfile").html("Account succesvol aangemaakt.");
+        } else {
+            $('#userName').show(); 
+            $('#userPhone').show(); 
+            $('addUser').show(); 
+            $('#remarkProfile').hide();
+        }
+    }
+    userOnline(); 
+    
+    function addUUID() {
+        hash = window.location.search;
+        console.dir(hash);
+        $('#link1').attr('href', $('#link1').attr('href') + hash );
+        $('#link2').attr('href', $('#link2').attr('href') + hash );
+        $('#link3').attr('href', $('#link3').attr('href') + hash );
+        $('#link4').attr('href', $('#link4').attr('href') + hash );
+        $('#link5').attr('href', $('#link5').attr('href') + hash );
+    }
+    addUUID(); 
+
+</script>
+   
+</body>
+</html>

@@ -1,0 +1,547 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic);
+
+body {
+	font-family: 'Roboto';
+    background-image: url("../img/background.jpg");
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.screen {
+	position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+    overflow: hidden;
+} 
+
+.viewport-desktop  .screen.desktop-half {
+    right: 50%;
+}
+
+.viewport-desktop .screen.desktop-half.desktop-right {
+    left: 50%; right: 0;
+}
+
+
+/******** CSS FOR DESKTOP ********/ 
+.welcome {
+	position: absolute; left: 75%; top: 50%; 
+	width: 350px; height: auto;
+	margin-left: -250px;
+	margin-top: -200px;
+	background: url("../img/text-board.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+    text-align: center;
+    z-index: 90;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+.welcome p {
+	font-size: 1.5em;
+	line-height: 24px;
+    width: 70%; height: auto;
+    text-align: left;
+    
+}
+
+.wheel {
+	position: absolute; left: 48%; top: 50%; 
+	width: 50vw; height: 50vw;
+	margin-left: -50vw;
+	margin-top: -25vw;
+    z-index: 80;
+}
+
+.wheel .arrow { 
+	width: 100px; height: 50px;
+	position: absolute; top: 50%; right: -65px;
+	margin-top: -20px;
+}
+
+.price{     
+    position: absolute;
+    left: 0; 
+    right: 0;
+    top: 0px; 
+    font-size: 3em;
+    margin-left: auto;   
+    z-index: 100;
+}
+
+.card{ 
+    position: absolute;
+    width: 360px; height: auto; 
+    left: 60vw; top: -100vh;
+    background-color: #FFFFFF; 
+    text-align: center;
+    padding: 10px;
+    font-size: 24px; font-weight: bold;  
+    border-radius: 25px;
+	color: #000000;
+    
+}
+
+.desc{
+    display: block;
+    padding: 12px; 
+    font-size: 20px; font-weight: normal;
+}
+
+
+/******** CSS FOR TABLET ********/ 
+.viewport-tablet .welcome{
+    position: absolute; 
+    left: auto; top: auto; 
+    right: 60px; bottom: 40px;
+	width: 50vw; height: auto;
+    text-align: center;
+    background-size: 100% 100%;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.viewport-tablet .welcome p {
+	font-size: 23px;
+	line-height: 24px;
+    width: 250px;
+    text-align: left;
+}
+
+.viewport-tablet .wheel {
+	position: absolute; left: 50%; top: 50%; 
+	width: 90vw; height: 90vw;
+	margin-left: -90vw;
+	margin-top: -50vw;
+}
+
+.viewport-tablet .wheel .arrow {
+	width: 100px; height: 50px;
+	position: absolute; 
+    top: 50%; right: -65px;
+	margin-top: -20px;
+}
+
+.viewport-tablet .price{     
+    position: absolute;
+    left: 0; 
+    right: 0;
+    top: 0; 
+    font-size: 3em;
+    margin-left: auto;
+}
+
+.viewport-tablet .card{ 
+    position: absolute;
+    width: 430px; height: 400px; 
+    top: -100vh; right: 40px; left: auto;
+    background-color: #FFFFFF; 
+    z-index: 30;
+    text-align: center;
+    padding: 12px;
+    font-size: 30px; font-weight: bold;  
+    border-radius: 25px;  
+}
+
+.viewport-tablet .desc{
+    display: block;
+    padding: 12px; 
+    font-size: 23px; font-weight: normal;
+}
+
+
+/******** CSS FOR MOBILE ********/
+.viewport-mobile .screen {
+	background-size: auto 100%;
+}
+
+.viewport-mobile .welcome {
+	position: absolute; 
+    left: auto; top: auto;
+    right: 40px; bottom: 20px;  
+	width: 55vw; height: auto;
+    text-align: center;
+    background-size: 100% 100%;
+    padding: 45px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.viewport-mobile .welcome p{
+    font-size: 0.9em; text-align: left;
+    width: 34vw;
+    line-height: 18px;
+}
+
+
+
+.viewport-mobile .wheel {
+	position: absolute; left: 0; top:  20vh;
+	width: 70vh; height: 70vh; 
+    margin-left: -30vh;
+}
+
+.viewport-mobile .wheel .arrow {
+	width: 80px; height: 40px;
+	position: absolute; 
+    top: 50%; right: -55px;
+    margin-top: -20px;  
+}
+
+.viewport-mobile .price{     
+    position: absolute;
+    left: 0; 
+    right: 0;
+    top: 0; 
+    font-size: 3em;
+    margin-left: auto;
+}
+
+.viewport-mobile .card{ 
+    position: absolute;
+    height: auto; width: 250px;
+    top: -350px; left: auto; right: 20px;
+    margin-left: -125px;
+    background-color: #FFFFFF; 
+    z-index: 30;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px; font-weight: bold;  
+    border-radius: 25px;
+}
+
+.viewport-mobile .desc{
+    display: block;
+    padding: 10px; 
+    font-size: 16px; font-weight: normal;
+}
+
+/******** MEDIA QUERIES ******/ 
+
+@media only screen and (max-device-width: 320px) { /* iPhone 4 */ 
+	.viewport-mobile .welcome {
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            right: 15px;
+            bottom: 15;
+            padding: 40px;
+            padding-top: 25px;
+            padding-bottom: 15px;    
+        }   
+        .viewport-mobile .welcome p{
+        font-size: 10px; text-align: left;
+        width: 100px;
+        line-height: 13px;
+
+        }
+	.viewport-mobile .wheel {
+	position: absolute; left: -30px; top: 90px;
+	width: 300px; height: 300px; 
+	}
+
+	.viewport-mobile .wheel .arrow {
+	width: 60px; height: 30px;
+	position: absolute; 
+    	top: 50%; right: -45px;
+    	margin-top: -20px;  
+	}
+
+	.viewport-mobile .card{ 
+    	position: absolute;
+    	height: auto; width: 180px;
+    	top: -250px; left: auto; right: 20px;
+    	background-color: #FFFFFF; 
+    	z-index: 30;
+    	text-align: center;
+    	padding: 12px;
+    	font-size: 18px; font-weight: bold;  
+    	border-radius: 25px;
+	}
+	.viewport-mobile .desc{
+    	display: block;
+    	padding: 7px; 
+    	font-size: 12px; font-weight: normal;
+}
+	
+}
+
+
+
+
+@media screen and (min-height: 900px) {
+        .viewport-mobile .welcome {
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            right: 40px;
+            bottom: 40px;
+            padding: 65px;
+            padding-top: 35px;
+            padding-bottom: 20px;
+            padding-right: 50px;
+        }   
+        .viewport-mobile .welcome p{
+            font-size: 0.9em; text-align: left;
+            width: 20vw;
+            line-height: 18px;
+        }
+        .viewport-mobile .card{ 
+            position: absolute;
+            height: auto; width: 300px;
+            top: -450px; left: auto; right: 40px;
+            margin-left: -125px;
+            background-color: #FFFFFF; 
+            z-index: 30;
+            text-align: center;
+            padding: 12px;
+            font-size: 30px; font-weight: bold;  
+            border-radius: 25px;
+        }
+        .viewport-mobile .desc{
+            display: block;
+            padding: 10px; 
+            font-size: 20px; font-weight: normal;
+        }
+
+}
+
+@media screen and (min-height: 1000px) {
+        .viewport-mobile .welcome {
+            height: auto;
+            width: 50vw;
+            font-size: 20px;
+            right: 40px;
+            bottom: 40px;
+        }   
+        .viewport-mobile .welcome p{
+            padding-left: 40px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            width: 80%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+/******** ADJUST FOR LANDSCAPE PHONE ********/
+    .viewport-mobile .welcome {
+        background: url("../img/text-board.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;	
+        position: absolute; 
+        left: auto; top: auto;
+        right: 40px; bottom: 20px;  
+        width: auto; height: auto;
+        text-align: center;
+        background-size: 100% 100%;
+        padding: 45px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        padding-right: 50px;
+    }
+    .viewport-mobile .welcome p{
+        font-size: 0.9em; text-align: left;
+        width: 20vw;
+        line-height: 18px;
+    }
+
+    .viewport-mobile .wheel{
+        position: absolute; left: 0; top:  50vh;
+        width: 90vh; height: 90vh; 
+        margin-left: -20vh;
+
+    }
+    .viewport-mobile .wheel .arrow {
+        width: 60px; height: 40px;
+        position: absolute; 
+        top: 50%; right: -45px;
+        margin-top: -20px;  
+    }
+
+    .viewport-mobile .card{ 
+        position: absolute;
+        height: auto; width: 250px;
+        top: -310px; left: auto; right: 40px;
+        margin-left: -125px;
+        background-color: #FFFFFF; 
+        z-index: 30;
+        text-align: center;
+        padding: 12px;
+        font-size: 20px; font-weight: bold;  
+        border-radius: 25px;
+        color: #000000; 
+    }
+}
+
+
+/******* ADJUST FOR LANDSCAPE IPHONE *******/ 
+@media only screen and (max-device-width: 568px)and (orientation: landscape){
+	.viewport-mobile .welcome {
+        left: auto; top: auto;
+        right: 20px; bottom: 60px;  
+        width: auto; height: auto;
+        text-align: center;
+        background-size: 100% 100%;
+        padding: 45px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+    }
+    .viewport-mobile .welcome p{
+        font-size: 12px; text-align: left;
+        width: 140px;
+        line-height: 18px;
+    }
+
+    .viewport-mobile .wheel{
+        position: absolute; left: 0; top:  180px;
+        width: 220px; height: 220px; 
+        
+
+    }
+    .viewport-mobile .wheel .arrow {
+        width: 60px; height: 40px;
+        position: absolute; 
+        top: 50%; right: -45px;
+        margin-top: -20px;  
+    }
+
+    .viewport-mobile .card{ 
+        position: absolute;
+        height: auto; width: 200px;
+        top: -310px; left: auto; right: 40px;
+        margin-left: -125px;
+        background-color: #FFFFFF; 
+        z-index: 30;
+        text-align: center;
+        padding: 12px;
+        font-size: 18px; font-weight: bold;  
+        border-radius: 25px;
+        color: #000000; 
+    }
+	.viewport-mobile .desc{
+            display: block;
+            padding: 5px; 
+            font-size: 12px; font-weight: normal;
+        }
+
+
+}
+
+/******** ADJUST FOR LANDSCAPE TABLET ********/ 
+        .viewport-tablet .welcome{
+        position: absolute; 
+        left: auto; top: auto; 
+        right: 60px; bottom: 40px;
+        width: auto; height: auto;
+        text-align: center;
+        background-size: 100% 100%;
+        padding-left: 80px;
+        padding-top: 50px;
+        padding-bottom: 35px;
+            padding-right: 40px;
+    }
+
+    .viewport-tablet .welcome p {
+        font-size: 23px;
+        line-height: 24px;
+        width: 250px;
+        text-align: left;
+    }
+
+    .viewport-tablet .wheel {
+        position: absolute; left: 50%; top: 50%; 
+        width: 60vw; height: 60vw;
+        margin-left: -65vw;
+        margin-top: -30vw;
+    }
+
+    .viewport-tablet .wheel .arrow {
+        width: 80px; height: 40px;
+        position: absolute; 
+        top: 50%; right: -50px;
+        margin-top: -20px;
+    }
+
+    .viewport-tablet .card{ 
+        position: absolute;
+        width: 430px; height: 400px; 
+        top: -125vh; right: 40px; left: auto;
+        background-color: #FFFFFF; 
+        z-index: 30;
+        text-align: center;
+        padding: 12px;
+        font-size: 30px; font-weight: bold;  
+        border-radius: 25px;
+
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+@media screen and (max-width: 800px) {
+     .viewport-tablet .welcome {
+        width: auto; height: auto;
+        background-size: 100% 100%;
+        padding: 60px;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        padding-right: 40px;
+    }
+    .viewport-tablet .welcome p {
+        font-size: 16px;
+        line-height: 20px;
+        
+        text-align: left;
+    }
+    
+    .viewport-tablet .wheel{
+        position: absolute; left: 0; top:  60vh;
+        width: 80vh; height: 80vh; 
+        margin-left: -20vh;
+    }
+    .viewport-tablet .wheel .arrow {
+        width: 60px; height: 35px;
+        position: absolute; 
+        top: 50%; right: -45px;
+        margin-top: -20px;
+    }
+    
+       .viewport-tablet .card{ 
+        position: absolute;
+        width: 330px; height: 350px; 
+        top: -145vh; right: 40px; left: auto;
+        background-color: #FFFFFF; 
+        z-index: 30;
+        text-align: center;
+        padding: 12px;
+        font-size: 30px; font-weight: bold;  
+        border-radius: 25px;
+
+    }
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
