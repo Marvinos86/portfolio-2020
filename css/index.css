@@ -223,6 +223,8 @@ body {
   text-align: center; }
 
 @media screen and (max-width: 1000px) {
+  .left-bar {
+    display: none; }
   .slideshow {
     width: 100%; }
   .content-container {
