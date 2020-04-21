@@ -88,6 +88,14 @@ body {
   padding: 10px; 
 }
 
+/** Content **/
+.slideshow {
+  width: auto;
+  height: auto;
+  position: relative;
+  padding-right: 0px;
+  padding-bottom: 0px; 
+}
 .content-container {
   height: auto;
   width: 100%;
@@ -113,7 +121,6 @@ body {
   padding: 10px;
   background-color: green;
 }
-
 .link-container {
   float: left;
   width: 20%;

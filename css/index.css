@@ -49,13 +49,6 @@
   display: inline-block;
   line-height: 30px; }
 
-.slideshow {
-  width: auto;
-  height: auto;
-  position: relative;
-  padding-right: 0px;
-  padding-bottom: 0px; }
-
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -185,6 +178,14 @@ body {
   background-color: black;
   display: block;
   padding: 10px; }
+
+/** Content **/
+.slideshow {
+  width: auto;
+  height: auto;
+  position: relative;
+  padding-right: 0px;
+  padding-bottom: 0px; }
 
 .content-container {
   height: auto;
