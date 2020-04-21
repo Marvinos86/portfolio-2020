@@ -70,6 +70,7 @@ body {
   padding: $product-and-proces-container-padding;
   background-color: red;
   display: block;
+  float: left;
 }
 .proces-container {
   height: $product-and-proces-container-height;
@@ -78,6 +79,7 @@ body {
   padding: $product-and-proces-container-padding;
   background-color: blue;
   display: none;
+  float: left;
 }
 .skill-container {
   height: auto;
@@ -139,6 +141,7 @@ body {
     width: 100%;;
     display: flex; 
     flex-wrap: wrap;
+    margin-left: 0%;
   }
   .link-container {
     order: 1;

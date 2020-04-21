@@ -161,7 +161,8 @@ body {
   margin-left: 5%;
   padding: 10px;
   background-color: red;
-  display: block; }
+  display: block;
+  float: left; }
 
 .proces-container {
   height: auto;
@@ -169,7 +170,8 @@ body {
   margin-left: 5%;
   padding: 10px;
   background-color: blue;
-  display: none; }
+  display: none;
+  float: left; }
 
 .skill-container {
   height: auto;
@@ -226,7 +228,8 @@ body {
   .content-container {
     width: 100%;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-left: 0%; }
   .link-container {
     order: 1; }
   .description-and-link {
