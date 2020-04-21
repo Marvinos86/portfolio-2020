@@ -164,27 +164,27 @@ body {
 
 .product-container {
   height: auto;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
+  padding: 10px;
   background-color: red;
-  display: block;
-  padding: 30px; }
+  display: block; }
 
 .proces-container {
   height: auto;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
+  padding: 10px;
   background-color: blue;
-  display: none;
-  padding: 30px; }
+  display: none; }
 
 .skill-container {
   height: auto;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   background-color: black;
   display: block;
-  padding: 30px; }
+  padding: 10px; }
 
 .content-container {
   height: auto;

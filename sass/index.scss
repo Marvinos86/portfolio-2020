@@ -64,28 +64,28 @@ body {
   text-align: center;
 }
 .product-container {
-  height: $content-container-height;
-  width: $content-container-width;
-  margin-left: $content-container-margin-left; 
+  height: $product-and-proces-container-height;
+  width: $product-and-proces-container-width;
+  margin-left: $product-and-proces-container-margin-left; 
+  padding: $product-and-proces-container-padding;
   background-color: red;
   display: block;
-  padding: 30px;
 }
 .proces-container {
-  height: $content-container-height;
-  width: $content-container-width;
-  margin-left: $content-container-margin-left;
+  height: $product-and-proces-container-height;
+  width: $product-and-proces-container-width;
+  margin-left: $product-and-proces-container-margin-left;
+  padding: $product-and-proces-container-padding;
   background-color: blue;
   display: none;
-  padding: 30px; 
 }
 .skill-container {
-  height: $content-container-height;
-  width: $content-container-width;
-  margin-left: $content-container-margin-left;
+  height: auto;
+  width: 90%;
+  margin-left: 5%;
   background-color: black;
   display: block;
-  padding: 30px; 
+  padding: 10px; 
 }
 
 .content-container {
