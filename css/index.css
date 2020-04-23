@@ -223,7 +223,7 @@ body {
   clear: both; }
 
 .description {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   font-size: 13px;
   float: left;
   width: 100%;
@@ -231,7 +231,7 @@ body {
   background-color: green; }
 
 .description-and-link {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   font-size: 13px;
   float: left;
   width: 100%;
