@@ -279,6 +279,8 @@ body {
 @media screen and (max-width: 1025px) {
   .left-bar {
     display: none; }
+  .top-menu {
+    left: 10%; }
   .product-container {
     width: 96%;
     margin-left: 2%; }
