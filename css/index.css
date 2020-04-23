@@ -61,12 +61,10 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: -230px;
-  width: 40px;
   padding-left: 8px;
   padding-right: 8px;
-  padding-bottom: 12px;
-  padding-top: 12px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   font-weight: 100;
   font-size: 40px;
   background: rgba(0, 0, 0, 0.8);
@@ -91,7 +89,7 @@
   border-radius: 10px 0 0 10px;
   float: right; }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1025px) {
   .button-top-menu {
     font-size: 17px; }
   .button-selected {
@@ -99,7 +97,14 @@
   .button-switch {
     font-size: 14px; }
   .button-content {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .prev, .next {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-weight: 80;
+    font-size: 30px; } }
 
 @media screen and (min-width: 2500px) {
   .button-top-menu {
@@ -109,7 +114,14 @@
   .button-switch {
     font-size: 18px; }
   .button-content {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .prev, .next {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    font-weight: 120;
+    font-size: 50px; } }
 
 @font-face {
   font-family: 'Roboto';
@@ -267,7 +279,7 @@ body {
   background-color: sandybrown;
   text-align: center; }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1025px) {
   .left-bar {
     display: none; }
   .slideshow {

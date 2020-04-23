@@ -25,6 +25,21 @@ $button-switch-content-large-font-size: 18px;
 $button-switch-content-font-color: #000000 ; 
 $button-switch-content-backgroundcolor: #ffffff; 
 $button-switch-content-border: 1px solid #000000;
-
 $button-content-switch-padding-top-bottom: 1px;
 $button-content-switch-padding-left-right: 8px;
+
+// Buttons slideshows properties
+$prev-next-buttons-padding-left-right-normal: 8px;
+$prev-next-buttons-padding-top-bottom-normal: 5px;
+$prev-next-buttons-font-weight-normal: 100;
+$prev-next-buttons-font-size-normal: 40px;
+
+$prev-next-buttons-padding-left-right-small: 6px;
+$prev-next-buttons-padding-top-bottom-small: 4px;
+$prev-next-buttons-font-weight-small: 80;
+$prev-next-buttons-font-size-small: 30px;
+
+$prev-next-buttons-padding-left-right-large: 12px;
+$prev-next-buttons-padding-top-bottom-large: 7px;
+$prev-next-buttons-font-weight-large: 120;
+$prev-next-buttons-font-size-large: 50px;

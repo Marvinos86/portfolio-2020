@@ -70,14 +70,12 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: -230px;
-  width: 40px;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-bottom: 12px;
-  padding-top: 12px;
-  font-weight: 100;
-  font-size: 40px;
+  padding-left: $prev-next-buttons-padding-left-right-normal;
+  padding-right: $prev-next-buttons-padding-left-right-normal;
+  padding-bottom: $prev-next-buttons-padding-top-bottom-normal;
+  padding-top: $prev-next-buttons-padding-top-bottom-normal;
+  font-weight: $prev-next-buttons-font-weight-normal;
+  font-size: $prev-next-buttons-font-size-normal;
   background: rgba(0, 0, 0, 0.8);
   color: #e60000;
   top: 50%;
@@ -101,7 +99,8 @@
   float: right; 
 }
 
-@media screen and (max-width: 1280px) {
+// media query for buttons on screen smaller than 1025px
+@media screen and (max-width: 1025px) {
   .button-top-menu {
     font-size: $top-menu-button-small-font-size;
   }
@@ -114,8 +113,17 @@
   .button-content {
     font-size: $button-switch-content-small-font-size;
   }
+  .prev, .next {
+    padding-left: $prev-next-buttons-padding-left-right-small;
+    padding-right: $prev-next-buttons-padding-left-right-small;
+    padding-bottom: $prev-next-buttons-padding-top-bottom-small;
+    padding-top: $prev-next-buttons-padding-top-bottom-small;
+    font-weight: $prev-next-buttons-font-weight-small;
+    font-size: $prev-next-buttons-font-size-small;
+  }
 }
 
+// media query for buttons on screen larger than 2500px
 @media screen and (min-width: 2500px) {
   .button-top-menu {
     font-size: $top-menu-button-large-font-size;
@@ -128,5 +136,13 @@
   }
   .button-content {
     font-size: $button-switch-content-large-font-size;
+  }
+  .prev, .next {
+    padding-left: $prev-next-buttons-padding-left-right-large;
+    padding-right: $prev-next-buttons-padding-left-right-large;
+    padding-bottom: $prev-next-buttons-padding-top-bottom-large;
+    padding-top: $prev-next-buttons-padding-top-bottom-large;
+    font-weight: $prev-next-buttons-font-weight-large;
+    font-size: $prev-next-buttons-font-size-large;
   }
 }
