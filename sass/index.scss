@@ -2,6 +2,10 @@
 @import "buttons";
 @import "general";
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 a { color: #fff; text-decoration: none; }
 a:visited { text-decoration: none; color: #fff; }
 a:hover { text-decoration: none; color: #fff; }
@@ -114,12 +118,16 @@ body {
   clear: both;
 }
 .description {
+  font-family: $description-font;
+  font-size: $description-normal-font-size;
   float: left;
   width: 100%;
   padding: 10px;
   background-color: green;
 }
 .description-and-link {
+  font-family: $description-font;
+  font-size: $description-normal-font-size;
   float: left;
   width: 100%;
   padding: 10px;

@@ -2,58 +2,66 @@
 
 // buttons for top navigation menu
 .button-top-menu {
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    color: #fff;
-    letter-spacing: 1px; 
+  font-size: $top-menu-button-normal-font-size;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 1px; 
 }
   .button-top-menu:hover {
-    border-bottom: 4px solid #fff; 
+  border-bottom: 4px solid #fff; 
 }
   .button-selected {
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    color: #fff;
-    letter-spacing: 1px;
-    border-bottom: 4px solid #e60000; 
+  font-size: $top-menu-button-normal-font-size;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 1px;
+  border-bottom: 4px solid #e60000; 
 }
 
 // button for switching between product and proces
 .button-switch {
-    position: relative;
-    width: 80px;
-    height: 30px;
-    background-color: yellow;
-    text-align: center;
-    border: 1px solid black;
-    display: inline-block;
-    line-height: 30px; 
+  font-size: $button-switch-content-normal-font-size;
+  color: $button-switch-content-font-color;
+  background-color: $button-switch-content-backgroundcolor;
+  border: $button-switch-content-border;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  display: inline-block;
+  line-height: 30px; 
 }
 
+// button to products
 .button-content {
-    position: relative;
-    width: auto;
-    height: auto;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: yellow;
-    color: #000000;
-    text-align: center;
-    border: 1px solid black;
-    display: inline-block;
-    line-height: 30px; 
+  font-size: $button-switch-content-normal-font-size;
+  color: $button-switch-content-font-color;
+  background-color: $button-switch-content-backgroundcolor;
+  border: $button-switch-content-border;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  display: inline-block;
+  line-height: 30px; 
 }
 
 // buttons for slideshows

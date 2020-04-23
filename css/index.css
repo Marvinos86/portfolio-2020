@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .button-top-menu {
   font-size: 20px;
   font-weight: bold;
@@ -25,16 +28,10 @@
   border-bottom: 4px solid #e60000; }
 
 .button-switch {
-  position: relative;
-  width: 80px;
-  height: 30px;
-  background-color: yellow;
-  text-align: center;
-  border: 1px solid black;
-  display: inline-block;
-  line-height: 30px; }
-
-.button-content {
+  font-size: 14px;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
   position: relative;
   width: auto;
   height: auto;
@@ -42,10 +39,23 @@
   padding-bottom: 4px;
   padding-left: 5px;
   padding-right: 5px;
-  background-color: yellow;
-  color: #000000;
   text-align: center;
-  border: 1px solid black;
+  display: inline-block;
+  line-height: 30px; }
+
+.button-content {
+  font-size: 14px;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
   display: inline-block;
   line-height: 30px; }
 
@@ -204,12 +214,16 @@ body {
   clear: both; }
 
 .description {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
   float: left;
   width: 100%;
   padding: 10px;
   background-color: green; }
 
 .description-and-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
   float: left;
   width: 100%;
   padding: 10px;
