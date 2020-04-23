@@ -34,14 +34,15 @@
   color: $button-switch-content-font-color;
   background-color: $button-switch-content-backgroundcolor;
   border: $button-switch-content-border;
+  padding-top: $button-content-switch-padding-top-bottom;
+  padding-bottom: $button-content-switch-padding-top-bottom;
+  padding-left: $button-content-switch-padding-left-right;
+  padding-right: $button-content-switch-padding-left-right;
   position: relative;
   width: auto;
   height: auto;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
   text-align: center;
+  font-weight: bold;
   display: inline-block;
   line-height: 30px; 
 }
@@ -52,14 +53,15 @@
   color: $button-switch-content-font-color;
   background-color: $button-switch-content-backgroundcolor;
   border: $button-switch-content-border;
+  padding-top: $button-content-switch-padding-top-bottom;
+  padding-bottom: $button-content-switch-padding-top-bottom;
+  padding-left: $button-content-switch-padding-left-right;
+  padding-right: $button-content-switch-padding-left-right;
   position: relative;
   width: auto;
   height: auto;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
   text-align: center;
+  font-weight: bold;
   display: inline-block;
   line-height: 30px; 
 }

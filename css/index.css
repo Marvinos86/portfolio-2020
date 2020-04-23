@@ -25,34 +25,36 @@
   border-bottom: 4px solid #e60000; }
 
 .button-switch {
-  font-size: 14px;
+  font-size: 15px;
   color: #000000;
   background-color: #ffffff;
   border: 1px solid #000000;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
   position: relative;
   width: auto;
   height: auto;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
   text-align: center;
+  font-weight: bold;
   display: inline-block;
   line-height: 30px; }
 
 .button-content {
-  font-size: 14px;
+  font-size: 15px;
   color: #000000;
   background-color: #ffffff;
   border: 1px solid #000000;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
   position: relative;
   width: auto;
   height: auto;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
   text-align: center;
+  font-weight: bold;
   display: inline-block;
   line-height: 30px; }
 
@@ -91,23 +93,23 @@
 
 @media screen and (max-width: 1000px) {
   .button-top-menu {
-    font-size: 15px; }
+    font-size: 16px; }
   .button-selected {
-    font-size: 15px; }
+    font-size: 16px; }
   .button-switch {
-    font-size: 11px; }
+    font-size: 12px; }
   .button-content {
-    font-size: 11px; } }
+    font-size: 12px; } }
 
 @media screen and (min-width: 2500px) {
   .button-top-menu {
-    font-size: 30px; }
+    font-size: 25px; }
   .button-selected {
-    font-size: 30px; }
+    font-size: 25px; }
   .button-switch {
-    font-size: 17px; }
+    font-size: 18px; }
   .button-content {
-    font-size: 17px; } }
+    font-size: 18px; } }
 
 @font-face {
   font-family: 'Roboto';
@@ -244,7 +246,7 @@ body {
 
 .description {
   font-family: "Montserrat";
-  font-size: 13px;
+  font-size: 14px;
   float: left;
   width: 100%;
   padding: 10px;
@@ -252,7 +254,7 @@ body {
 
 .description-and-link {
   font-family: "Montserrat";
-  font-size: 13px;
+  font-size: 14px;
   float: left;
   width: 100%;
   padding: 10px;
@@ -278,13 +280,13 @@ body {
   .link-container {
     order: 1; }
   .description-and-link {
-    font-size: 10px;
+    font-size: 11px;
     order: 2; }
   .description {
-    font-size: 10px; } }
+    font-size: 11px; } }
 
 @media screen and (min-width: 2500px) {
   .description-and-link {
-    font-size: 16px; }
+    font-size: 17px; }
   .description {
-    font-size: 16px; } }
+    font-size: 17px; } }
