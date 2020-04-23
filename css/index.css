@@ -1,28 +1,28 @@
 .button-top-menu {
   font-size: 22px;
+  color: #ffffff;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  color: #fff;
   letter-spacing: 1px; }
 
 .button-top-menu:hover {
-  border-bottom: 4px solid #fff; }
+  border-bottom: 4px solid #ffffff; }
 
 .button-selected {
   font-size: 22px;
+  color: #ffffff;
+  border-bottom: 4px solid #e60000;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  color: #fff;
-  letter-spacing: 1px;
-  border-bottom: 4px solid #e60000; }
+  letter-spacing: 1px; }
 
 .button-switch {
   font-size: 16px;
@@ -67,17 +67,17 @@
   padding-top: 5px;
   font-weight: 100;
   font-size: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   color: #e60000;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 .next:hover {
-  color: #fff; }
+  color: #ffffff; }
 
 .prev:hover {
-  color: #fff; }
+  color: #ffffff; }
 
 .prev {
   left: 0;
@@ -198,10 +198,10 @@ body {
 
 .title-container {
   font-size: 20px;
+  background-color: #000000;
+  color: #ffffff;
   height: 30px;
   width: 100%;
-  background-color: purple;
-  color: #ffffff;
   margin-top: 50px;
   text-align: center; }
 
@@ -210,7 +210,7 @@ body {
   width: 90%;
   margin-left: 5%;
   padding: 10px;
-  background-color: red;
+  background-color: #000000;
   display: block;
   float: left; }
 
@@ -219,7 +219,7 @@ body {
   width: 90%;
   margin-left: 5%;
   padding: 10px;
-  background-color: blue;
+  background-color: #000000;
   display: none;
   float: left; }
 
@@ -245,7 +245,7 @@ body {
   height: auto;
   width: 28%;
   margin-left: 2%;
-  background-color: pink;
+  background-color: #000000;
   display: inline-block; }
 
 .content-container:after {
@@ -258,22 +258,19 @@ body {
   font-size: 14px;
   float: left;
   width: 100%;
-  padding: 10px;
-  background-color: green; }
+  padding: 10px; }
 
 .description-and-link {
   font-family: "Montserrat";
   font-size: 14px;
   float: left;
   width: 100%;
-  padding: 10px;
-  background-color: green; }
+  padding: 10px; }
 
 .link-container {
   float: left;
   width: 100%;
   padding: 10px;
-  background-color: sandybrown;
   text-align: center; }
 
 @media screen and (max-width: 1025px) {

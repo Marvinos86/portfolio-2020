@@ -26,7 +26,7 @@ a:focus { text-decoration: none; color: #fff; }
 a:hover, a:active { text-decoration: none; color: #fff }
 
 body {
-  background-color: #000000;
+  background-color: $body-background-color;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -35,7 +35,7 @@ body {
 
 /** Menu **/
 .left-bar {
-  background-color: #222;
+  background-color: $left-bar-background-color;
   width: 50px;
   height: 100vh;
   position: fixed;
@@ -44,7 +44,7 @@ body {
 .top-bar {
   width: 100vw;
   height: 50px;
-  background-color: #666666;
+  background-color: $top-bar-background-color;
   position: fixed;
   z-index: 1000; 
 }
@@ -70,10 +70,10 @@ body {
 }
 .title-container {
   font-size: $title-container-font-size-normal;
+  background-color: $title-container-background-color;
+  color: $title-font-color;
   height: 30px;
   width: 100%;
-  background-color: purple;
-  color: #ffffff;
   margin-top: 50px;
   text-align: center;
 }
@@ -82,7 +82,7 @@ body {
   width: $product-and-proces-container-width-normal;
   margin-left: $product-and-proces-container-margin-left-normal; 
   padding: $product-and-proces-container-padding;
-  background-color: red;
+  background-color: $product-container-background-color;
   display: block;
   float: left;
 }
@@ -91,7 +91,7 @@ body {
   width: $product-and-proces-container-width-normal;
   margin-left: $product-and-proces-container-margin-left-normal;
   padding: $product-and-proces-container-padding;
-  background-color: blue;
+  background-color: $proces-container-background-color;
   display: none;
   float: left;
 }
@@ -118,7 +118,7 @@ body {
   height: auto;
   width: 28%;
   margin-left: 2%;
-  background-color: pink;
+  background-color: $content-container-background-color;
   display: inline-block;
 }
 // Clear floats after the columns 
@@ -133,7 +133,6 @@ body {
   float: left;
   width: 100%;
   padding: 10px;
-  background-color: green;
 }
 .description-and-link {
   font-family: $description-font;
@@ -141,13 +140,11 @@ body {
   float: left;
   width: 100%;
   padding: 10px;
-  background-color: green;
 }
 .link-container {
   float: left;
   width: 100%;
   padding: 10px;
-  background-color: sandybrown;
   text-align: center;
 }
 

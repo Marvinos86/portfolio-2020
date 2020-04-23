@@ -3,29 +3,29 @@
 // buttons for top navigation menu
 .button-top-menu {
   font-size: $top-menu-button-font-size-normal;
+  color: $button-top-menu-font-color;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  color: #fff;
   letter-spacing: 1px; 
 }
 .button-top-menu:hover {
-  border-bottom: 4px solid #fff; 
+  border-bottom: $button-top-menu-border-bottom-on-hover; 
 }
 .button-selected {
   font-size: $top-menu-button-font-size-normal;
+  color: $button-top-menu-font-color;
+  border-bottom: $button-top-menu-border-bottom-on-selected;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  color: #fff;
-  letter-spacing: 1px;
-  border-bottom: 4px solid #e60000; 
+  letter-spacing: 1px; 
 }
 
 // button for switching between product and proces
@@ -76,17 +76,17 @@
   padding-top: $prev-next-buttons-padding-top-bottom-normal;
   font-weight: $prev-next-buttons-font-weight-normal;
   font-size: $prev-next-buttons-font-size-normal;
-  background: rgba(0, 0, 0, 0.8);
-  color: #e60000;
+  background-color: $button-slideshow-background-color;
+  color: $button-slideshow-font-color;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); 
 }
 .next:hover {
-  color: #fff; 
+  color: $button-slideshow-font-color-on-hover; 
 }
 .prev:hover {
-  color: #fff; 
+  color: $button-slideshow-font-color-on-hover; 
 }
 .prev {
   left: 0;
