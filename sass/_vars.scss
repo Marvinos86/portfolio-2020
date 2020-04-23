@@ -1,14 +1,16 @@
 // Container sizes
 $product-and-proces-container-height: auto;
 $product-and-proces-container-padding: 10px;
-
 $product-and-proces-container-width-normal: 90%;
 $product-and-proces-container-margin-left-normal: 5%;
-
 $product-and-proces-container-width-small: 96%;
 $product-and-proces-container-margin-left-small: 2%;
 
-// Font types and sizes
+// Font sizes for titles
+$title-container-font-size-normal: 20px;
+$title-container-font-size-small: 15px; 
+
+// Font type and font sizes for description
 $description-font: 'Montserrat';
 $description-font-size-normal: 14px;
 $description-font-size-small: 12px; 

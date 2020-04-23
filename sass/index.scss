@@ -28,13 +28,9 @@ a:hover, a:active { text-decoration: none; color: #fff }
 body {
   background-color: #000000;
   -webkit-user-select: none;
-  /* Safari */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* IE10+/Edge */
   user-select: none;
-  /* Standard */ 
 }
 
 /** Menu **/
@@ -73,6 +69,7 @@ body {
   text-align: center; 
 }
 .title-container {
+  font-size: $title-container-font-size-normal;
   height: 30px;
   width: 100%;
   background-color: purple;
@@ -166,6 +163,9 @@ body {
   .proces-container {
     width: $product-and-proces-container-width-small;
     margin-left: $product-and-proces-container-margin-left-small;
+  }
+  .title-container {
+    font-size: $title-container-font-size-small;
   }
   .slideshow {
     width: 100%;
