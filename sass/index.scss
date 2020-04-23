@@ -171,7 +171,20 @@ body {
     order: 1;
   }
   .description-and-link {
+    font-size: $description-small-font-size;
     order: 2;
+  }
+  .description {
+    font-size: $description-small-font-size;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .description-and-link {
+    font-size: $description-large-font-size;
+  }
+  .description {
+    font-size: $description-large-font-size;
   }
 }
 

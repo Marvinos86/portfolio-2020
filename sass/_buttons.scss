@@ -12,10 +12,10 @@
   color: #fff;
   letter-spacing: 1px; 
 }
-  .button-top-menu:hover {
+.button-top-menu:hover {
   border-bottom: 4px solid #fff; 
 }
-  .button-selected {
+.button-selected {
   font-size: $top-menu-button-normal-font-size;
   font-weight: bold;
   margin-left: 10px;
@@ -97,4 +97,34 @@
   right: 0;
   border-radius: 10px 0 0 10px;
   float: right; 
+}
+
+@media screen and (max-width: 1000px) {
+  .button-top-menu {
+    font-size: $top-menu-button-small-font-size;
+  }
+  .button-selected {
+    font-size: $top-menu-button-small-font-size;
+  }
+  .button-switch {
+    font-size: $button-switch-content-small-font-size;
+  }
+  .button-content {
+    font-size: $button-switch-content-small-font-size;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .button-top-menu {
+    font-size: $top-menu-button-large-font-size;
+  }
+  .button-selected {
+    font-size: $top-menu-button-large-font-size;
+  }
+  .button-switch {
+    font-size: $button-switch-content-large-font-size;
+  }
+  .button-content {
+    font-size: $button-switch-content-large-font-size;
+  }
 }

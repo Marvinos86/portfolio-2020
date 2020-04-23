@@ -89,6 +89,26 @@
   border-radius: 10px 0 0 10px;
   float: right; }
 
+@media screen and (max-width: 1000px) {
+  .button-top-menu {
+    font-size: 15px; }
+  .button-selected {
+    font-size: 15px; }
+  .button-switch {
+    font-size: 11px; }
+  .button-content {
+    font-size: 11px; } }
+
+@media screen and (min-width: 2500px) {
+  .button-top-menu {
+    font-size: 30px; }
+  .button-selected {
+    font-size: 30px; }
+  .button-switch {
+    font-size: 17px; }
+  .button-content {
+    font-size: 17px; } }
+
 @font-face {
   font-family: 'Roboto';
   src: url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic); }
@@ -258,4 +278,13 @@ body {
   .link-container {
     order: 1; }
   .description-and-link {
-    order: 2; } }
+    font-size: 10px;
+    order: 2; }
+  .description {
+    font-size: 10px; } }
+
+@media screen and (min-width: 2500px) {
+  .description-and-link {
+    font-size: 16px; }
+  .description {
+    font-size: 16px; } }
