@@ -1,5 +1,5 @@
 .button-top-menu {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
@@ -13,7 +13,7 @@
   border-bottom: 4px solid #fff; }
 
 .button-selected {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
@@ -25,7 +25,7 @@
   border-bottom: 4px solid #e60000; }
 
 .button-switch {
-  font-size: 15px;
+  font-size: 16px;
   color: #000000;
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -42,7 +42,7 @@
   line-height: 30px; }
 
 .button-content {
-  font-size: 15px;
+  font-size: 16px;
   color: #000000;
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -93,19 +93,19 @@
 
 @media screen and (max-width: 1280px) {
   .button-top-menu {
-    font-size: 16px; }
+    font-size: 17px; }
   .button-selected {
-    font-size: 16px; }
+    font-size: 17px; }
   .button-switch {
-    font-size: 12px; }
+    font-size: 14px; }
   .button-content {
-    font-size: 12px; } }
+    font-size: 14px; } }
 
 @media screen and (min-width: 2500px) {
   .button-top-menu {
-    font-size: 25px; }
+    font-size: 28px; }
   .button-selected {
-    font-size: 25px; }
+    font-size: 28px; }
   .button-switch {
     font-size: 18px; }
   .button-content {
@@ -280,10 +280,10 @@ body {
   .link-container {
     order: 1; }
   .description-and-link {
-    font-size: 11px;
+    font-size: 12px;
     order: 2; }
   .description {
-    font-size: 11px; } }
+    font-size: 12px; } }
 
 @media screen and (min-width: 2500px) {
   .description-and-link {
