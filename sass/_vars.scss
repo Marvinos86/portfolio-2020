@@ -1,26 +1,30 @@
 // Container sizes
 $product-and-proces-container-height: auto;
-$product-and-proces-container-width: 90%;
-$product-and-proces-container-margin-left: 5%;
 $product-and-proces-container-padding: 10px;
+
+$product-and-proces-container-width-normal: 90%;
+$product-and-proces-container-margin-left-normal: 5%;
+
+$product-and-proces-container-width-small: 96%;
+$product-and-proces-container-margin-left-small: 2%;
 
 // Font types and sizes
 $description-font: 'Montserrat';
-$description-normal-font-size: 14px;
-$description-small-font-size: 12px; 
-$description-large-font-size: 17px;
+$description-font-size-normal: 14px;
+$description-font-size-small: 12px; 
+$description-font-size-large: 17px;
 
 // Button top menu properties
 $top-menu-button-font: 'Roboto', sans-serif; 
-$top-menu-button-normal-font-size: 22px; 
-$top-menu-button-small-font-size: 17px; 
-$top-menu-button-large-font-size: 28px; 
+$top-menu-button-font-size-normal: 22px; 
+$top-menu-button-font-size-small: 17px; 
+$top-menu-button-font-size-large: 28px; 
 
 // Button switch/content properties
 $button-switch-content-font: 'Roboto', sans-serif; 
-$button-switch-content-normal-font-size: 16px; 
-$button-switch-content-small-font-size: 14px; 
-$button-switch-content-large-font-size: 18px;
+$button-switch-content-font-size-normal: 16px; 
+$button-switch-content-font-size-small: 14px; 
+$button-switch-content-font-size-large: 18px;
 
 $button-switch-content-font-color: #000000 ; 
 $button-switch-content-backgroundcolor: #ffffff; 

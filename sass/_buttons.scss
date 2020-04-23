@@ -2,7 +2,7 @@
 
 // buttons for top navigation menu
 .button-top-menu {
-  font-size: $top-menu-button-normal-font-size;
+  font-size: $top-menu-button-font-size-normal;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
@@ -16,7 +16,7 @@
   border-bottom: 4px solid #fff; 
 }
 .button-selected {
-  font-size: $top-menu-button-normal-font-size;
+  font-size: $top-menu-button-font-size-normal;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
@@ -30,7 +30,7 @@
 
 // button for switching between product and proces
 .button-switch {
-  font-size: $button-switch-content-normal-font-size;
+  font-size: $button-switch-content-font-size-normal;
   color: $button-switch-content-font-color;
   background-color: $button-switch-content-backgroundcolor;
   border: $button-switch-content-border;
@@ -49,7 +49,7 @@
 
 // button to products
 .button-content {
-  font-size: $button-switch-content-normal-font-size;
+  font-size: $button-switch-content-font-size-normal;
   color: $button-switch-content-font-color;
   background-color: $button-switch-content-backgroundcolor;
   border: $button-switch-content-border;
@@ -102,16 +102,16 @@
 // media query for buttons on screen smaller than 1025px
 @media screen and (max-width: 1025px) {
   .button-top-menu {
-    font-size: $top-menu-button-small-font-size;
+    font-size: $top-menu-button-font-size-small;
   }
   .button-selected {
-    font-size: $top-menu-button-small-font-size;
+    font-size: $top-menu-button-font-size-small;
   }
   .button-switch {
-    font-size: $button-switch-content-small-font-size;
+    font-size: $button-switch-content-font-size-small;
   }
   .button-content {
-    font-size: $button-switch-content-small-font-size;
+    font-size: $button-switch-content-font-size-small;
   }
   .prev, .next {
     padding-left: $prev-next-buttons-padding-left-right-small;
@@ -126,16 +126,16 @@
 // media query for buttons on screen larger than 2500px
 @media screen and (min-width: 2500px) {
   .button-top-menu {
-    font-size: $top-menu-button-large-font-size;
+    font-size: $top-menu-button-font-size-large;
   }
   .button-selected {
-    font-size: $top-menu-button-large-font-size;
+    font-size: $top-menu-button-font-size-large;
   }
   .button-switch {
-    font-size: $button-switch-content-large-font-size;
+    font-size: $button-switch-content-font-size-large;
   }
   .button-content {
-    font-size: $button-switch-content-large-font-size;
+    font-size: $button-switch-content-font-size-large;
   }
   .prev, .next {
     padding-left: $prev-next-buttons-padding-left-right-large;

@@ -82,8 +82,8 @@ body {
 }
 .product-container {
   height: $product-and-proces-container-height;
-  width: $product-and-proces-container-width;
-  margin-left: $product-and-proces-container-margin-left; 
+  width: $product-and-proces-container-width-normal;
+  margin-left: $product-and-proces-container-margin-left-normal; 
   padding: $product-and-proces-container-padding;
   background-color: red;
   display: block;
@@ -91,8 +91,8 @@ body {
 }
 .proces-container {
   height: $product-and-proces-container-height;
-  width: $product-and-proces-container-width;
-  margin-left: $product-and-proces-container-margin-left;
+  width: $product-and-proces-container-width-normal;
+  margin-left: $product-and-proces-container-margin-left-normal;
   padding: $product-and-proces-container-padding;
   background-color: blue;
   display: none;
@@ -132,7 +132,7 @@ body {
 }
 .description {
   font-family: $description-font;
-  font-size: $description-normal-font-size;
+  font-size: $description-font-size-normal;
   float: left;
   width: 100%;
   padding: 10px;
@@ -140,7 +140,7 @@ body {
 }
 .description-and-link {
   font-family: $description-font;
-  font-size: $description-normal-font-size;
+  font-size: $description-font-size-normal;
   float: left;
   width: 100%;
   padding: 10px;
@@ -159,6 +159,14 @@ body {
   .left-bar {
     display: none;
   }
+  .product-container {
+    width: $product-and-proces-container-width-small;
+    margin-left: $product-and-proces-container-margin-left-small; 
+  }
+  .proces-container {
+    width: $product-and-proces-container-width-small;
+    margin-left: $product-and-proces-container-margin-left-small;
+  }
   .slideshow {
     width: 100%;
   }
@@ -172,21 +180,21 @@ body {
     order: 1;
   }
   .description-and-link {
-    font-size: $description-small-font-size;
+    font-size: $description-font-size-small;
     order: 2;
   }
   .description {
-    font-size: $description-small-font-size;
+    font-size: $description-font-size-small;
   }
 }
 
 // media query for elements on screen larger than 2500px
 @media screen and (min-width: 2500px) {
   .description-and-link {
-    font-size: $description-large-font-size;
+    font-size: $description-font-size-large;
   }
   .description {
-    font-size: $description-large-font-size;
+    font-size: $description-font-size-large;
   }
 }
 

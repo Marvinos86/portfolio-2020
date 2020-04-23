@@ -282,6 +282,12 @@ body {
 @media screen and (max-width: 1025px) {
   .left-bar {
     display: none; }
+  .product-container {
+    width: 96%;
+    margin-left: 2%; }
+  .proces-container {
+    width: 96%;
+    margin-left: 2%; }
   .slideshow {
     width: 100%; }
   .content-container {
