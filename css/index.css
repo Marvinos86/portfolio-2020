@@ -247,7 +247,8 @@ body {
   margin-left: 5%;
   background-color: black;
   display: block;
-  padding: 10px; }
+  padding: 10px;
+  text-align: center; }
 
 /** Content **/
 .slideshow {
