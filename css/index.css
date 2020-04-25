@@ -207,10 +207,9 @@ body {
 
 /** Containers **/
 .container {
-  height: 100vh;
   width: 100%;
   border: 2px solid red;
-  padding: 20px; }
+  padding: 25px; }
 
 .button-switch-container {
   width: 100%;
