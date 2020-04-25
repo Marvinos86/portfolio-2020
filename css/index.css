@@ -24,6 +24,24 @@
   cursor: pointer;
   letter-spacing: 1px; }
 
+.button-linkedin {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Arial';
+  background-color: #0274b3;
+  color: #ffffff;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  line-height: 20px; }
+
 .button-switch {
   font-size: 16px;
   color: #000000;
