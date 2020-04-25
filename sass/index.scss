@@ -25,6 +25,9 @@ a:hover { text-decoration: none; color: #fff; }
 a:focus { text-decoration: none; color: #fff; }
 a:hover, a:active { text-decoration: none; color: #fff }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: $body-background-color;
   -webkit-user-select: none;

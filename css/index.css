@@ -173,6 +173,9 @@ a:hover, a:active {
   text-decoration: none;
   color: #fff; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   background-color: #000000;
   -webkit-user-select: none;
