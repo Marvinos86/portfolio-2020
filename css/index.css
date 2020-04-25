@@ -57,7 +57,8 @@
   text-align: center;
   font-weight: bold;
   display: inline-block;
-  line-height: 30px; }
+  line-height: 30px;
+  cursor: pointer; }
 
 .button-content {
   font-size: 16px;
@@ -74,7 +75,8 @@
   text-align: center;
   font-weight: bold;
   display: inline-block;
-  line-height: 30px; }
+  line-height: 30px;
+  cursor: pointer; }
 
 .prev, .next {
   cursor: pointer;
