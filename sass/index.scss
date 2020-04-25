@@ -133,6 +133,7 @@ body {
 .description {
   font-family: $description-font;
   font-size: $description-font-size-normal;
+  color: $description-font-color;
   float: left;
   width: 100%;
   padding: 10px;
@@ -140,6 +141,7 @@ body {
 .description-and-link {
   font-family: $description-font;
   font-size: $description-font-size-normal;
+  color: $description-font-color;
   float: left;
   width: 100%;
   padding: 10px;

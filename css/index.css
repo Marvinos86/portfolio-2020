@@ -277,6 +277,7 @@ body {
 .description {
   font-family: "Montserrat";
   font-size: 14px;
+  color: #ffffff;
   float: left;
   width: 100%;
   padding: 10px; }
@@ -284,6 +285,7 @@ body {
 .description-and-link {
   font-family: "Montserrat";
   font-size: 14px;
+  color: #ffffff;
   float: left;
   width: 100%;
   padding: 10px; }
