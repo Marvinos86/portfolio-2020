@@ -328,7 +328,7 @@ function ToggleProductProces(event) {
     var projectButton = event.currentTarget.dataset.project;
 
     // Get id of the parnet container
-    var projectContainer = event.currentTarget.parentElement.parentElement.id;
+    var projectContainer = event.currentTarget.parentElement.parentElement.parentElement.id;
 
     // Get references for product & proces child containers
     var productSlideshow = $('#' + projectContainer + ' #product-' + projectContainer);
