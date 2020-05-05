@@ -271,7 +271,8 @@ body {
   color: #ffffff;
   height: 30px;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  top: 50px; }
 
 .product-container {
   height: auto;
