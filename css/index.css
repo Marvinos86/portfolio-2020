@@ -246,7 +246,8 @@ body {
   height: 30px;
   display: block;
   margin-top: 10px;
-  text-align: center; }
+  text-align: center;
+  top: -30px; }
 
 .title-container {
   font-size: 20px;
@@ -255,6 +256,7 @@ body {
   height: 30px;
   width: 100%;
   margin-top: 50px;
+  margin-left: 5%;
   text-align: center; }
 
 .product-container {
@@ -346,7 +348,8 @@ body {
     width: 96%;
     margin-left: 2%; }
   .title-container {
-    font-size: 15px; }
+    font-size: 15px;
+    margin-left: 2%; }
   .slideshow {
     width: 100%; }
   .content-container {

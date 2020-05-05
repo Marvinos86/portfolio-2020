@@ -68,6 +68,7 @@ body {
   display: block;
   margin-top: 10px;
   text-align: center; 
+  top: -30px;
 }
 .title-container {
   font-size: $title-container-font-size-normal;
@@ -76,6 +77,7 @@ body {
   height: 30px;
   width: 100%;
   margin-top: 50px;
+  margin-left: $product-and-proces-container-margin-left-normal;
   text-align: center;
 }
 .product-container {
@@ -177,6 +179,7 @@ body {
   }
   .title-container {
     font-size: $title-container-font-size-small;
+    margin-left: $product-and-proces-container-margin-left-small;
   }
   .slideshow {
     width: 100%;
