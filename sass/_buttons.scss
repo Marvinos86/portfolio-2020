@@ -27,7 +27,6 @@
   cursor: pointer;
   letter-spacing: 1px; 
 }
-
 .button-linkedin {
   font-size: 25px;
   font-weight: bold;
@@ -45,6 +44,19 @@
   cursor: pointer;
   border-radius: 5px;
   line-height: 20px;
+}
+
+.button-second-menu {
+  font-size: $second-menu-button-font-size-normal;
+  color: $button-second-menu-font-color;
+  background-color: $button-second-menu-background-color;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  letter-spacing: 1px;
 }
 
 // button for switching between product and proces
@@ -127,6 +139,9 @@
   }
   .button-selected {
     font-size: $top-menu-button-font-size-small;
+  }
+  .button-second-menu {
+    font-size: $second-menu-button-font-size-small;
   }
   .button-switch {
     font-size: $button-switch-content-font-size-small;

@@ -10,6 +10,9 @@ $index-title-font-color: #ffffff;
 $button-top-menu-border-bottom-on-hover: 4px solid #ffffff;
 $button-top-menu-border-bottom-on-selected: 4px solid #86C232; 
 
+$button-second-menu-font-color: #ffffff;
+$button-second-menu-background-color: #61892F;
+
 $button-switch-content-font-color: #ffffff; 
 $button-switch-content-backgroundcolor: #61892F; 
 $button-switch-content-border: 1px solid #000000;
@@ -58,6 +61,12 @@ $top-menu-button-font: 'Roboto', sans-serif;
 $top-menu-button-font-size-normal: 22px; 
 $top-menu-button-font-size-small: 17px; 
 $top-menu-button-font-size-large: 28px; 
+
+// Button second menu properties 
+$second-menu-button-font: 'Roboto', sans-serif;
+$second-menu-button-font-size-normal: 18px;
+$second-menu-button-font-size-small: 15px; 
+$second-menu-button-font-size-large: 25px;
 
 // Button switch/content properties
 $button-switch-content-font: 'Roboto', sans-serif; 
