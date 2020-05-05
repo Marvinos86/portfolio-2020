@@ -153,6 +153,10 @@
   padding: 25px;
   top: -50px; }
 
+.introduction-title {
+  border: solid 2px red;
+  font-size: 30px; }
+
 .introduction-text {
   border: solid 2px red;
   height: 200px;
