@@ -82,7 +82,7 @@ body {
   height: $product-and-proces-container-height;
   width: $product-and-proces-container-width-normal;
   margin-left: $product-and-proces-container-margin-left-normal; 
-  padding: $product-and-proces-container-padding;
+  padding-top: $product-and-proces-container-padding;
   background-color: $product-container-background-color;
   display: block;
   float: left;
@@ -91,7 +91,7 @@ body {
   height: $product-and-proces-container-height;
   width: $product-and-proces-container-width-normal;
   margin-left: $product-and-proces-container-margin-left-normal;
-  padding: $product-and-proces-container-padding;
+  padding-top: $product-and-proces-container-padding;
   background-color: $proces-container-background-color;
   display: none;
   float: left;

@@ -261,7 +261,7 @@ body {
   height: auto;
   width: 90%;
   margin-left: 5%;
-  padding: 10px;
+  padding-top: 10px;
   background-color: #222629;
   display: block;
   float: left; }
@@ -270,7 +270,7 @@ body {
   height: auto;
   width: 90%;
   margin-left: 5%;
-  padding: 10px;
+  padding-top: 10px;
   background-color: #222629;
   display: none;
   float: left; }
