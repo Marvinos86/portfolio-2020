@@ -246,7 +246,8 @@ body {
   margin-left: 5%;
   text-align: center;
   position: relative;
-  top: 50px; }
+  top: 50px;
+  padding-bottom: 50px; }
 
 .button-switch-container {
   width: 100%;
