@@ -1,15 +1,15 @@
 @import "vars";
 
 .introduction-container {
-    background-color: green;
+    background-color: #000000;
+    background-image: url("content/desktop-background-1.jpg");
+    width: 100%;
     height: 100vh;
-    width: 100vw;
+    padding: 25px;
     top: -$top-menu-height;
 }
-
 .introduction-text {
     border: solid 2px red;
     height: 200px;
     width: 200px;
-
 }
