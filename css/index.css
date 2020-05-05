@@ -43,13 +43,11 @@
   line-height: 20px; }
 
 .button-second-menu {
-  font-size: 15px;
+  font-size: 13px;
   color: #ffffff;
   font-weight: bold;
   margin-left: 2px;
   margin-right: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
@@ -131,7 +129,7 @@
   .button-selected {
     font-size: 17px; }
   .button-second-menu {
-    font-size: 12px; }
+    font-size: 11px; }
   .button-switch {
     font-size: 14px; }
   .button-content {
@@ -265,7 +263,7 @@ body {
 
 .second-bar {
   width: 100vw;
-  height: 30px;
+  height: 25px;
   background-color: #6B6E70;
   position: fixed;
   z-index: 1000;
@@ -274,8 +272,7 @@ body {
 .second-menu {
   position: absolute;
   float: right;
-  right: 10%;
-  margin-top: 5px; }
+  right: 10%; }
 
 /** Containers **/
 .container {
