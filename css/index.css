@@ -45,7 +45,6 @@
 .button-second-menu {
   font-size: 15px;
   color: #ffffff;
-  background-color: #61892F;
   font-weight: bold;
   margin-left: 2px;
   margin-right: 2px;
@@ -55,6 +54,9 @@
   display: inline-block;
   cursor: pointer;
   letter-spacing: 1px; }
+
+.button-second-menu:hover {
+  border-bottom: 2px solid #ffffff; }
 
 .button-switch {
   font-size: 16px;
