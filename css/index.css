@@ -15,7 +15,7 @@
 .button-selected {
   font-size: 22px;
   color: #ffffff;
-  border-bottom: 4px solid #e60000;
+  border-bottom: 4px solid #61892F;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
@@ -45,7 +45,7 @@
 .button-switch {
   font-size: 16px;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #86C232;
   border: 1px solid #000000;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -63,7 +63,7 @@
 .button-content {
   font-size: 16px;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #86C232;
   border: 1px solid #000000;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -88,7 +88,7 @@
   font-weight: 100;
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0.8);
-  color: #e60000;
+  color: #86C232;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
@@ -194,7 +194,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: #000000;
+  background-color: #222629;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -202,7 +202,7 @@ body {
 
 /** Menu **/
 .left-bar {
-  background-color: #222;
+  background-color: #474B4F;
   width: 50px;
   height: 100vh;
   position: fixed;
@@ -211,7 +211,7 @@ body {
 .top-bar {
   width: 100vw;
   height: 50px;
-  background-color: #666666;
+  background-color: #6B6E70;
   position: fixed;
   z-index: 1000; }
 
@@ -234,7 +234,7 @@ body {
 
 .title-container {
   font-size: 20px;
-  background-color: #000000;
+  background-color: #222629;
   color: #ffffff;
   height: 30px;
   width: 100%;
@@ -246,7 +246,7 @@ body {
   width: 90%;
   margin-left: 5%;
   padding: 10px;
-  background-color: #000000;
+  background-color: #222629;
   display: block;
   float: left; }
 
@@ -255,7 +255,7 @@ body {
   width: 90%;
   margin-left: 5%;
   padding: 10px;
-  background-color: #000000;
+  background-color: #222629;
   display: none;
   float: left; }
 
@@ -284,7 +284,7 @@ body {
   height: auto;
   width: 28%;
   margin-left: 2%;
-  background-color: #000000;
+  background-color: #222629;
   display: inline-block; }
 
 .content-container:after {
