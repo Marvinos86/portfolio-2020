@@ -12,3 +12,19 @@
   border: solid 2px red;
   height: 200px;
   width: 200px; }
+
+.border-left-top {
+  border-left: 3px solid #86C232;
+  border-top: 3px solid #86C232; }
+
+.border-left-bottom {
+  border-left: 3px solid #86C232;
+  border-bottom: 3px solid #86C232; }
+
+.bottom-right-top {
+  border-right: 3px solid #86C232;
+  border-top: 3px solid #86C232; }
+
+.bottom-right-bottom {
+  border-right: 3px solid #86C232;
+  border-bottom: 3px solid #86C232; }
