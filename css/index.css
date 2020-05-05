@@ -47,10 +47,10 @@
   color: #ffffff;
   background-color: #61892F;
   font-weight: bold;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-left: 3px;
-  padding-right: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
@@ -264,7 +264,7 @@ body {
 .second-bar {
   width: 100vw;
   height: 30px;
-  background-color: red;
+  background-color: #7d8082;
   position: fixed;
   z-index: 1000;
   margin-top: 50px; }
@@ -395,7 +395,9 @@ body {
   .left-bar {
     display: none; }
   .top-menu {
-    left: 10%; }
+    right: 5%; }
+  .second-menu {
+    right: 5%; }
   .project-bar {
     margin-left: 2%; }
   .product-container {
