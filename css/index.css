@@ -15,7 +15,7 @@
 .button-selected {
   font-size: 22px;
   color: #ffffff;
-  border-bottom: 4px solid #61892F;
+  border-bottom: 4px solid #86C232;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
@@ -44,8 +44,8 @@
 
 .button-switch {
   font-size: 16px;
-  color: #000000;
-  background-color: #86C232;
+  color: #ffffff;
+  background-color: #61892F;
   border: 1px solid #000000;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -62,8 +62,8 @@
 
 .button-content {
   font-size: 16px;
-  color: #000000;
-  background-color: #86C232;
+  color: #ffffff;
+  background-color: #61892F;
   border: 1px solid #000000;
   padding-top: 1px;
   padding-bottom: 1px;
