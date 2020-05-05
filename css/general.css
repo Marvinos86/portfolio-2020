@@ -1,6 +1,6 @@
 .introduction-container {
   background-color: #000000;
-  background-image: url("content/desktop-background-1.jpg");
+  background-image: url(content/desktop-background-1.jpg);
   width: 100%;
   height: 100vh;
   padding: 25px;
