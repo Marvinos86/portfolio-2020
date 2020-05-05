@@ -45,7 +45,6 @@
   border-radius: 5px;
   line-height: 20px;
 }
-
 .button-second-menu {
   font-size: $second-menu-button-font-size-normal;
   color: $button-second-menu-font-color;
@@ -53,6 +52,8 @@
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
   text-align: center;
   display: inline-block;
   cursor: pointer;

@@ -43,12 +43,14 @@
   line-height: 20px; }
 
 .button-second-menu {
-  font-size: 18px;
+  font-size: 15px;
   color: #ffffff;
   background-color: #61892F;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
@@ -127,7 +129,7 @@
   .button-selected {
     font-size: 17px; }
   .button-second-menu {
-    font-size: 15px; }
+    font-size: 12px; }
   .button-switch {
     font-size: 14px; }
   .button-content {
@@ -263,7 +265,8 @@ body {
   height: 30px;
   background-color: red;
   position: fixed;
-  z-index: 1000; }
+  z-index: 1000;
+  margin-top: 50px; }
 
 .second-menu {
   position: absolute;
