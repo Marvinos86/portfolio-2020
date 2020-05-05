@@ -35,7 +35,6 @@
   padding-top: 4px;
   padding-bottom: 4px;
   margin-left: 10px;
-  margin-right: 10px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
@@ -46,8 +45,8 @@
   font-size: 13px;
   color: #ffffff;
   font-weight: bold;
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
