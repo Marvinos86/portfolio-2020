@@ -248,6 +248,16 @@ body {
   }
 }
 
+// media query for elements on screen smaller than 628px
+@media screen and (max-width: 628px) {
+  .second-bar {
+    height: $second-menu-height-very-small;
+  }
+  .container { 
+    padding-top: 57px;
+  }
+}
+
 
 
 //   .toggle-button {
