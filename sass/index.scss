@@ -158,6 +158,9 @@ body {
 
 // media query for elements on screens smaller than 1025px
 @media screen and (max-width: 1025px) {
+  .introduction-container {
+    background-image: url("../content/mobile-background-1.jpg");
+}
   .left-bar {
     display: none;
   }
