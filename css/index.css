@@ -265,6 +265,14 @@ body {
   position: absolute;
   left: 0; }
 
+.skills-title-container {
+  font-size: 20px;
+  background-color: #222629;
+  color: #ffffff;
+  height: 30px;
+  width: 100%;
+  text-align: center; }
+
 .product-container {
   height: auto;
   width: 90%;

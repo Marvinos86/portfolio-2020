@@ -86,6 +86,14 @@ body {
   position: absolute;
   left:0;
 }
+.skills-title-container {
+  font-size: $title-container-font-size-normal;
+  background-color: $title-container-background-color;
+  color: $title-font-color;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
 .product-container {
   height: $product-and-proces-container-height;
   width: $product-and-proces-container-width-normal;
