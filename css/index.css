@@ -347,6 +347,8 @@ body {
     display: none; }
   .top-menu {
     left: 10%; }
+  .project-bar {
+    margin-left: 2%; }
   .product-container {
     width: 96%;
     margin-left: 2%; }
