@@ -245,7 +245,8 @@ body {
   width: 100%;
   margin-left: 5%;
   text-align: center;
-  position: relative; }
+  position: relative;
+  top: 50px; }
 
 .button-switch-container {
   width: 100%;
