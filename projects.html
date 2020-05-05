@@ -28,13 +28,18 @@
 
 <!-- Project Gedelegeerden App --> 
     <div class="container" id="gedel">
-        <div class="title-container"> 
-            Gedelegeerden Applicatie
+
+        <div class="project-bar">
+            <div class="title-container"> 
+                Gedelegeerden Applicatie
+            </div>
+            <div class="button-switch-container">
+                <div class="button-switch" data-project="product" onclick="ToggleProductProces(event)">Product</div>
+                <div class="button-switch" data-project="proces" onclick="ToggleProductProces(event)">Proces</div>
+            </div>
         </div>
-        <div class="button-switch-container">
-            <div class="button-switch" data-project="product" onclick="ToggleProductProces(event)">Product</div>
-            <div class="button-switch" data-project="proces" onclick="ToggleProductProces(event)">Proces</div>
-        </div>
+
+        
 
         <div class="product-container" id="product-gedel"> 
             <div class="slideshow float-left border-left-top">

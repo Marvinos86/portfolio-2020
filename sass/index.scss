@@ -62,23 +62,27 @@ body {
   width: 100%;
   padding: 25px; 
 }
+.project-bar {
+  width: 100%;
+  margin-left: $product-and-proces-container-margin-left-normal;
+  text-align: center;
+  position: relative;
+}
 .button-switch-container {
   width: 100%;
   height: 30px;
   display: block;
   margin-top: 10px;
   text-align: center; 
-  top: -30px;
 }
 .title-container {
   font-size: $title-container-font-size-normal;
   background-color: $title-container-background-color;
   color: $title-font-color;
   height: 30px;
-  width: 100%;
-  margin-top: 50px;
-  margin-left: $product-and-proces-container-margin-left-normal;
-  text-align: center;
+  width: auto;
+  position: absolute;
+  left:0;
 }
 .product-container {
   height: $product-and-proces-container-height;
