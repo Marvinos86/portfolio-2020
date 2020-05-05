@@ -12,7 +12,10 @@
 }
 .introduction-title {
     border: solid 2px red;
-    font-size: 30px;
+    font-size: $index-title-font-size;
+    color: $index-title-font-color;
+    text-align: right;
+
 }
 .introduction-text {
     border: solid 2px red;

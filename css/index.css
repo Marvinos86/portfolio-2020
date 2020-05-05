@@ -155,7 +155,9 @@
 
 .introduction-title {
   border: solid 2px red;
-  font-size: 30px; }
+  font-size: 30px;
+  color: #ffffff;
+  text-align: right; }
 
 .introduction-text {
   border: solid 2px red;
