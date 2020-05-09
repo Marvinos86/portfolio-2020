@@ -163,16 +163,16 @@ body {
 .project-title {
   font-size: $project-title-font-size-normal;
   background-color: $project-title-background-color;
-  color: $title-font-color;
+  color: $project-title-font-color;
   height: 30px;
-  width: auto;
+  width: 30%;
   position: absolute;
   left:0;
 }
 .skills-title {
   font-size: $skills-title-font-size-normal;
   background-color: $skills-title-background-color;
-  color: $title-font-color;
+  color: $skills-title-font-color;
   height: 30px;
   width: 100%;
   text-align: center;
