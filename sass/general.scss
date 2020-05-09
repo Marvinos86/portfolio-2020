@@ -10,10 +10,18 @@
     padding: 25px;
     top: -$top-menu-height;
 }
-.introduction-title {
+.introduction-name {
     border: solid 2px red;
-    font-size: $index-title-font-size;
-    color: $index-title-font-color;
+    font-size: $index-name-font-size;
+    color: $index-name-font-color;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 50px;
+}
+.introduction-specialism {
+    border: solid 2px red;
+    font-size: $index-specialism-font-size;
+    color: $index-specialism-font-color;
     font-weight: bold;
     text-align: right;
     margin-top: 50px;

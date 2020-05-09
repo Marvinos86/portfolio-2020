@@ -168,7 +168,15 @@
   padding: 25px;
   top: -50px; }
 
-.introduction-title {
+.introduction-name {
+  border: solid 2px red;
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 50px; }
+
+.introduction-specialism {
   border: solid 2px red;
   font-size: 30px;
   color: #ffffff;
