@@ -192,22 +192,6 @@
   float: right;
   text-align: left; }
 
-.border-left-top {
-  border-left: 3px solid #86C232;
-  border-top: 3px solid #86C232; }
-
-.border-left-bottom {
-  border-left: 3px solid #86C232;
-  border-bottom: 3px solid #86C232; }
-
-.border-right-top {
-  border-right: 3px solid #86C232;
-  border-top: 3px solid #86C232; }
-
-.border-right-bottom {
-  border-right: 3px solid #86C232;
-  border-bottom: 3px solid #86C232; }
-
 @font-face {
   font-family: 'Roboto';
   src: url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic); }

@@ -2,28 +2,18 @@
 $title-font-color: #ffffff;
 $description-font-color: #ffffff; 
 $button-top-menu-font-color: #ffffff; 
-
-$index-name-font-size-large: 55px;
-$index-name-font-size-small: 45px;
 $index-name-font-color: #ffffff;
-$index-specialism-font-size-large: 50px;
-$index-specialism-font-size-small: 40px;
 $index-specialism-font-color: #ffffff;
-$index-text-font-size-large: 14px;
-$index-text-font-size-small: 11px;
 $index-text-font-color: #ffffff;
 
 // COLOR SCHEME BUTTONS
 $button-top-menu-border-bottom-on-hover: 4px solid #ffffff;
 $button-top-menu-border-bottom-on-selected: 4px solid #86C232; 
-
 $button-second-menu-font-color: #222629;
 $button-second-menu-border-bottom-on-hover: 2px solid #222629;
-
 $button-switch-content-font-color: #ffffff; 
 $button-switch-content-backgroundcolor: #61892F; 
 $button-switch-content-border: 1px solid #000000;
-
 $button-slideshow-font-color: #86C232; 
 $button-slideshow-font-color-on-hover: #ffffff;
 $button-slideshow-background-color: rgba(0, 0, 0, 0.8);
@@ -36,67 +26,57 @@ $second-bar-background-color: #6B6E70;
 $product-container-background-color: #222629; 
 $proces-container-background-color: #222629; 
 $title-container-background-color: #222629; 
-$content-container-background-color: #222629; 
+$content-container-background-color: #222629;
 
-// SLIDESHOW BORDERS
-$slideshow-border-color: #86C232; 
-$slideshow-border-thickness: 3px;
-$slideshow-border-type: solid;
+// FONTS
+$description-font: 'Montserrat';
+$button-switch-content-font: 'Roboto', sans-serif;
+$second-menu-button-font: 'Roboto', sans-serif;
+$top-menu-button-font: 'Roboto', sans-serif;
 
-// Container sizes
+// FONT SIZES
+$index-name-font-size-large: 55px;
+$index-name-font-size-small: 45px;
+$index-specialism-font-size-large: 50px;
+$index-specialism-font-size-small: 40px;
+$index-text-font-size-large: 14px;
+$index-text-font-size-small: 11px;
+$title-container-font-size-normal: 20px;
+$title-container-font-size-small: 15px; 
+$description-font-size-normal: 14px;
+$description-font-size-small: 12px; 
+$description-font-size-large: 17px;
+$top-menu-button-font-size-normal: 22px; 
+$top-menu-button-font-size-small: 17px; 
+$top-menu-button-font-size-large: 28px; 
+$second-menu-button-font-size-normal: 13px;
+$second-menu-button-font-size-small: 11px; 
+$second-menu-button-font-size-large: 16px;
+$button-switch-content-font-size-normal: 16px; 
+$button-switch-content-font-size-small: 14px; 
+$button-switch-content-font-size-large: 18px;
+$prev-next-buttons-font-weight-normal: 100;
+$prev-next-buttons-font-size-normal: 40px;
+$prev-next-buttons-font-weight-small: 80;
+$prev-next-buttons-font-size-small: 30px;
+$prev-next-buttons-font-weight-large: 120;
+$prev-next-buttons-font-size-large: 50px;
+
+// DIV SIZES AND PADDING
 $top-menu-height: 50px;
 $second-menu-height: 25px;
 $second-menu-height-very-small: 47px;
 $product-and-proces-container-height: auto;
 $product-and-proces-container-padding: 10px;
 $product-and-proces-container-width-normal: 90%;
-$product-and-proces-container-margin-left-normal: 5%;
 $product-and-proces-container-width-small: 96%;
+$product-and-proces-container-margin-left-normal: 5%;
 $product-and-proces-container-margin-left-small: 2%;
-
-// Font sizes for titles
-$title-container-font-size-normal: 20px;
-$title-container-font-size-small: 15px; 
-
-// Font type and font sizes for description
-$description-font: 'Montserrat';
-$description-font-size-normal: 14px;
-$description-font-size-small: 12px; 
-$description-font-size-large: 17px;
-
-// Button top menu properties
-$top-menu-button-font: 'Roboto', sans-serif; 
-$top-menu-button-font-size-normal: 22px; 
-$top-menu-button-font-size-small: 17px; 
-$top-menu-button-font-size-large: 28px; 
-
-// Button second menu properties 
-$second-menu-button-font: 'Roboto', sans-serif;
-$second-menu-button-font-size-normal: 13px;
-$second-menu-button-font-size-small: 11px; 
-$second-menu-button-font-size-large: 16px;
-
-// Button switch/content properties
-$button-switch-content-font: 'Roboto', sans-serif; 
-$button-switch-content-font-size-normal: 16px; 
-$button-switch-content-font-size-small: 14px; 
-$button-switch-content-font-size-large: 18px;
-
 $button-content-switch-padding-top-bottom: 1px;
 $button-content-switch-padding-left-right: 8px;
-
-// Buttons slideshows properties
-$prev-next-buttons-padding-left-right-normal: 8px;
-$prev-next-buttons-padding-top-bottom-normal: 5px;
-$prev-next-buttons-font-weight-normal: 100;
-$prev-next-buttons-font-size-normal: 40px;
-
 $prev-next-buttons-padding-left-right-small: 6px;
 $prev-next-buttons-padding-top-bottom-small: 4px;
-$prev-next-buttons-font-weight-small: 80;
-$prev-next-buttons-font-size-small: 30px;
-
+$prev-next-buttons-padding-left-right-normal: 8px;
+$prev-next-buttons-padding-top-bottom-normal: 5px;
 $prev-next-buttons-padding-left-right-large: 12px;
 $prev-next-buttons-padding-top-bottom-large: 7px;
-$prev-next-buttons-font-weight-large: 120;
-$prev-next-buttons-font-size-large: 50px;
