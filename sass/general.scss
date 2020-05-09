@@ -13,6 +13,7 @@
 .index-name {
     font-size: $index-name-font-size-large;
     color: $index-name-font-color;
+    font: $index-name-font;
     font-weight: bold;
     text-align: left;
     margin-top: 50px;
@@ -21,6 +22,7 @@
 .index-specialism {
     font-size: $index-specialism-font-size-large;
     color: $index-specialism-font-color;
+    font: $index-specialism-font;
     font-weight: bold;
     text-align: left;
     margin-top: 10px;
@@ -29,6 +31,7 @@
 .index-text {
     font-size: $index-text-font-size-large;
     color: $index-text-font-color;
+    font: $index-text-font;
     height: 200px;
     width: 200px;
     float: right;

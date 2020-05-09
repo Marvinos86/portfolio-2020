@@ -171,6 +171,7 @@
 .index-name {
   font-size: 55px;
   color: #ffffff;
+  font: "Roboto", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 50px;
@@ -179,6 +180,7 @@
 .index-specialism {
   font-size: 50px;
   color: #ffffff;
+  font: "Roboto", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
@@ -187,6 +189,7 @@
 .index-text {
   font-size: 14px;
   color: #ffffff;
+  font: "Montserrat";
   height: 200px;
   width: 200px;
   float: right;
