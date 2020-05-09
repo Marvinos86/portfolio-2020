@@ -62,9 +62,8 @@
 // button for switching between product and proces
 .button-switch {
   font-size: $button-switch-content-font-size-normal;
-  color: $button-switch-content-font-color;
-  background-color: $button-switch-content-backgroundcolor;
-  border: $button-switch-content-border;
+  color: $button-switch-font-color;
+  background-color: $button-switch-backgroundcolor;
   padding-top: $button-content-switch-padding-top-bottom;
   padding-bottom: $button-content-switch-padding-top-bottom;
   padding-left: $button-content-switch-padding-left-right;
@@ -82,8 +81,8 @@
 // button to products
 .button-content {
   font-size: $button-switch-content-font-size-normal;
-  color: $button-switch-content-font-color;
-  background-color: $button-switch-content-backgroundcolor;
+  color: $button-content-font-color;
+  background-color: $button-content-backgroundcolor;
   border: $button-switch-content-border;
   padding-top: $button-content-switch-padding-top-bottom;
   padding-bottom: $button-content-switch-padding-top-bottom;

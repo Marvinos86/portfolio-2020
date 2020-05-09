@@ -131,24 +131,6 @@ body {
   margin-top: 10px;
   text-align: center; 
 }
-.title-container {
-  font-size: $title-container-font-size-normal;
-  background-color: $title-container-background-color;
-  color: $title-font-color;
-  height: 30px;
-  width: auto;
-  position: absolute;
-  left:0;
-}
-.skills-title-container {
-  font-size: $title-container-font-size-normal;
-  background-color: $title-container-background-color;
-  color: $title-font-color;
-  height: 30px;
-  width: 100%;
-  text-align: center;
-  margin-top: 50px;
-}
 .product-container {
   height: $product-and-proces-container-height;
   width: $product-and-proces-container-width-normal;
@@ -178,6 +160,24 @@ body {
 }
 
 /** Content **/
+.project-title {
+  font-size: $project-title-font-size-normal;
+  background-color: $project-title-background-color;
+  color: $title-font-color;
+  height: 30px;
+  width: auto;
+  position: absolute;
+  left:0;
+}
+.skills-title {
+  font-size: $skills-title-font-size-normal;
+  background-color: $skills-title-background-color;
+  color: $title-font-color;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
 .slideshow {
   width: 70%;
   height: auto;
@@ -263,8 +263,11 @@ body {
     width: $product-and-proces-container-width-small;
     margin-left: $product-and-proces-container-margin-left-small;
   }
-  .title-container {
-    font-size: $title-container-font-size-small;
+  .project-title {
+    font-size: $title-font-size-small;
+  }
+  .skills-title {
+    font-size: $skills-title-font-size-small;
   }
   .slideshow {
     width: 100%;

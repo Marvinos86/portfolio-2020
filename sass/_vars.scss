@@ -1,19 +1,23 @@
 // COLOR SCHEME FONT
-$title-font-color: #ffffff;
-$description-font-color: #ffffff; 
-$button-top-menu-font-color: #ffffff; 
 $index-name-font-color: #ffffff;
 $index-specialism-font-color: #ffffff;
 $index-text-font-color: #ffffff;
+$button-top-menu-font-color: #ffffff; 
+$project-title-font-color: #ffffff;
+$skills-title-font-color: #ffffff;
+$description-font-color: #ffffff; 
 
-// COLOR SCHEME BUTTONS
+// COLOR SCHEME MENU BUTTONS
 $button-top-menu-border-bottom-on-hover: 4px solid #ffffff;
 $button-top-menu-border-bottom-on-selected: 4px solid #86C232; 
 $button-second-menu-font-color: #222629;
 $button-second-menu-border-bottom-on-hover: 2px solid #222629;
-$button-switch-content-font-color: #ffffff; 
-$button-switch-content-backgroundcolor: #61892F; 
-$button-switch-content-border: 1px solid #000000;
+
+// COLOR SCHEME CONTENT BUTTONS
+$button-content-font-color: #ffffff;
+$button-content-backgroundcolor: #61892F;
+$button-switch-font-color: #ffffff;
+$button-switch-backgroundcolor: #61892F; 
 $button-slideshow-font-color: #86C232; 
 $button-slideshow-font-color-on-hover: #ffffff;
 $button-slideshow-background-color: rgba(0, 0, 0, 0.8);
@@ -25,7 +29,8 @@ $top-bar-background-color: #6B6E70;
 $second-bar-background-color: #6B6E70;
 $product-container-background-color: #222629; 
 $proces-container-background-color: #222629; 
-$title-container-background-color: #222629; 
+$project-title-background-color: #222629; 
+$skills-title-background-color: #222629;
 $content-container-background-color: #222629;
 
 // FONTS
@@ -40,24 +45,36 @@ $top-menu-button-font: 'Roboto', sans-serif;
 // FONT SIZES
 $index-name-font-size-large: 55px;
 $index-name-font-size-small: 45px;
+
 $index-specialism-font-size-large: 50px;
 $index-specialism-font-size-small: 40px;
+
 $index-text-font-size-large: 14px;
 $index-text-font-size-small: 11px;
-$title-container-font-size-normal: 20px;
-$title-container-font-size-small: 15px; 
+
+$project-title-font-size-normal: 20px;
+$project-title-font-size-small: 15px;
+
+$skills-title-font-size-normal: 20px;
+$skills-title-font-size-small: 15px;
+
+
 $description-font-size-normal: 14px;
 $description-font-size-small: 12px; 
 $description-font-size-large: 17px;
+
 $top-menu-button-font-size-normal: 22px; 
 $top-menu-button-font-size-small: 17px; 
 $top-menu-button-font-size-large: 28px; 
+
 $second-menu-button-font-size-normal: 13px;
 $second-menu-button-font-size-small: 11px; 
 $second-menu-button-font-size-large: 16px;
+
 $button-switch-content-font-size-normal: 16px; 
 $button-switch-content-font-size-small: 14px; 
 $button-switch-content-font-size-large: 18px;
+
 $prev-next-buttons-font-weight-normal: 100;
 $prev-next-buttons-font-size-normal: 40px;
 $prev-next-buttons-font-weight-small: 80;
