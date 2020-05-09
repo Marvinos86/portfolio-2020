@@ -229,6 +229,15 @@ body {
 
 // media query for elements on screens smaller than 1025px
 @media screen and (max-width: 1025px) {
+  .left-bar {
+    display: none;
+  }
+  .top-menu {
+    right: 5%;
+  }
+  .second-menu {
+    right: 5%;
+  }
   .index-container {
     background-image: url("../content/mobile-background-1.jpg");
   }
@@ -240,18 +249,6 @@ body {
     font-size: $index-specialism-font-size-small;
     padding-left: 3%;
   }
-  .index-text {
-    font-size: $index-text-font-size-small;
-  }
-  .left-bar {
-    display: none;
-  }
-  .top-menu {
-    right: 5%;
-  }
-  .second-menu {
-    right: 5%;
-  }
   .project-bar {
     margin-left: $product-and-proces-container-margin-left-small; 
   }
@@ -262,12 +259,6 @@ body {
   .proces-container {
     width: $product-and-proces-container-width-small;
     margin-left: $product-and-proces-container-margin-left-small;
-  }
-  .project-title {
-    font-size: $title-font-size-small;
-  }
-  .skills-title {
-    font-size: $skills-title-font-size-small;
   }
   .slideshow {
     width: 100%;
@@ -285,6 +276,33 @@ body {
     font-size: $description-font-size-small;
     order: 2;
   }
+  .index-text {
+    font-size: $index-text-font-size-small;
+  }
+  .project-title {
+    font-size: $title-font-size-small;
+  }
+  .skills-title {
+    font-size: $skills-title-font-size-small;
+  }
+  .button-top-menu {
+    font-size: $top-menu-button-font-size-small;
+  }
+  .button-selected {
+    font-size: $top-menu-button-font-size-small;
+  }
+  .button-second-menu {
+    font-size: $second-menu-button-font-size-small;
+  }
+  .button-switch {
+    font-size: $button-switch-content-font-size-small;
+  }
+  .button-content {
+    font-size: $button-switch-content-font-size-small;
+  }
+  .prev, .next {
+    font-size: $prev-next-buttons-font-size-small;
+  }
   .description {
     font-size: $description-font-size-small;
   }
@@ -298,10 +316,37 @@ body {
   .index-specialism {
     font-size: $index-specialism-font-size-large;
   }
-  .description-and-link {
-    font-size: $description-font-size-large;
+  .index-text {
+    font-size: $index-text-font-size-large;
+  }
+  .button-top-menu {
+    font-size: $top-menu-button-font-size-large;
+  }
+  .button-selected {
+    font-size: $top-menu-button-font-size-large;
+  }
+  .button-second-menu {
+    font-size: $second-menu-button-font-size-large;
+  }
+  .button-switch {
+    font-size: $button-switch-content-font-size-large;
+  }
+  .button-content {
+    font-size: $button-switch-content-font-size-large;
+  }
+  .prev, .next {
+    font-size: $prev-next-buttons-font-size-large;
+  }
+  .project-title {
+    font-size: $project-title-font-size-large;
+  }
+  .skills-title {
+    font-size: $skills-title-font-size-large;
   }
   .description {
+    font-size: $description-font-size-large;
+  }
+  .description-and-link {
     font-size: $description-font-size-large;
   }
 }
