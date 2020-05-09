@@ -124,6 +124,24 @@ body {
   top: 50px;
   padding-bottom: 50px;
 }
+.project-title {
+  font-size: $project-title-font-size-normal;
+  background-color: $project-title-background-color;
+  color: $project-title-font-color;
+  height: 30px;
+  width: 30%;
+  position: absolute;
+  left:0;
+}
+.skills-title {
+  font-size: $skills-title-font-size-normal;
+  background-color: $skills-title-background-color;
+  color: $skills-title-font-color;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
 .button-switch-container {
   width: 100%;
   height: 30px;
@@ -160,24 +178,6 @@ body {
 }
 
 /** Content **/
-.project-title {
-  font-size: $project-title-font-size-normal;
-  background-color: $project-title-background-color;
-  color: $project-title-font-color;
-  height: 30px;
-  width: 30%;
-  position: absolute;
-  left:0;
-}
-.skills-title {
-  font-size: $skills-title-font-size-normal;
-  background-color: $skills-title-background-color;
-  color: $skills-title-font-color;
-  height: 30px;
-  width: 100%;
-  text-align: center;
-  margin-top: 50px;
-}
 .slideshow {
   width: 70%;
   height: auto;
