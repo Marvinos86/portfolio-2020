@@ -83,7 +83,7 @@ body {
   top: -$top-menu-height;
 }
 .index-name {
-  font-size: $index-name-font-size-large;
+  font-size: $index-name-font-size-normal;
   color: $index-name-font-color;
   font-family: $index-name-font;
   font-weight: bold;
@@ -92,7 +92,7 @@ body {
   padding-left: 3%;
 }
 .index-specialism {
-  font-size: $index-specialism-font-size-large;
+  font-size: $index-specialism-font-size-normal;
   color: $index-specialism-font-color;
   font-family: $index-specialism-font;
   font-weight: bold;
@@ -101,7 +101,7 @@ body {
   padding-left: 3%;
 }
 .index-text {
-  font-size: $index-text-font-size-large;
+  font-size: $index-text-font-size-normal;
   color: $index-text-font-color;
   font-family: $index-text-font;
   height: 200px;
@@ -292,6 +292,12 @@ body {
 
 // media query for elements on screen larger than 2500px
 @media screen and (min-width: 2500px) {
+  .index-name {
+    font-size: $index-name-font-size-large;
+  }
+  .index-specialism {
+    font-size: $index-specialism-font-size-large;
+  }
   .description-and-link {
     font-size: $description-font-size-large;
   }
