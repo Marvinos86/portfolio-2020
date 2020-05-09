@@ -158,6 +158,18 @@
     font-weight: 120;
     font-size: 50px; } }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic); }
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url(https://fonts.googleapis.com/css?family=Quicksand); }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(https://fonts.googleapis.com/css?family=Montserrat); }
+
 .index-container {
   background-color: #000000;
   background-image: url("../content/desktop-background-1.jpg");
