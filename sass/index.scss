@@ -190,9 +190,20 @@ body {
 
 // media query for elements on screens smaller than 1025px
 @media screen and (max-width: 1025px) {
-  .introduction-container {
+  .index-container {
     background-image: url("../content/mobile-background-1.jpg");
-}
+  }
+  .index-name {
+    font-size: $index-name-font-size-small;
+    padding-left: 3%;
+  }
+  .index-specialism {
+    font-size: $index-specialism-font-size-small;
+    padding-left: 3%;
+  }
+  .index-text {
+    font-size: $index-text-font-size-small;
+  }
   .left-bar {
     display: none;
   }

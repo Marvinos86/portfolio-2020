@@ -1,6 +1,6 @@
 @import "vars";
 
-.introduction-container {
+.index-container {
     background-color: #000000;
     background-image: url("../content/desktop-background-1.jpg");
     background-repeat: no-repeat;
@@ -10,26 +10,25 @@
     padding: 25px;
     top: -$top-menu-height;
 }
-.introduction-name {
-    border: solid 2px red;
-    font-size: $index-name-font-size;
+.index-name {
+    font-size: $index-name-font-size-large;
     color: $index-name-font-color;
     font-weight: bold;
     text-align: left;
     margin-top: 50px;
     padding-left: 3%;
 }
-.introduction-specialism {
-    border: solid 2px red;
-    font-size: $index-specialism-font-size;
+.index-specialism {
+    font-size: $index-specialism-font-size-large;
     color: $index-specialism-font-color;
     font-weight: bold;
     text-align: left;
     margin-top: 10px;
     padding-left: 3%;
 }
-.introduction-text {
-    border: solid 2px red;
+.index-text {
+    font-size: $index-text-font-size-large;
+    color: $index-text-font-color;
     height: 200px;
     width: 200px;
     float: right;

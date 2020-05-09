@@ -1,4 +1,4 @@
-.introduction-container {
+.index-container {
   background-color: #000000;
   background-image: url("../content/desktop-background-1.jpg");
   background-repeat: no-repeat;
@@ -8,26 +8,25 @@
   padding: 25px;
   top: -50px; }
 
-.introduction-name {
-  border: solid 2px red;
-  font-size: 45px;
+.index-name {
+  font-size: 55px;
   color: #ffffff;
   font-weight: bold;
   text-align: left;
   margin-top: 50px;
   padding-left: 3%; }
 
-.introduction-specialism {
-  border: solid 2px red;
-  font-size: 30px;
+.index-specialism {
+  font-size: 50px;
   color: #ffffff;
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
   padding-left: 3%; }
 
-.introduction-text {
-  border: solid 2px red;
+.index-text {
+  font-size: 14px;
+  color: #ffffff;
   height: 200px;
   width: 200px;
   float: right;
