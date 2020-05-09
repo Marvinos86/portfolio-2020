@@ -15,21 +15,25 @@
     font-size: $index-name-font-size;
     color: $index-name-font-color;
     font-weight: bold;
-    text-align: right;
+    text-align: left;
     margin-top: 50px;
+    padding-left: 3%;
 }
 .introduction-specialism {
     border: solid 2px red;
     font-size: $index-specialism-font-size;
     color: $index-specialism-font-color;
     font-weight: bold;
-    text-align: right;
-    margin-top: 50px;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 3%;
 }
 .introduction-text {
     border: solid 2px red;
     height: 200px;
     width: 200px;
+    float: right;
+    text-align: left;
 }
 
 .border-left-top {

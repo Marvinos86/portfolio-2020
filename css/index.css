@@ -173,21 +173,25 @@
   font-size: 45px;
   color: #ffffff;
   font-weight: bold;
-  text-align: right;
-  margin-top: 50px; }
+  text-align: left;
+  margin-top: 50px;
+  padding-left: 3%; }
 
 .introduction-specialism {
   border: solid 2px red;
   font-size: 30px;
   color: #ffffff;
   font-weight: bold;
-  text-align: right;
-  margin-top: 50px; }
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 3%; }
 
 .introduction-text {
   border: solid 2px red;
   height: 200px;
-  width: 200px; }
+  width: 200px;
+  float: right;
+  text-align: left; }
 
 .border-left-top {
   border-left: 3px solid #86C232;
