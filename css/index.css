@@ -263,7 +263,7 @@ body {
   top: -50px; }
 
 .index-name {
-  font-size: 60px;
+  font-size: 75px;
   color: #86C232;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -287,7 +287,8 @@ body {
   height: 200px;
   width: 200px;
   float: right;
-  text-align: left; }
+  text-align: left;
+  margin-top: 40px; }
 
 /** Containers **/
 .container {
@@ -413,7 +414,7 @@ body {
   .index-container {
     background-image: url("../content/mobile-background-1.jpg"); }
   .index-name {
-    font-size: 45px;
+    font-size: 60px;
     padding-left: 3%; }
   .index-specialism {
     font-size: 40px;
@@ -461,7 +462,7 @@ body {
 
 @media screen and (min-width: 2500px) {
   .index-name {
-    font-size: 75px; }
+    font-size: 85px; }
   .index-specialism {
     font-size: 60px; }
   .index-text {
