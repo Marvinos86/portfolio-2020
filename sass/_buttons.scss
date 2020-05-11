@@ -78,7 +78,7 @@
   display: inline-block;
   line-height: 30px; 
   cursor: pointer;
-  border: 3px solid #86C232; 
+  border: 3px solid $button-switch-border-color; 
 }
 .button-switch-selected {
   font-size: $button-switch-content-font-size-normal;
@@ -98,7 +98,7 @@
   display: inline-block;
   line-height: 30px; 
   cursor: pointer;
-  border: 3px solid #86C232; 
+  border: 3px solid $button-switch-border-color; 
 }
 // button to products
 .button-content {
