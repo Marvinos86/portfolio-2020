@@ -58,7 +58,7 @@
 .button-switch {
   font-size: 16px;
   color: #ffffff;
-  background-color: #61892F;
+  background-color: #86C232;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -71,11 +71,11 @@
   display: inline-block;
   line-height: 30px;
   cursor: pointer;
-  border: 3px solid #61892F; }
+  border: 3px solid #86C232; }
 
 .button-switch-selected {
   font-size: 16px;
-  color: #61892F;
+  color: #86C232;
   background-color: #ffffff;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -89,12 +89,12 @@
   display: inline-block;
   line-height: 30px;
   cursor: pointer;
-  border: 3px solid #61892F; }
+  border: 3px solid #86C232; }
 
 .button-content {
   font-size: 16px;
   color: #ffffff;
-  background-color: #61892F;
+  background-color: #86C232;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -263,8 +263,8 @@ body {
   top: -50px; }
 
 .index-name {
-  font-size: 55px;
-  color: #ffffff;
+  font-size: 60px;
+  color: #61892F;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: left;
@@ -304,7 +304,7 @@ body {
   padding-bottom: 50px; }
 
 .project-title {
-  font-size: 20px;
+  font-size: 24px;
   background-color: #222629;
   color: #ffffff;
   height: 30px;
@@ -313,7 +313,7 @@ body {
   left: 0; }
 
 .title-skills {
-  font-size: 20px;
+  font-size: 24px;
   background-color: #222629;
   color: #ffffff;
   height: 30px;
@@ -461,7 +461,7 @@ body {
 
 @media screen and (min-width: 2500px) {
   .index-name {
-    font-size: 60px; }
+    font-size: 75px; }
   .index-specialism {
     font-size: 60px; }
   .index-text {
@@ -479,9 +479,9 @@ body {
   .prev, .next {
     font-size: 50px; }
   .project-title {
-    font-size: 25px; }
+    font-size: 28px; }
   .skills-title {
-    font-size: 25px; }
+    font-size: 28px; }
   .description {
     font-size: 17px; }
   .description-and-link {
