@@ -105,8 +105,9 @@ body {
   color: $index-text-font-color;
   font-family: $index-text-font;
   height: 200px;
-  width: 200px;
+  width: 400px;
   float: right;
+  margin-right: 20%;
   text-align: left;
   margin-top: 40px;
 }
@@ -229,7 +230,7 @@ body {
 }
 
 // media query for elements on screens smaller than 1025px
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1081px) {
   .left-bar {
     display: none;
   }

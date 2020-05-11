@@ -281,12 +281,13 @@ body {
   padding-left: 3%; }
 
 .index-text {
-  font-size: 14px;
+  font-size: 15px;
   color: #ffffff;
   font-family: "Montserrat";
   height: 200px;
-  width: 200px;
+  width: 400px;
   float: right;
+  margin-right: 20%;
   text-align: left;
   margin-top: 40px; }
 
@@ -404,7 +405,7 @@ body {
   padding: 10px;
   text-align: center; }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1081px) {
   .left-bar {
     display: none; }
   .top-menu {
@@ -440,7 +441,7 @@ body {
     font-size: 12px;
     order: 2; }
   .index-text {
-    font-size: 11px; }
+    font-size: 12px; }
   .project-title {
     font-size: 15px; }
   .skills-title {
@@ -466,7 +467,7 @@ body {
   .index-specialism {
     font-size: 60px; }
   .index-text {
-    font-size: 16px; }
+    font-size: 17px; }
   .button-top-menu {
     font-size: 28px; }
   .button-selected {
