@@ -104,8 +104,9 @@ body {
   font-size: $index-text-font-size-normal;
   color: $index-text-font-color;
   font-family: $index-text-font;
-  height: 200px;
+  height: auto;
   width: 350px;
+  padding: 10px;
   float: right;
   margin-right: 20%;
   text-align: left;
