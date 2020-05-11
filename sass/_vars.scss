@@ -112,8 +112,15 @@ $product-and-proces-container-width-normal: 90%;
 $product-and-proces-container-width-small: 96%;
 $product-and-proces-container-margin-left-normal: 5%;
 $product-and-proces-container-margin-left-small: 2%;
-$button-content-switch-padding-top-bottom: 1px;
-$button-content-switch-padding-left-right: 8px;
+
+$button-content-switch-padding-top-bottom-normal: 1px;
+$button-content-switch-padding-top-bottom-large: 10px;
+$button-content-switch-padding-left-right-normal: 8px;
+$button-content-switch-padding-left-right-large: 12px;
+
+$button-switch-margin-left-right-normal: 3px;
+$button-switch-margin-left-right-large: 10px;
+
 $prev-next-buttons-padding-left-right-small: 6px;
 $prev-next-buttons-padding-top-bottom-small: 4px;
 $prev-next-buttons-padding-left-right-normal: 8px;

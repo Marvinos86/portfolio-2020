@@ -328,7 +328,7 @@ body {
     height: 90px;
   }
   .second-bar {
-    height: 40px;
+    height: 50px;
     margin-top: 90px;
   }
   .container {
@@ -357,12 +357,22 @@ body {
   }
   .button-switch {
     font-size: $button-switch-content-font-size-large;
+    padding-bottom: $button-content-switch-padding-top-bottom-large;
+    padding-top: $button-content-switch-padding-top-bottom-large;
+    margin-left: $button-switch-margin-left-right-large;
+    margin-right: $button-switch-margin-left-right-large;
   }
   .button-switch-selected {
     font-size: $button-switch-content-font-size-large;
+    padding-bottom: $button-content-switch-padding-top-bottom-large;
+    padding-top: $button-content-switch-padding-top-bottom-large;
+    margin-left: $button-switch-margin-left-right-large;
+    margin-right: $button-switch-margin-left-right-large;
   }
   .button-content {
     font-size: $button-switch-content-font-size-large;
+    padding-bottom: $button-content-switch-padding-top-bottom-large;
+    padding-top: $button-content-switch-padding-top-bottom-large;
   }
   .prev, .next {
     font-size: $prev-next-buttons-font-size-large;
