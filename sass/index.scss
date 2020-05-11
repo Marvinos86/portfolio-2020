@@ -105,11 +105,12 @@ body {
   color: $index-text-font-color;
   font-family: $index-text-font;
   height: 200px;
-  width: 400px;
+  width: 350px;
   float: right;
   margin-right: 20%;
   text-align: left;
   margin-top: 40px;
+  background-color: $index-text-background-gradient;
 }
 
 /** Containers **/
@@ -280,6 +281,7 @@ body {
   }
   .index-text {
     font-size: $index-text-font-size-small;
+    margin-right: 5%;
   }
   .project-title {
     font-size: $project-title-font-size-small;

@@ -285,11 +285,12 @@ body {
   color: #ffffff;
   font-family: "Montserrat";
   height: 200px;
-  width: 400px;
+  width: 350px;
   float: right;
   margin-right: 20%;
   text-align: left;
-  margin-top: 40px; }
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.7); }
 
 /** Containers **/
 .container {
@@ -441,7 +442,8 @@ body {
     font-size: 12px;
     order: 2; }
   .index-text {
-    font-size: 12px; }
+    font-size: 12px;
+    margin-right: 5%; }
   .project-title {
     font-size: 15px; }
   .skills-title {
