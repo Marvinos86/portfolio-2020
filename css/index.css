@@ -291,8 +291,7 @@ body {
   margin-right: 20%;
   text-align: left;
   margin-top: 40px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: justify; }
+  background-color: rgba(0, 0, 0, 0.5); }
 
 /** Containers **/
 .container {
