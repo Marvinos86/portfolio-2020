@@ -535,8 +535,8 @@ body {
   .description-and-link {
     font-size: 30px; } }
 
-@media screen and (max-width: 628px) {
+@media screen and (max-width: 884px) {
   .second-bar {
     height: 47px; }
   .container {
-    padding-top: 57px; } }
+    padding-top: 70px; } }

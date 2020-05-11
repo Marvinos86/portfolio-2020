@@ -404,16 +404,15 @@ body {
   }
 }
 
-// media query for elements on screen smaller than 628px
-@media screen and (max-width: 628px) {
+// media query for elements on screen smaller than 884px
+@media screen and (max-width: 884px) {
   .second-bar {
     height: $second-menu-height-very-small;
   }
-  .container { 
-    padding-top: 57px;
+  .container {
+    padding-top: 70px;
   }
 }
-
 
 
 //   .toggle-button {
