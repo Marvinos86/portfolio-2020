@@ -355,6 +355,13 @@ body {
   .button-second-menu {
     font-size: $second-menu-button-font-size-large;
   }
+  .project-bar {
+    margin-bottom: 80px;
+  }
+  .skills-title {
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
   .button-switch {
     font-size: $button-switch-content-font-size-large;
     padding-bottom: $button-content-switch-padding-top-bottom-large;
@@ -373,6 +380,7 @@ body {
     font-size: $button-switch-content-font-size-large;
     padding-bottom: $button-content-switch-padding-top-bottom-large;
     padding-top: $button-content-switch-padding-top-bottom-large;
+    margin-top: 40px;
   }
   .prev, .next {
     font-size: $prev-next-buttons-font-size-large;

@@ -498,6 +498,11 @@ body {
     font-size: 48px; }
   .button-second-menu {
     font-size: 30px; }
+  .project-bar {
+    margin-bottom: 80px; }
+  .skills-title {
+    margin-top: 70px;
+    margin-bottom: 50px; }
   .button-switch {
     font-size: 35px;
     padding-bottom: 10px;
@@ -513,7 +518,8 @@ body {
   .button-content {
     font-size: 35px;
     padding-bottom: 10px;
-    padding-top: 10px; }
+    padding-top: 10px;
+    margin-top: 40px; }
   .prev, .next {
     font-size: 80px; }
   .project-title {
