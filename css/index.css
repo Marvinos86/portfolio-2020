@@ -484,22 +484,26 @@ body {
   .container {
     padding-top: 120px; }
   .index-name {
-    font-size: 105px;
-    line-height: 80px; }
+    font-size: 200px;
+    line-height: 180px;
+    margin-top: 200px; }
   .index-specialism {
-    font-size: 60px;
-    line-height: 80px; }
+    font-size: 100px;
+    line-height: 100px; }
   .index-text {
-    font-size: 28px;
-    width: 500px; }
+    font-size: 33px;
+    width: 1000px; }
   .button-top-menu {
     font-size: 48px; }
   .button-selected {
     font-size: 48px; }
   .button-second-menu {
     font-size: 30px; }
+  .button-linkedin {
+    font-size: 48px;
+    padding: 18px; }
   .project-bar {
-    margin-bottom: 80px; }
+    padding-bottom: 80px; }
   .skills-title {
     margin-top: 70px;
     margin-bottom: 50px; }

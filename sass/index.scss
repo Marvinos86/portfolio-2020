@@ -336,7 +336,8 @@ body {
   }
   .index-name {
     font-size: $index-name-font-size-large;
-    line-height: $index-name-line-height-large
+    line-height: $index-name-line-height-large;
+    margin-top: 200px;
   }
   .index-specialism {
     font-size: $index-specialism-font-size-large;
@@ -344,7 +345,7 @@ body {
   }
   .index-text {
     font-size: $index-text-font-size-large;
-    width: 500px;
+    width: 1000px;
   }
   .button-top-menu {
     font-size: $top-menu-button-font-size-large;
@@ -355,8 +356,12 @@ body {
   .button-second-menu {
     font-size: $second-menu-button-font-size-large;
   }
+  .button-linkedin {
+    font-size: 48px;
+    padding: 18px;
+  }
   .project-bar {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
   .skills-title {
     margin-top: 70px;
