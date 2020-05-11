@@ -58,7 +58,7 @@
 .button-switch {
   font-size: 16px;
   color: #ffffff;
-  background-color: #86C232;
+  background-color: #61892F;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -75,7 +75,7 @@
 
 .button-switch-selected {
   font-size: 16px;
-  color: #86C232;
+  color: #61892F;
   background-color: #ffffff;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -94,7 +94,7 @@
 .button-content {
   font-size: 16px;
   color: #ffffff;
-  background-color: #86C232;
+  background-color: #61892F;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -264,7 +264,7 @@ body {
 
 .index-name {
   font-size: 60px;
-  color: #61892F;
+  color: #86C232;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: left;
