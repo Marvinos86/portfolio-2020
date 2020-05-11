@@ -137,8 +137,9 @@ body {
   width: auto;
   position: absolute;
   left:0;
+  line-height: 50px;
 }
-.title-skills {
+.skills-title {
   font-size: $skills-title-font-size-normal;
   background-color: $skills-title-background-color;
   color: $skills-title-font-color;

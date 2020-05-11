@@ -314,9 +314,10 @@ body {
   height: 30px;
   width: auto;
   position: absolute;
-  left: 0; }
+  left: 0;
+  line-height: 50px; }
 
-.title-skills {
+.skills-title {
   font-size: 24px;
   background-color: #222629;
   color: #ffffff;
