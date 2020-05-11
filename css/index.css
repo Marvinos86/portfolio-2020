@@ -160,20 +160,20 @@
 
 @media screen and (min-width: 2500px) {
   .button-top-menu {
-    font-size: 28px; }
+    font-size: 48px; }
   .button-selected {
-    font-size: 28px; }
+    font-size: 48px; }
   .button-switch {
-    font-size: 18px; }
+    font-size: 35px; }
   .button-content {
-    font-size: 18px; }
+    font-size: 35px; }
   .prev, .next {
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 7px;
     padding-top: 7px;
     font-weight: 120;
-    font-size: 50px; } }
+    font-size: 80px; } }
 
 @font-face {
   font-family: 'Roboto';
@@ -263,13 +263,14 @@ body {
   top: -50px; }
 
 .index-name {
-  font-size: 75px;
+  font-size: 85px;
   color: #86C232;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 50px;
-  padding-left: 3%; }
+  padding-left: 3%;
+  line-height: 60px; }
 
 .index-specialism {
   font-size: 50px;
@@ -278,7 +279,8 @@ body {
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
-  padding-left: 3%; }
+  padding-left: 3%;
+  line-height: 51px; }
 
 .index-text {
   font-size: 15px;
@@ -418,11 +420,13 @@ body {
   .index-container {
     background-image: url("../content/mobile-background-1.jpg"); }
   .index-name {
-    font-size: 60px;
-    padding-left: 3%; }
+    font-size: 70px;
+    padding-left: 3%;
+    line-height: 50px; }
   .index-specialism {
     font-size: 40px;
-    padding-left: 3%; }
+    padding-left: 3%;
+    line-height: 80px; }
   .project-bar {
     margin-left: 2%; }
   .product-container {
@@ -458,6 +462,8 @@ body {
     font-size: 11px; }
   .button-switch {
     font-size: 14px; }
+  .button-switch-selected {
+    font-size: 14px; }
   .button-content {
     font-size: 14px; }
   .prev, .next {
@@ -466,32 +472,44 @@ body {
     font-size: 12px; } }
 
 @media screen and (min-width: 2500px) {
+  .top-bar {
+    height: 90px; }
+  .second-bar {
+    height: 40px;
+    margin-top: 90px; }
+  .container {
+    padding-top: 120px; }
   .index-name {
-    font-size: 85px; }
+    font-size: 105px;
+    line-height: 80px; }
   .index-specialism {
-    font-size: 60px; }
+    font-size: 60px;
+    line-height: 80px; }
   .index-text {
-    font-size: 17px; }
+    font-size: 28px;
+    width: 500px; }
   .button-top-menu {
-    font-size: 28px; }
+    font-size: 48px; }
   .button-selected {
-    font-size: 28px; }
+    font-size: 48px; }
   .button-second-menu {
-    font-size: 16px; }
+    font-size: 30px; }
   .button-switch {
-    font-size: 18px; }
+    font-size: 35px; }
+  .button-switch-selected {
+    font-size: 35px; }
   .button-content {
-    font-size: 18px; }
+    font-size: 35px; }
   .prev, .next {
-    font-size: 50px; }
+    font-size: 80px; }
   .project-title {
-    font-size: 28px; }
+    font-size: 45px; }
   .skills-title {
-    font-size: 28px; }
+    font-size: 45px; }
   .description {
-    font-size: 17px; }
+    font-size: 30px; }
   .description-and-link {
-    font-size: 17px; } }
+    font-size: 30px; } }
 
 @media screen and (max-width: 628px) {
   .second-bar {

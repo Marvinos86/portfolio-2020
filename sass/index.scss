@@ -90,6 +90,7 @@ body {
   text-align: left;
   margin-top: 50px;
   padding-left: 3%;
+  line-height: 60px;
 }
 .index-specialism {
   font-size: $index-specialism-font-size-normal;
@@ -99,6 +100,7 @@ body {
   text-align: left;
   margin-top: 10px;
   padding-left: 3%;
+  line-height: 51px;
 }
 .index-text {
   font-size: $index-text-font-size-normal;
@@ -250,10 +252,12 @@ body {
   .index-name {
     font-size: $index-name-font-size-small;
     padding-left: 3%;
+    line-height: $index-name-line-height-small;
   }
   .index-specialism {
     font-size: $index-specialism-font-size-small;
     padding-left: 3%;
+    line-height: $index-specialism-line-height-small;
   }
   .project-bar {
     margin-left: $product-and-proces-container-margin-left-small; 
@@ -304,6 +308,9 @@ body {
   .button-switch {
     font-size: $button-switch-content-font-size-small;
   }
+  .button-switch-selected {
+    font-size: $button-switch-content-font-size-small;
+  }
   .button-content {
     font-size: $button-switch-content-font-size-small;
   }
@@ -317,14 +324,27 @@ body {
 
 // media query for elements on screen larger than 2500px
 @media screen and (min-width: 2500px) {
+  .top-bar {
+    height: 90px;
+  }
+  .second-bar {
+    height: 40px;
+    margin-top: 90px;
+  }
+  .container {
+    padding-top: 120px;
+  }
   .index-name {
     font-size: $index-name-font-size-large;
+    line-height: $index-name-line-height-large
   }
   .index-specialism {
     font-size: $index-specialism-font-size-large;
+    line-height: $index-specialism-line-height-large;
   }
   .index-text {
     font-size: $index-text-font-size-large;
+    width: 500px;
   }
   .button-top-menu {
     font-size: $top-menu-button-font-size-large;
@@ -336,6 +356,9 @@ body {
     font-size: $second-menu-button-font-size-large;
   }
   .button-switch {
+    font-size: $button-switch-content-font-size-large;
+  }
+  .button-switch-selected {
     font-size: $button-switch-content-font-size-large;
   }
   .button-content {
