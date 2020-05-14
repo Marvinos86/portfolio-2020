@@ -263,8 +263,7 @@ var images = {
         "content/skills/3ddesign/t11.jpg",
         "content/skills/3ddesign/t12.jpg",
         "content/skills/3ddesign/t13.jpg",
-        "content/skills/3ddesign/t14.jpg",
-        "content/skills/3ddesign/t15.jpg"
+        "content/skills/3ddesign/t14.jpg"
     ],
     slideshow_animation_current_imgNumber: 0,
 
