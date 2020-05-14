@@ -266,7 +266,6 @@ var images = {
         "content/skills/3ddesign/t14.jpg"
     ],
     slideshow_animation_current_imgNumber: 0,
-
 };
 
 // Functions for controling slideshows
