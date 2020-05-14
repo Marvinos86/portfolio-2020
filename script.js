@@ -353,7 +353,41 @@ function ToggleProductProces(event) {
         procesSlideshow.show();
     }
 
+    /* 
+    Je gaat hier een apart onderwerp aanpakken. 
+    Als je zou uitchrijven wat je allemaal in een functie zou doen dan zal je vast vaak het woordje 'en' gebruiken 
+    Bijvoorbeeld: de product/proces slideshow verbegen EN de zojuist geklikte buttons van de juiste styling voorzien
+    
+    In zo'n geval leert de ervaring dat het goed is om een aparte functie te maken voor hetgeen wat je wil doen 
+    */
+    setProjectButtonStyle(event.currentTarget);
+
 }
+
+function setProjectButtonStyle(selectedButton){
+
+    // Van de zojuist geselecteerde button, zoek de parent op, laat in die parent zoeken naar alle elementen met div.button-switch en loop er 1 voor 1 doorheen
+
+    // In de Jquery .each() functie krijgen we twee parameters mee om te gebruiken; index en het element (waarvan ik de laatste 'button' heb genoemd).
+    // We zijn geinteresseerd in enkel het laatste element om te checken of dat wel onze button is, niet de index parameter.
+    // Helaas werkt JS wel zo dat we de volgorde van waarin we de parameter binnenkrijgen moeten aanhouden, dus moeten we uit noodzaak 'index' als eerste neerzetten.
+    $(selectedButton).parent(".button-switch-container").find("div.button-switch").each(function (index, button) {
+
+        // indien de button van deze geloopte ronde gelijk staat (als DOM element) aan de geselecteerde button..
+        if(button === selectedButton){
+
+            // pas dan via jquery een klasse toe.
+            $(button).addClass('button-switch-selected');
+
+            // en beindig de functie door deze niks te laten returnen zodat die noch in de if-statement noch buiten de if-statement verder gaat
+            return;
+        }
+
+        // kwam de button van deze geloopte ronde niet in de if terecht? Dan zal dat vast de andere button zijn die we niet hebben geselecteerd.
+        // Verwijder daarop de klasse met de 'selected' styling
+        $(button).removeClass('button-switch-selected');
+    });
+};
 
 // window.mobilecheck = function () {
 //     var check = false;
