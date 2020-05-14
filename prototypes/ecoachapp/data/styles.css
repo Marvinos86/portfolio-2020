@@ -20,6 +20,9 @@
 .image {
   color:#000000;
 }
+.primary_button {
+  color:#FFFFFF;
+}
 .heading_1 {
   font-family:'Arial Vet', 'Arial Standaard', 'Arial';
   font-weight:700;

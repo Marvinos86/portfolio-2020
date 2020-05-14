@@ -3977,7 +3977,7 @@
   background:inherit;
   background-color:rgba(255, 153, 0, 1);
   border:none;
-  border-radius:5px;
+  border-radius:20px;
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
@@ -3985,7 +3985,7 @@
   font-weight:700;
   font-style:normal;
   font-size:14px;
-  color:#4C5767;
+  color:#FFFFFF;
 }
 #u368 {
   border-width:0px;
@@ -3998,7 +3998,7 @@
   font-weight:700;
   font-style:normal;
   font-size:14px;
-  color:#4C5767;
+  color:#FFFFFF;
 }
 #u368_text {
   border-width:0px;
