@@ -541,7 +541,7 @@ body {
   .container {
     padding-top: 70px; } }
 
-@media screen and (max-width: 884px) {
+@media screen and (max-width: 424px) {
   .container {
     padding-top: 40px; }
   .index-text {
@@ -561,4 +561,6 @@ body {
     margin-bottom: 30px;
     padding-bottom: 0px; }
   .project-title {
-    position: relative; } }
+    position: relative; }
+  .small-fill {
+    height: 40px; } }

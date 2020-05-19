@@ -415,7 +415,7 @@ body {
 }
 
 // media query for elements on screen smaller than 884px
-@media screen and (max-width: 884px) {
+@media screen and (max-width: 424px) {
   .container {
     padding-top: 40px;
   }
@@ -442,6 +442,9 @@ body {
   }
   .project-title {
     position: relative;
+  }
+  .small-fill {
+    height: 40px;
   }
 }
 
