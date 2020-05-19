@@ -550,5 +550,8 @@ body {
   .button-top-menu {
     margin-left: 2px;
     margin-right: 2px; }
+  .button-selected {
+    margin-left: 2px;
+    margin-right: 2px; }
   .project-title {
     width: 100%; } }
