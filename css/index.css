@@ -542,6 +542,8 @@ body {
     padding-top: 70px; } }
 
 @media screen and (max-width: 884px) {
+  .container {
+    margin-top: 40px; }
   .index-text {
     height: auto;
     width: 90%;
@@ -554,4 +556,9 @@ body {
     margin-left: 2px;
     margin-right: 2px; }
   .project-title {
-    width: 100%; } }
+    width: 100%; }
+  .project-bar {
+    margin-bottom: 30px;
+    padding-bottom: 0px; }
+  .project-title {
+    position: relative; } }

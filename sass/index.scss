@@ -416,6 +416,9 @@ body {
 
 // media query for elements on screen smaller than 884px
 @media screen and (max-width: 884px) {
+  .container {
+    margin-top: 40px;
+  }
   .index-text {
     height: auto;
     width: 90%;
@@ -432,6 +435,13 @@ body {
   }
   .project-title {
     width: 100%;
+  }
+  .project-bar {
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+  }
+  .project-title {
+    position: relative;
   }
 }
 
