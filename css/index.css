@@ -539,7 +539,13 @@ body {
   .second-bar {
     height: 47px; }
   .container {
-    padding-top: 70px; } }
+    padding-top: 70px; }
+  .project-title {
+    width: 100%;
+    position: relative; }
+  .project-bar {
+    margin-bottom: 30px;
+    padding-bottom: 0px; } }
 
 @media screen and (max-width: 424px) {
   .container {
@@ -555,12 +561,5 @@ body {
   .button-selected {
     margin-left: 2px;
     margin-right: 2px; }
-  .project-title {
-    width: 100%; }
-  .project-bar {
-    margin-bottom: 30px;
-    padding-bottom: 0px; }
-  .project-title {
-    position: relative; }
   .small-fill {
     height: 70px; } }

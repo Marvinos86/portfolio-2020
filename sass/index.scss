@@ -412,6 +412,14 @@ body {
   .container {
     padding-top: 70px;
   }
+  .project-title {
+    width: 100%;
+    position: relative;
+  }
+  .project-bar {
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+  }
 }
 
 // media query for elements on screen smaller than 884px
@@ -432,16 +440,6 @@ body {
   .button-selected {
     margin-left: 2px;
     margin-right: 2px;
-  }
-  .project-title {
-    width: 100%;
-  }
-  .project-bar {
-    margin-bottom: 30px;
-    padding-bottom: 0px;
-  }
-  .project-title {
-    position: relative;
   }
   .small-fill {
     height: 70px;
