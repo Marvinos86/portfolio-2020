@@ -181,15 +181,15 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic); }
+  src: url("https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic"); }
 
 @font-face {
   font-family: 'Quicksand';
-  src: url(https://fonts.googleapis.com/css?family=Quicksand); }
+  src: url("https://fonts.googleapis.com/css?family=Quicksand"); }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url(https://fonts.googleapis.com/css?family=Montserrat); }
+  src: url("https://fonts.googleapis.com/css?family=Montserrat"); }
 
 a {
   color: #fff;
@@ -540,3 +540,15 @@ body {
     height: 47px; }
   .container {
     padding-top: 70px; } }
+
+@media screen and (max-width: 884px) {
+  .index-text {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    float: left; }
+  .button-top-menu {
+    margin-left: 0px;
+    margin-right: 5px; }
+  .project-title {
+    width: 100%; } }
