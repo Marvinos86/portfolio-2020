@@ -543,7 +543,7 @@ body {
 
 @media screen and (max-width: 884px) {
   .container {
-    margin-top: 40px; }
+    padding-top: 40px; }
   .index-text {
     height: auto;
     width: 90%;
