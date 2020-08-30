@@ -289,7 +289,7 @@ body {
 .index-text {
   font-size: 15px;
   color: #ffffff;
-  font-family: "Montserrat";
+  font-family: "Roboto", sans-serif;
   height: auto;
   width: 350px;
   padding: 10px;
@@ -391,7 +391,7 @@ body {
   clear: both; }
 
 .description {
-  font-family: "Montserrat";
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #ffffff;
   text-align: justify;
@@ -400,7 +400,7 @@ body {
   padding: 10px; }
 
 .description-and-link {
-  font-family: "Montserrat";
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #ffffff;
   text-align: justify;
