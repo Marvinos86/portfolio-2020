@@ -57,7 +57,7 @@ body {
   
 /** Index **/ 
 .index-container {
-  background-color: $index-container-background-color;
+  background-color: $body-background-color;
   // background-image: url("../content/desktop-background-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +103,7 @@ body {
 }
 .project-title {
   font-size: $title-font-size-normal;
-  background-color: $title-background-color;
+  background-color: $body-background-color;
   color: $title-font-color;
   height: 30px;
   width: auto;
@@ -113,7 +113,7 @@ body {
 }
 .skills-title {
   font-size: $title-font-size-normal;
-  background-color: $title-background-color;
+  background-color: $body-background-color;
   color: $title-font-color;
   height: 30px;
   width: 100%;
@@ -132,7 +132,7 @@ body {
   width: $product-and-proces-container-width-normal;
   margin-left: $product-and-proces-container-margin-left-normal; 
   padding-top: $product-and-proces-container-padding;
-  background-color: $product-container-background-color;
+  background-color: $body-background-color;
   display: block;
   float: left;
 }
@@ -141,7 +141,7 @@ body {
   width: $product-and-proces-container-width-normal;
   margin-left: $product-and-proces-container-margin-left-normal;
   padding-top: $product-and-proces-container-padding;
-  background-color: $proces-container-background-color;
+  background-color: $body-background-color;
   display: none;
   float: left;
 }
@@ -149,7 +149,7 @@ body {
   height: auto;
   width: 90%;
   margin-left: 5%;
-  background-color: $content-container-background-color;
+  background-color: $body-background-color;
   display: block;
   padding: 10px; 
   text-align: center;
@@ -171,7 +171,7 @@ body {
   height: auto;
   width: 28%;
   margin-left: 2%;
-  background-color: $content-container-background-color;
+  background-color: $body-background-color;
   display: inline-block;
 }
 // Clear floats after the columns 
