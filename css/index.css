@@ -221,7 +221,9 @@ body {
   position: absolute;
   float: right;
   right: 10%;
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-style: 1px #000000 solid; }
 
 .second-bar {
   width: 100vw;
