@@ -245,7 +245,8 @@ body {
   background-color: #6B6E70;
   position: fixed;
   z-index: 1000;
-  margin-top: 50px; }
+  margin-top: 50px;
+  display: none; }
 
 .second-menu {
   position: absolute;

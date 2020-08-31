@@ -59,6 +59,7 @@ body {
   position: fixed;
   z-index: 1000; 
   margin-top: $top-menu-height;
+  display: none;
 }
 .second-menu {
   position: absolute;
