@@ -195,7 +195,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: #222629;
+  background-color: #F5DEB3;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -226,7 +226,7 @@ body {
 
 /** Index **/
 .index-container {
-  background-color: #222629;
+  background-color: #F5DEB3;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -270,7 +270,7 @@ body {
 
 .project-title {
   font-size: 24px;
-  background-color: #222629;
+  background-color: #F5DEB3;
   color: #ffffff;
   height: 30px;
   width: auto;
@@ -280,7 +280,7 @@ body {
 
 .skills-title {
   font-size: 24px;
-  background-color: #222629;
+  background-color: #F5DEB3;
   color: #ffffff;
   height: 30px;
   width: 100%;
@@ -299,7 +299,7 @@ body {
   width: 90%;
   margin-left: 5%;
   padding-top: 10px;
-  background-color: #222629;
+  background-color: #F5DEB3;
   display: block;
   float: left; }
 
@@ -308,7 +308,7 @@ body {
   width: 90%;
   margin-left: 5%;
   padding-top: 10px;
-  background-color: #222629;
+  background-color: #F5DEB3;
   display: none;
   float: left; }
 
@@ -316,7 +316,7 @@ body {
   height: auto;
   width: 90%;
   margin-left: 5%;
-  background-color: #222629;
+  background-color: #F5DEB3;
   display: block;
   padding: 10px;
   text-align: center; }
@@ -337,7 +337,7 @@ body {
   height: auto;
   width: 28%;
   margin-left: 2%;
-  background-color: #222629;
+  background-color: #F5DEB3;
   display: inline-block; }
 
 .content-container:after {
