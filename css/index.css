@@ -195,7 +195,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: #E0FFFF;
+  background-color: #F5FFFA;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -226,7 +226,7 @@ body {
 
 /** Index **/
 .index-container {
-  background-color: #E0FFFF;
+  background-color: #F5FFFA;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -270,7 +270,7 @@ body {
 
 .project-title {
   font-size: 24px;
-  background-color: #E0FFFF;
+  background-color: #F5FFFA;
   color: #ffffff;
   height: 30px;
   width: auto;
@@ -280,7 +280,7 @@ body {
 
 .skills-title {
   font-size: 24px;
-  background-color: #E0FFFF;
+  background-color: #F5FFFA;
   color: #ffffff;
   height: 30px;
   width: 100%;
@@ -299,7 +299,7 @@ body {
   width: 90%;
   margin-left: 5%;
   padding-top: 10px;
-  background-color: #E0FFFF;
+  background-color: #F5FFFA;
   display: block;
   float: left; }
 
@@ -308,7 +308,7 @@ body {
   width: 90%;
   margin-left: 5%;
   padding-top: 10px;
-  background-color: #E0FFFF;
+  background-color: #F5FFFA;
   display: none;
   float: left; }
 
@@ -316,7 +316,7 @@ body {
   height: auto;
   width: 90%;
   margin-left: 5%;
-  background-color: #E0FFFF;
+  background-color: #F5FFFA;
   display: block;
   padding: 10px;
   text-align: center; }
@@ -337,7 +337,7 @@ body {
   height: auto;
   width: 28%;
   margin-left: 2%;
-  background-color: #E0FFFF;
+  background-color: #F5FFFA;
   display: inline-block; }
 
 .content-container:after {
