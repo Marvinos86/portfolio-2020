@@ -129,17 +129,17 @@
   padding-top: $prev-next-buttons-padding-top-bottom-normal;
   font-weight: $prev-next-buttons-font-weight-normal;
   font-size: $prev-next-buttons-font-size-normal;
-  background-color: $button-background-color;
-  color: $button-font-color;
+  background-color: $button-slideshow-background-color;
+  color: $button-slideshow-font-color;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); 
 }
 .next:hover {
-  color: $button-font-color; 
+  color: $button-slideshow-font-color-on-hover; 
 }
 .prev:hover {
-  color: $button-font-color; 
+  color: $button-slideshow-font-color-on-hover; 
 }
 .prev {
   left: 0;

@@ -106,8 +106,8 @@
   padding-top: 5px;
   font-weight: 100;
   font-size: 40px;
-  background-color: blue;
-  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #86C232;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
