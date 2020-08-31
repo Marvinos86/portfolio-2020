@@ -16,7 +16,7 @@
 .button-selected {
   font-size: 20px;
   color: #ffffff;
-  border-bottom: 4px solid #86C232;
+  background-color: red;
   font-weight: normal;
   margin-left: 10px;
   margin-right: 10px;
@@ -42,24 +42,10 @@
   border-radius: 5px;
   line-height: 20px; }
 
-.button-second-menu {
-  font-size: 13px;
-  color: #222629;
-  font-weight: bold;
-  margin-left: 4px;
-  margin-right: 4px;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  letter-spacing: 1px; }
-
-.button-second-menu:hover {
-  border-bottom: 2px solid #222629; }
-
 .button-switch {
   font-size: 16px;
   color: #ffffff;
-  background-color: #61892F;
+  background-color: blue;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -73,13 +59,12 @@
   font-weight: bold;
   display: inline-block;
   line-height: 30px;
-  cursor: pointer;
-  border: 3px solid #61892F; }
+  cursor: pointer; }
 
 .button-switch-selected {
   font-size: 16px;
-  color: #61892F;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: red;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -93,13 +78,12 @@
   font-weight: bold;
   display: inline-block;
   line-height: 30px;
-  cursor: pointer;
-  border: 3px solid #61892F; }
+  cursor: pointer; }
 
 .button-content {
   font-size: 16px;
   color: #ffffff;
-  background-color: #61892F;
+  background-color: blue;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -122,8 +106,8 @@
   padding-top: 5px;
   font-weight: 100;
   font-size: 40px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #86C232;
+  background-color: blue;
+  color: #ffffff;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }

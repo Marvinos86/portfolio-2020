@@ -3,7 +3,7 @@
 // buttons for top navigation menu
 .button-top-menu {
   font-size: $top-menu-button-font-size-normal;
-  color: $button-top-menu-font-color;
+  color: $button-font-color;
   font-weight: normal;
   margin-left: 10px;
   margin-right: 10px;
@@ -17,8 +17,8 @@
 }
 .button-selected {
   font-size: $top-menu-button-font-size-normal;
-  color: $button-top-menu-font-color;
-  border-bottom: $button-top-menu-border-bottom-on-selected;
+  color: $button-font-color;
+  background-color: $button-selected-background-color;
   font-weight: normal;
   margin-left: 10px;
   margin-right: 10px;
@@ -44,26 +44,26 @@
   border-radius: 5px;
   line-height: 20px;
 }
-.button-second-menu {
-  font-size: $second-menu-button-font-size-normal;
-  color: $button-second-menu-font-color;
-  font-weight: bold;
-  margin-left: 4px;
-  margin-right: 4px;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  letter-spacing: 1px;
-}
-.button-second-menu:hover {
-  border-bottom: $button-second-menu-border-bottom-on-hover; 
-}
+// .button-second-menu {
+//   font-size: $second-menu-button-font-size-normal;
+//   color: $button-font-color;
+//   font-weight: bold;
+//   margin-left: 4px;
+//   margin-right: 4px;
+//   text-align: center;
+//   display: inline-block;
+//   cursor: pointer;
+//   letter-spacing: 1px;
+// }
+// .button-second-menu:hover {
+//   border-bottom: $button-second-menu-border-bottom-on-hover; 
+// }
 
 // button for switching between product and proces
 .button-switch {
   font-size: $button-switch-content-font-size-normal;
-  color: $button-switch-font-color;
-  background-color: $button-switch-backgroundcolor;
+  color: $button-font-color;
+  background-color: $button-background-color;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
   padding-left: $button-content-switch-padding-left-right-normal;
@@ -78,12 +78,12 @@
   display: inline-block;
   line-height: 30px; 
   cursor: pointer;
-  border: 3px solid $button-switch-border-color; 
+  // border: 3px solid $button-switch-border-color; 
 }
 .button-switch-selected {
   font-size: $button-switch-content-font-size-normal;
-  color: $button-switch-selected-font-color;
-  background-color: $button-switch-selected-background-color;
+  color: $button-font-color;
+  background-color: $button-selected-background-color;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
   padding-left: $button-content-switch-padding-left-right-normal;
@@ -98,13 +98,13 @@
   display: inline-block;
   line-height: 30px; 
   cursor: pointer;
-  border: 3px solid $button-switch-border-color; 
+  // border: 3px solid $button-switch-border-color; 
 }
 // button to products
 .button-content {
   font-size: $button-switch-content-font-size-normal;
-  color: $button-content-font-color;
-  background-color: $button-content-backgroundcolor;
+  color: $button-font-color;
+  background-color: $button-background-color;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
   padding-left: $button-content-switch-padding-left-right-normal;
@@ -129,17 +129,17 @@
   padding-top: $prev-next-buttons-padding-top-bottom-normal;
   font-weight: $prev-next-buttons-font-weight-normal;
   font-size: $prev-next-buttons-font-size-normal;
-  background-color: $button-slideshow-background-color;
-  color: $button-slideshow-font-color;
+  background-color: $button-background-color;
+  color: $button-font-color;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); 
 }
 .next:hover {
-  color: $button-slideshow-font-color-on-hover; 
+  color: $button-font-color; 
 }
 .prev:hover {
-  color: $button-slideshow-font-color-on-hover; 
+  color: $button-font-color; 
 }
 .prev {
   left: 0;
