@@ -14,9 +14,6 @@
   cursor: pointer;
   letter-spacing: 1px; 
 }
-.button-top-menu:hover {
-  border-bottom: $button-top-menu-border-bottom-on-hover; 
-}
 .button-selected {
   font-size: $top-menu-button-font-size-normal;
   color: $button-font-color;
@@ -163,9 +160,6 @@
   }
   .button-selected {
     font-size: $top-menu-button-font-size-small;
-  }
-  .button-second-menu {
-    font-size: $second-menu-button-font-size-small;
   }
   .button-switch {
     font-size: $button-switch-content-font-size-small;

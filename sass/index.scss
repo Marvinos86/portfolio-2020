@@ -42,7 +42,7 @@ body {
 .top-bar {
   width: 100vw;
   height: $top-menu-height;
-  // background-color: $top-bar-background-color;
+  background-color: $top-bar-background-color;
   position: fixed;
   z-index: 1000; 
 }
@@ -53,20 +53,6 @@ body {
   margin-top: 10px; 
   padding-bottom: 5px;
   border-bottom: 1px #000000 solid;
-}
-.second-bar {
-  width: 100vw;
-  height: $second-menu-height;
-  background-color: $second-bar-background-color;
-  position: fixed;
-  z-index: 1000; 
-  margin-top: $top-menu-height;
-  display: none;
-}
-.second-menu {
-  position: absolute;
-  float: right;
-  right: 10%;
 }
   
 /** Index **/ 
@@ -100,20 +86,6 @@ body {
   padding-left: 3%;
   line-height: 51px;
 }
-.index-text {
-  font-size: $index-text-font-size-normal;
-  color: $index-text-font-color;
-  font-family: $index-text-font;
-  height: auto;
-  width: 350px;
-  padding: 10px;
-  float: right;
-  margin-right: 10%;
-  text-align: left;
-  margin-top: 40px;
-  background-color: $index-text-background-gradient;
-  // text-align: justify;
-}
 
 /** Containers **/
 .container {
@@ -130,9 +102,9 @@ body {
   padding-bottom: 50px;
 }
 .project-title {
-  font-size: $project-title-font-size-normal;
-  background-color: $project-title-background-color;
-  color: $project-title-font-color;
+  font-size: $title-font-size-normal;
+  background-color: $title-background-color;
+  color: $title-font-color;
   height: 30px;
   width: auto;
   position: absolute;
@@ -140,9 +112,9 @@ body {
   line-height: 50px;
 }
 .skills-title {
-  font-size: $skills-title-font-size-normal;
-  background-color: $skills-title-background-color;
-  color: $skills-title-font-color;
+  font-size: $title-font-size-normal;
+  background-color: $title-background-color;
+  color: $title-font-color;
   height: 30px;
   width: 100%;
   text-align: center;
@@ -284,24 +256,17 @@ body {
     font-size: $description-font-size-small;
     order: 2;
   }
-  .index-text {
-    font-size: $index-text-font-size-small;
-    margin-right: 5%;
-  }
   .project-title {
-    font-size: $project-title-font-size-small;
+    font-size: $title-font-size-small;
   }
   .skills-title {
-    font-size: $skills-title-font-size-small;
+    font-size: $title-font-size-small;
   }
   .button-top-menu {
     font-size: $top-menu-button-font-size-small;
   }
   .button-selected {
     font-size: $top-menu-button-font-size-small;
-  }
-  .button-second-menu {
-    font-size: $second-menu-button-font-size-small;
   }
   .button-switch {
     font-size: $button-switch-content-font-size-small;
@@ -341,18 +306,11 @@ body {
     font-size: $index-specialism-font-size-large;
     line-height: $index-specialism-line-height-large;
   }
-  .index-text {
-    font-size: $index-text-font-size-large;
-    width: 1000px;
-  }
   .button-top-menu {
     font-size: $top-menu-button-font-size-large;
   }
   .button-selected {
     font-size: $top-menu-button-font-size-large;
-  }
-  .button-second-menu {
-    font-size: $second-menu-button-font-size-large;
   }
   .button-linkedin {
     font-size: 48px;
@@ -389,10 +347,10 @@ body {
     font-size: $prev-next-buttons-font-size-large;
   }
   .project-title {
-    font-size: $project-title-font-size-large;
+    font-size: $title-font-size-large;
   }
   .skills-title {
-    font-size: $skills-title-font-size-large;
+    font-size: $title-font-size-large;
   }
   .description {
     font-size: $description-font-size-large;
