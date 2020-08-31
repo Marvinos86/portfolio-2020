@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .button-top-menu {
   font-size: 22px;
   color: #ffffff;
@@ -183,16 +181,12 @@
     font-size: 80px; } }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url("https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic"); }
+  font-family: 'Roboto', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); }
 
-@font-face {
-  font-family: 'Quicksand';
-  src: url("https://fonts.googleapis.com/css?family=Quicksand"); }
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url("https://fonts.googleapis.com/css?family=Montserrat"); }
+.tester {
+  line-height: 10px;
+  height: 1100px; }
 
 a {
   color: #fff;
