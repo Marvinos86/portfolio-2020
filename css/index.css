@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap");
 .button-top-menu {
   font-size: 20px;
   color: #ffffff;
@@ -167,6 +168,10 @@
   font-family: 'Roboto', sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); }
 
+@font-face {
+  font-family: 'Lexend Peta', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap"); }
+
 .tester {
   line-height: 10px;
   height: 1100px; }
@@ -236,8 +241,8 @@ body {
 
 .index-name {
   font-size: 85px;
-  color: #86C232;
-  font-family: "Roboto", sans-serif;
+  color: #84DCC6;
+  font-family: "Lexend Peta", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 50px;
