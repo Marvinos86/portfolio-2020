@@ -328,7 +328,8 @@ body {
   position: relative;
   padding-right: 0px;
   padding-bottom: 0px;
-  display: inline-block; }
+  display: inline-block;
+  border: #222629 solid 1px; }
 
 .float-left {
   float: left; }
