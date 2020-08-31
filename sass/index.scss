@@ -57,7 +57,7 @@ body {
   
 /** Index **/ 
 .index-container {
-  background-color: #000000;
+  background-color: $index-container-background-color;
   // background-image: url("../content/desktop-background-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
