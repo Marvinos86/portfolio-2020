@@ -2,21 +2,11 @@
 @import "buttons";
 @import "general";
 
-// @import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic);
-// @import url(https://fonts.googleapis.com/css?family=Quicksand);
-// @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 @font-face {
-  font-family: 'Roboto';
-  src: url("https://fonts.googleapis.com/css?family=Roboto:100,400,700,400italic,700italic");
-}
-@font-face {
-  font-family: 'Quicksand';
-  src: url("https://fonts.googleapis.com/css?family=Quicksand");
-}
-@font-face {
-  font-family: 'Montserrat';
-  src: url("https://fonts.googleapis.com/css?family=Montserrat");
+  font-family: 'Roboto', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 }
 
 a { color: #fff; text-decoration: none; }
