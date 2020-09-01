@@ -261,7 +261,6 @@ body {
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
-  padding-left: 5%;
   line-height: 50px; }
 
 /** Containers **/
@@ -392,7 +391,6 @@ body {
     line-height: 70px; }
   .index-specialism {
     font-size: 40px;
-    padding-left: 4%;
     line-height: 40px; }
   .project-bar {
     margin-left: 2%; }
@@ -444,12 +442,11 @@ body {
   .index-name {
     font-size: 200px;
     line-height: 180px;
-    padding-left: 3%;
+    padding-left: 4%;
     margin-top: 200px; }
   .index-specialism {
     font-size: 100px;
-    line-height: 100px;
-    padding-left: 4%; }
+    line-height: 100px; }
   .button-top-menu {
     font-size: 48px; }
   .button-selected {

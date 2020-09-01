@@ -80,7 +80,7 @@ body {
   font-weight: bold;
   text-align: left;
   margin-top: 50px;
-  padding-left: $index-name-padding-left-normal;
+  padding-left: 3%;
   line-height: $index-name-line-height-normal;
 }
 .index-specialism {
@@ -90,7 +90,6 @@ body {
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
-  padding-left: $index-specialism-padding-left-normal;
   line-height: $index-specialism-line-height-normal;
 }
 
@@ -228,12 +227,11 @@ body {
   // }
   .index-name {
     font-size: $index-name-font-size-small;
-    padding-left: $index-name-padding-left-small;
+    padding-left: 3%;
     line-height: $index-name-line-height-small;
   }
   .index-specialism {
     font-size: $index-specialism-font-size-small;
-    padding-left: $index-specialism-padding-left-small;
     line-height: $index-specialism-line-height-small;
   }
   .project-bar {
@@ -307,13 +305,12 @@ body {
   .index-name {
     font-size: $index-name-font-size-large;
     line-height: $index-name-line-height-large;
-    padding-left: $index-name-padding-left-large;
+    padding-left: 4%;
     margin-top: 200px;
   }
   .index-specialism {
     font-size: $index-specialism-font-size-large;
     line-height: $index-specialism-line-height-large;
-    padding-left: $index-specialism-padding-left-large;
   }
   .button-top-menu {
     font-size: $top-menu-button-font-size-large;
