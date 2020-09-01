@@ -1,28 +1,26 @@
-// Dark green #61892F
-// Light green #86C232
-// Very dark grey #222629
-// Dark grey #474B4F
-// Light grey #6B6E70
+// PALETTE 
+$backgroundcolor: #222629; 
+$firstaccentcolor: #84DCC6; 
+$secondaccentcolor: #D6EDFF; 
+$thirdaccentcolor: #ACD7EC;
+$fourthaccentcolor: #8B95C9; 
 
 // COLOR BUTTONS
 $button-font-color: #ffffff;
 $button-background-color: blue; 
-$button-selected-background-color: red;
+$button-selected-accent-color: #8B95C9;
 
-$button-slideshow-font-color: #86C232; 
+$button-slideshow-font-color: #84DCC6; 
 $button-slideshow-font-color-on-hover: #ffffff;
 $button-slideshow-background-color: rgba(0, 0, 0, 0.8);
  
 // COLOR BACKGROUND  
-$body-background-color: #222629; 
-$left-bar-background-color: #474B4F; 
-$top-bar-background-color: #6B6E70; 
+$body-background-color: $backgroundcolor; 
+$left-bar-background-color: #222629; 
+$top-bar-background-color: #222629; 
 
-// $index-container-background-color: 	#E0FFFF;
-// $title-background-color: #E0FFFF; 
-// $product-container-background-color: #F5DEB3; 
-// $proces-container-background-color: #F5DEB3; 
-// $content-container-background-color: #F5DEB3;
+$left-bar-border-color: #84DCC6;
+$left-bar-border-width: 3px;
 
 // back up colors: 
 //      dark grey #222629
@@ -30,7 +28,7 @@ $top-bar-background-color: #6B6E70;
 //      ligh cyan #E0FFFF
 
 // COLOR FONTS
-$index-name-font-color: #86C232;
+$index-name-font-color: #84DCC6;
 $index-specialism-font-color: #ffffff;
 
 $title-font-color: #ffffff;

@@ -16,7 +16,7 @@
 .button-selected {
   font-size: 20px;
   color: #ffffff;
-  background-color: red;
+  background-color: #8B95C9;
   font-weight: normal;
   margin-left: 10px;
   margin-right: 10px;
@@ -66,7 +66,7 @@
 .button-switch-selected {
   font-size: 16px;
   color: #ffffff;
-  background-color: red;
+  background-color: #8B95C9;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -109,7 +109,7 @@
   font-weight: 100;
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0.8);
-  color: #86C232;
+  color: #84DCC6;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
@@ -208,7 +208,7 @@ body {
 
 /** Menu **/
 .left-bar {
-  background-color: #474B4F;
+  background-color: #222629;
   width: 50px;
   height: 100vh;
   position: fixed;
@@ -217,7 +217,7 @@ body {
 .top-bar {
   width: 100vw;
   height: 50px;
-  background-color: #6B6E70;
+  background-color: #222629;
   position: fixed;
   z-index: 1000; }
 
