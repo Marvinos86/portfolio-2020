@@ -44,6 +44,7 @@ body {
   height: 100vh;
   position: fixed;
   z-index: 3500; 
+  border-right: $left-bar-border-color $left-bar-border-width solid;
 }
 .top-bar {
   width: 100vw;

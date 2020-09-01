@@ -212,7 +212,8 @@ body {
   width: 50px;
   height: 100vh;
   position: fixed;
-  z-index: 3500; }
+  z-index: 3500;
+  border-right: #84DCC6 3px solid; }
 
 .top-bar {
   width: 100vw;
