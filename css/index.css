@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap");
 .button-top-menu {
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   font-weight: normal;
   margin-left: 10px;
   margin-right: 10px;
@@ -15,7 +15,7 @@
 
 .button-selected {
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   border: #8B95C9 2px solid;
   border-radius: 5px;
   font-weight: normal;
@@ -47,8 +47,8 @@
 
 .button-switch {
   font-size: 16px;
-  color: #ffffff;
-  background-color: #ACD7EC;
+  color: #000000;
+  background-color: #6eb8de;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -66,8 +66,8 @@
 
 .button-switch-selected {
   font-size: 16px;
-  color: #ffffff;
-  background-color: #84DCC6;
+  color: #000000;
+  background-color: #38c7a3;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -85,7 +85,7 @@
 
 .button-content {
   font-size: 16px;
-  color: #ffffff;
+  color: #000000;
   background-color: #8B95C9;
   padding-top: 1px;
   padding-bottom: 1px;
