@@ -16,7 +16,8 @@
 .button-selected {
   font-size: 20px;
   color: #ffffff;
-  background-color: #8B95C9;
+  border: #8B95C9 2px solid;
+  border-radius: 5px;
   font-weight: normal;
   margin-left: 10px;
   margin-right: 10px;
@@ -47,7 +48,7 @@
 .button-switch {
   font-size: 16px;
   color: #ffffff;
-  background-color: blue;
+  background-color: #ACD7EC;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -66,7 +67,7 @@
 .button-switch-selected {
   font-size: 16px;
   color: #ffffff;
-  background-color: #8B95C9;
+  background-color: #84DCC6;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -85,7 +86,7 @@
 .button-content {
   font-size: 16px;
   color: #ffffff;
-  background-color: blue;
+  background-color: #8B95C9;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -109,7 +110,7 @@
   font-weight: 100;
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0.8);
-  color: #84DCC6;
+  color: #ACD7EC;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
@@ -228,7 +229,7 @@ body {
   right: 10%;
   margin-top: 10px;
   padding-bottom: 5px;
-  border-bottom: 1px #000000 solid; }
+  border-bottom: 1px #ACD7EC solid; }
 
 /** Index **/
 .index-container {

@@ -7,12 +7,14 @@ $fourthaccentcolor: #8B95C9;
 
 // COLOR BUTTONS
 $button-font-color: #ffffff;
-$button-background-color: blue; 
-$button-selected-accent-color: #8B95C9;
+$button-background-color: #ACD7EC; 
+$button-selected-accent-color-1: #84DCC6;  
+$button-selected-accent-color-2: #8B95C9;
 
-$button-slideshow-font-color: #84DCC6; 
+$button-slideshow-font-color: #ACD7EC; 
 $button-slideshow-font-color-on-hover: #ffffff;
 $button-slideshow-background-color: rgba(0, 0, 0, 0.8);
+$button-border-width: 2px;
  
 // COLOR BACKGROUND  
 $body-background-color: $backgroundcolor; 
@@ -21,7 +23,7 @@ $top-bar-background-color: #222629;
 
 $left-bar-border-color: #84DCC6;
 $left-bar-border-width: 3px;
-
+$top-menu-bottom-border-color: #ACD7EC;
 // back up colors: 
 //      dark grey #222629
 //      grain #F5DEB3
