@@ -18,7 +18,7 @@
   font-size: $top-menu-button-font-size-normal;
   color: $button-font-color;
   border: $selected-top-button-accent-color $selected-top-button-border-width solid;
-  border-radius: 5px;
+  border-radius: $button-border-radius;
   font-weight: normal;
   margin-left: 10px;
   margin-right: 10px;
@@ -43,7 +43,7 @@
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: $button-border-radius;
   line-height: 20px;
 }
 
@@ -52,6 +52,7 @@
   font-size: $button-switch-content-font-size-normal;
   color: $button-font-color;
   background-color: $switch-button-background-color;
+  border-radius: $button-border-radius;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
   padding-left: $button-content-switch-padding-left-right-normal;
@@ -72,6 +73,7 @@
   font-size: $button-switch-content-font-size-normal;
   color: $button-font-color;
   background-color: $selected-switch-button-background-color;
+  border-radius: $button-border-radius;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
   padding-left: $button-content-switch-padding-left-right-normal;
@@ -93,6 +95,7 @@
   font-size: $button-switch-content-font-size-normal;
   color: $button-font-color;
   background-color: $content-button-background-color;
+  border-radius: $button-border-radius;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
   padding-left: $button-content-switch-padding-left-right-normal;
