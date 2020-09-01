@@ -3,7 +3,7 @@
 // buttons for top navigation menu
 .button-top-menu {
   font-size: $top-menu-button-font-size-normal;
-  color: $button-font-color;
+  color: $top-button-font-color;
   font-weight: normal;
   margin-left: 10px;
   margin-right: 10px;
@@ -46,20 +46,6 @@
   border-radius: 5px;
   line-height: 20px;
 }
-// .button-second-menu {
-//   font-size: $second-menu-button-font-size-normal;
-//   color: $button-font-color;
-//   font-weight: bold;
-//   margin-left: 4px;
-//   margin-right: 4px;
-//   text-align: center;
-//   display: inline-block;
-//   cursor: pointer;
-//   letter-spacing: 1px;
-// }
-// .button-second-menu:hover {
-//   border-bottom: $button-second-menu-border-bottom-on-hover; 
-// }
 
 // button for switching between product and proces
 .button-switch {
@@ -84,7 +70,7 @@
 }
 .button-switch-selected {
   font-size: $button-switch-content-font-size-normal;
-  color: $button-font-color;
+  color: $button-selected-font-color;
   background-color: $button-selected-accent-color-1;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
@@ -105,7 +91,7 @@
 // button to products
 .button-content {
   font-size: $button-switch-content-font-size-normal;
-  color: $button-font-color;
+  color: $top-button-font-color;
   background-color: $button-selected-accent-color-2;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
