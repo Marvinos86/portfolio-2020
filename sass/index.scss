@@ -59,7 +59,7 @@ body {
   right: 10%;
   margin-top: 10px; 
   padding-bottom: 5px;
-  border-bottom: 1px $top-menu-bottom-border-color solid;
+  border-bottom: $top-menu-bottom-border-color $top-menu-border-width solid;
 }
   
 /** Index **/ 

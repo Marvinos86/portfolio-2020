@@ -15,7 +15,7 @@
 
 .button-selected {
   font-size: 20px;
-  color: #222629;
+  color: #ffffff;
   border: #8B95C9 2px solid;
   border-radius: 5px;
   font-weight: normal;
@@ -47,8 +47,8 @@
 
 .button-switch {
   font-size: 16px;
-  color: #222629;
-  background-color: #ACD7EC;
+  color: #ffffff;
+  background-color: #8B95C9;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -229,7 +229,7 @@ body {
   right: 10%;
   margin-top: 10px;
   padding-bottom: 5px;
-  border-bottom: 1px #ACD7EC solid; }
+  border-bottom: #84DCC6 2px solid; }
 
 /** Index **/
 .index-container {

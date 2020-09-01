@@ -3,7 +3,7 @@
 // buttons for top navigation menu
 .button-top-menu {
   font-size: $top-menu-button-font-size-normal;
-  color: $top-button-font-color;
+  color: $button-font-color;
   font-weight: normal;
   margin-left: 10px;
   margin-right: 10px;
@@ -17,7 +17,7 @@
 .button-selected {
   font-size: $top-menu-button-font-size-normal;
   color: $button-font-color;
-  border: $button-selected-accent-color-2 $button-border-width solid;
+  border: $selected-top-button-accent-color $selected-top-button-border-width solid;
   border-radius: 5px;
   font-weight: normal;
   margin-left: 10px;
@@ -51,7 +51,7 @@
 .button-switch {
   font-size: $button-switch-content-font-size-normal;
   color: $button-font-color;
-  background-color: $button-background-color;
+  background-color: $switch-button-background-color;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
   padding-left: $button-content-switch-padding-left-right-normal;
@@ -70,8 +70,8 @@
 }
 .button-switch-selected {
   font-size: $button-switch-content-font-size-normal;
-  color: $button-selected-font-color;
-  background-color: $button-selected-accent-color-1;
+  color: $button-font-color;
+  background-color: $selected-switch-button-background-color;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
   padding-left: $button-content-switch-padding-left-right-normal;
@@ -91,8 +91,8 @@
 // button to products
 .button-content {
   font-size: $button-switch-content-font-size-normal;
-  color: $top-button-font-color;
-  background-color: $button-selected-accent-color-2;
+  color: $button-font-color;
+  background-color: $content-button-background-color;
   padding-top: $button-content-switch-padding-top-bottom-normal;
   padding-bottom: $button-content-switch-padding-top-bottom-normal;
   padding-left: $button-content-switch-padding-left-right-normal;
