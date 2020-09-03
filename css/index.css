@@ -245,23 +245,23 @@ body {
   top: -50px; }
 
 .index-name {
-  font-size: 12vw;
+  font-size: 10vw;
   color: #84DCC6;
   font-family: "Lexend Peta", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 50px;
   padding-left: 3%;
-  line-height: 12vw; }
+  line-height: 10vw; }
 
 .index-specialism {
-  font-size: 11vw;
+  font-size: 9vw;
   color: #ffffff;
   font-family: "Lexend Peta", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
-  line-height: 11vw; }
+  line-height: 9vw; }
 
 /** Containers **/
 .container {
@@ -386,12 +386,12 @@ body {
   .second-menu {
     right: 5%; }
   .index-name {
-    font-size: 8vw;
+    font-size: 9vw;
     padding-left: 3%;
-    line-height: 8vw; }
+    line-height: 9vw; }
   .index-specialism {
-    font-size: 7vw;
-    line-height: 7vw; }
+    font-size: 8vw;
+    line-height: 8vw; }
   .project-bar {
     margin-left: 2%; }
   .product-container {
