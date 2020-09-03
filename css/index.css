@@ -371,7 +371,7 @@ body {
   padding: 10px;
   text-align: center; }
 
-@media screen and (max-width: 1081px) {
+@media screen and (max-width: 1025px) {
   .left-bar {
     display: none; }
   .top-menu {
@@ -409,18 +409,6 @@ body {
     font-size: 2.5vw; }
   .skills-title {
     font-size: 2.5vw; }
-  .button-top-menu {
-    font-size: 15px; }
-  .button-selected {
-    font-size: 15px; }
-  .button-switch {
-    font-size: 2vw; }
-  .button-switch-selected {
-    font-size: 2vw; }
-  .button-content {
-    font-size: 2vw; }
-  .prev, .next {
-    font-size: 30px; }
   .description {
     font-size: 2vw; } }
 

@@ -212,7 +212,7 @@ body {
 }
 
 // media query for elements on screens smaller than 1025px
-@media screen and (max-width: 1081px) {
+@media screen and (max-width: 1025px) {
   .left-bar {
     display: none;
   }
@@ -266,24 +266,6 @@ body {
   }
   .skills-title {
     font-size: $title-font-size-small;
-  }
-  .button-top-menu {
-    font-size: $top-menu-button-font-size-small;
-  }
-  .button-selected {
-    font-size: $top-menu-button-font-size-small;
-  }
-  .button-switch {
-    font-size: $button-switch-content-font-size-small;
-  }
-  .button-switch-selected {
-    font-size: $button-switch-content-font-size-small;
-  }
-  .button-content {
-    font-size: $button-switch-content-font-size-small;
-  }
-  .prev, .next {
-    font-size: $prev-next-buttons-font-size-small;
   }
   .description {
     font-size: $description-font-size-small;
