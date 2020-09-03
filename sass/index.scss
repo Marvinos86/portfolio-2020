@@ -61,15 +61,6 @@ body {
   padding-bottom: 8px;
   border-bottom: $top-menu-bottom-border-color $top-menu-border-width solid;
 }
-.second-top-bar {
-    width: 100vw;
-    height: $top-menu-height;
-    background: rgb(34,38,41);
-    background: linear-gradient(180deg, rgba(34,38,41,1) 0%, rgba(255,255,255,0) 100%);
-    position: fixed;
-    margin-top: $top-menu-height;
-    z-index: 1000; 
-}
   
 /** Index **/ 
 .index-container {
