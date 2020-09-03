@@ -245,14 +245,14 @@ body {
   top: -50px; }
 
 .index-name {
-  font-size: 140px;
+  font-size: 8vw;
   color: #84DCC6;
   font-family: "Lexend Peta", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 50px;
   padding-left: 3%;
-  line-height: 130px; }
+  line-height: 8vw; }
 
 .index-specialism {
   font-size: 120px;
