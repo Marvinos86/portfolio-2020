@@ -114,8 +114,8 @@ body {
   height: 30px;
   width: auto;
   position: absolute;
+  font-weight: bold;
   left:0;
-  line-height: 50px;
 }
 .skills-title {
   font-size: $title-font-size-normal;
@@ -255,13 +255,21 @@ body {
     margin-left: 0%;
   }
   .link-container {
-    order: 1;
-    text-align: right;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    padding-top: 50px;
   }
   .description-and-link {
     font-size: $description-font-size-small;
-    order: 2;
+    width: 75%;
+    display: inline-block;
   }
+
+
+
+
+
   .project-title {
     font-size: $title-font-size-small;
   }

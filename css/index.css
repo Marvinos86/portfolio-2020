@@ -60,7 +60,6 @@
   width: auto;
   height: auto;
   text-align: center;
-  font-weight: bold;
   display: inline-block;
   line-height: 30px;
   cursor: pointer; }
@@ -81,7 +80,6 @@
   width: auto;
   height: auto;
   text-align: center;
-  font-weight: bold;
   display: inline-block;
   line-height: 30px;
   cursor: pointer; }
@@ -277,8 +275,8 @@ body {
   height: 30px;
   width: auto;
   position: absolute;
-  left: 0;
-  line-height: 50px; }
+  font-weight: bold;
+  left: 0; }
 
 .skills-title {
   font-size: 1.5vw;
@@ -401,11 +399,14 @@ body {
     flex-wrap: wrap;
     margin-left: 0%; }
   .link-container {
-    order: 1;
-    text-align: right; }
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    padding-top: 50px; }
   .description-and-link {
     font-size: 2vw;
-    order: 2; }
+    width: 75%;
+    display: inline-block; }
   .project-title {
     font-size: 2vw; }
   .skills-title {
