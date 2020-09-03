@@ -245,23 +245,23 @@ body {
   top: -50px; }
 
 .index-name {
-  font-size: 10vw;
+  font-size: 9vw;
   color: #84DCC6;
   font-family: "Lexend Peta", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 50px;
   padding-left: 3%;
-  line-height: 10vw; }
+  line-height: 8vw; }
 
 .index-specialism {
-  font-size: 9vw;
+  font-size: 8vw;
   color: #ffffff;
   font-family: "Lexend Peta", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
-  line-height: 9vw; }
+  line-height: 7vw; }
 
 /** Containers **/
 .container {
