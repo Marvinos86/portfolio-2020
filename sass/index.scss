@@ -49,7 +49,6 @@ body {
 .top-bar {
   width: 100vw;
   height: $top-menu-height;
-  background-color: $top-bar-background-color;
   position: fixed;
   z-index: 1000; 
 }
@@ -59,6 +58,7 @@ body {
   right: 10%;
   margin-top: 10px; 
   padding-bottom: 8px;
+  background-color: $top-bar-background-color;
   border-bottom: $top-menu-bottom-border-color $top-menu-border-width solid;
 }
   
@@ -256,6 +256,7 @@ body {
   }
   .link-container {
     order: 1;
+    text-align: right;
   }
   .description-and-link {
     font-size: $description-font-size-small;
