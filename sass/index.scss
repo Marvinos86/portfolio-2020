@@ -49,7 +49,9 @@ body {
 .top-bar {
   width: 100vw;
   height: $top-menu-height;
-  background-color: $top-bar-background-color;
+  // background-color: $top-bar-background-color;
+  background: rgb(34,38,41);
+  background: linear-gradient(180deg, rgba(34,38,41,1) 0%, rgba(255,255,255,0) 100%);;
   position: fixed;
   z-index: 1000; 
 }
