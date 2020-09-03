@@ -79,7 +79,7 @@ body {
   font-family: $index-name-font;
   font-weight: bold;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 60px;
   padding-left: 3%;
   line-height: $index-name-line-height-normal;
 }
@@ -354,6 +354,9 @@ body {
 
 // media query for elements on screen smaller than 884px
 @media screen and (max-width: 884px) {
+  .index-name {
+    margin-top: 70px;
+  }  
   .second-bar {
     height: $second-menu-height-very-small;
   }

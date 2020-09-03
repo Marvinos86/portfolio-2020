@@ -241,7 +241,7 @@ body {
   font-family: "Lexend Peta", sans-serif;
   font-weight: bold;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 60px;
   padding-left: 3%;
   line-height: 8vw; }
 
@@ -381,8 +381,8 @@ body {
     padding-left: 3%;
     line-height: 10vw; }
   .index-specialism {
-    font-size: 9.5vw;
-    line-height: 9vw; }
+    font-size: 9vw;
+    line-height: 8vw; }
   .project-bar {
     margin-left: 2%; }
   .product-container {
@@ -471,6 +471,8 @@ body {
     font-size: 1vw; } }
 
 @media screen and (max-width: 884px) {
+  .index-name {
+    margin-top: 70px; }
   .second-bar {
     height: 47px; }
   .container {
