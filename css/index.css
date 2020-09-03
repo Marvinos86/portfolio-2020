@@ -255,13 +255,13 @@ body {
   line-height: 12vw; }
 
 .index-specialism {
-  font-size: 120px;
+  font-size: 11vw;
   color: #ffffff;
   font-family: "Lexend Peta", sans-serif;
   font-weight: bold;
   text-align: left;
   margin-top: 10px;
-  line-height: 110px; }
+  line-height: 11vw; }
 
 /** Containers **/
 .container {
@@ -386,12 +386,12 @@ body {
   .second-menu {
     right: 5%; }
   .index-name {
-    font-size: 40px;
+    font-size: 8vw;
     padding-left: 3%;
-    line-height: 40px; }
+    line-height: 8vw; }
   .index-specialism {
-    font-size: 30px;
-    line-height: 30px; }
+    font-size: 7vw;
+    line-height: 7vw; }
   .project-bar {
     margin-left: 2%; }
   .product-container {
@@ -440,13 +440,13 @@ body {
   .container {
     padding-top: 120px; }
   .index-name {
-    font-size: 200px;
-    line-height: 180px;
+    font-size: 15vw;
+    line-height: 15vw;
     padding-left: 4%;
     margin-top: 200px; }
   .index-specialism {
-    font-size: 180px;
-    line-height: 170px; }
+    font-size: 14vw;
+    line-height: 14vw; }
   .button-top-menu {
     font-size: 48px; }
   .button-selected {
