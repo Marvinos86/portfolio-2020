@@ -46,7 +46,7 @@
   line-height: 20px; }
 
 .button-switch {
-  font-size: 16px;
+  font-size: 1vw;
   color: #ffffff;
   background-color: #8B95C9;
   border-radius: 5px;
@@ -66,27 +66,10 @@
   cursor: pointer; }
 
 .button-switch-selected {
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #38c7a3;
-  border-radius: 5px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-left: 3px;
-  margin-right: 3px;
-  position: relative;
-  width: auto;
-  height: auto;
-  text-align: center;
-  font-weight: bold;
-  display: inline-block;
-  line-height: 30px;
-  cursor: pointer; }
+  background-color: #38c7a3; }
 
 .button-content {
-  font-size: 16px;
+  font-size: 1vw;
   color: #ffffff;
   background-color: #8B95C9;
   border-radius: 5px;
@@ -140,9 +123,9 @@
   .button-selected {
     font-size: 15px; }
   .button-switch {
-    font-size: 14px; }
+    font-size: 2vw; }
   .button-content {
-    font-size: 14px; }
+    font-size: 2vw; }
   .prev, .next {
     padding-left: 6px;
     padding-right: 6px;
@@ -151,15 +134,25 @@
     font-weight: 80;
     font-size: 30px; } }
 
+@media screen and (max-width: 884px) {
+  .button-top-menu {
+    font-size: 17px; }
+  .button-selected {
+    font-size: 17px; }
+  .button-switch {
+    font-size: 17px; }
+  .button-content {
+    font-size: 17px; } }
+
 @media screen and (min-width: 2500px) {
   .button-top-menu {
     font-size: 48px; }
   .button-selected {
     font-size: 48px; }
   .button-switch {
-    font-size: 35px; }
+    font-size: 1vw; }
   .button-content {
-    font-size: 35px; }
+    font-size: 1vw; }
   .prev, .next {
     padding-left: 12px;
     padding-right: 12px;
@@ -278,7 +271,7 @@ body {
   padding-bottom: 50px; }
 
 .project-title {
-  font-size: 24px;
+  font-size: 1.5vw;
   background-color: #222629;
   color: #ffffff;
   height: 30px;
@@ -288,7 +281,7 @@ body {
   line-height: 50px; }
 
 .skills-title {
-  font-size: 24px;
+  font-size: 1.5vw;
   background-color: #222629;
   color: #ffffff;
   height: 30px;
@@ -413,19 +406,19 @@ body {
     font-size: 2vw;
     order: 2; }
   .project-title {
-    font-size: 15px; }
+    font-size: 2.5vw; }
   .skills-title {
-    font-size: 15px; }
+    font-size: 2.5vw; }
   .button-top-menu {
     font-size: 15px; }
   .button-selected {
     font-size: 15px; }
   .button-switch {
-    font-size: 14px; }
+    font-size: 2vw; }
   .button-switch-selected {
-    font-size: 14px; }
+    font-size: 2vw; }
   .button-content {
-    font-size: 14px; }
+    font-size: 2vw; }
   .prev, .next {
     font-size: 30px; }
   .description {
@@ -460,28 +453,28 @@ body {
     margin-top: 70px;
     margin-bottom: 50px; }
   .button-switch {
-    font-size: 35px;
+    font-size: 1vw;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-left: 10px;
     margin-right: 10px; }
   .button-switch-selected {
-    font-size: 35px;
+    font-size: 1vw;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-left: 10px;
     margin-right: 10px; }
   .button-content {
-    font-size: 35px;
+    font-size: 1vw;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top: 40px; }
   .prev, .next {
     font-size: 80px; }
   .project-title {
-    font-size: 45px; }
+    font-size: 1.5vw; }
   .skills-title {
-    font-size: 45px; }
+    font-size: 1.5vw; }
   .description {
     font-size: 1vw; }
   .description-and-link {

@@ -70,25 +70,7 @@
   // border: 3px solid $button-switch-border-color; 
 }
 .button-switch-selected {
-  font-size: $button-switch-content-font-size-normal;
-  color: $button-font-color;
   background-color: $selected-switch-button-background-color;
-  border-radius: $button-border-radius;
-  padding-top: $button-content-switch-padding-top-bottom-normal;
-  padding-bottom: $button-content-switch-padding-top-bottom-normal;
-  padding-left: $button-content-switch-padding-left-right-normal;
-  padding-right: $button-content-switch-padding-left-right-normal;
-  margin-left: $button-switch-margin-left-right-normal;
-  margin-right: $button-switch-margin-left-right-normal;
-  position: relative;
-  width: auto;
-  height: auto;
-  text-align: center;
-  font-weight: bold;
-  display: inline-block;
-  line-height: 30px; 
-  cursor: pointer;
-  // border: 3px solid $button-switch-border-color; 
 }
 // button to products
 .button-content {
@@ -164,6 +146,21 @@
     padding-top: $prev-next-buttons-padding-top-bottom-small;
     font-weight: $prev-next-buttons-font-weight-small;
     font-size: $prev-next-buttons-font-size-small;
+  }
+}
+// media query for elements on screen smaller than 884px
+@media screen and (max-width: 884px) { 
+  .button-top-menu {
+    font-size: $top-menu-button-font-size-very-small;
+  }
+  .button-selected {
+    font-size: $top-menu-button-font-size-very-small;
+  }
+  .button-switch {
+    font-size: $button-switch-content-font-size-very-small;
+  }
+  .button-content {
+    font-size: $button-switch-content-font-size-very-small;
   }
 }
 
