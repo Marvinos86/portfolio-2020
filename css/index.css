@@ -410,7 +410,7 @@ body {
   .link-container {
     order: 1; }
   .description-and-link {
-    font-size: 1vw;
+    font-size: 2vw;
     order: 2; }
   .project-title {
     font-size: 15px; }
@@ -429,7 +429,7 @@ body {
   .prev, .next {
     font-size: 30px; }
   .description {
-    font-size: 1vw; } }
+    font-size: 2vw; } }
 
 @media screen and (min-width: 2500px) {
   .top-bar {
@@ -497,7 +497,21 @@ body {
     position: relative; }
   .project-bar {
     margin-bottom: 50px;
-    padding-bottom: 0px; } }
+    padding-bottom: 0px; }
+  .button-top-menu {
+    font-size: 17px; }
+  .project-title {
+    font-size: 17px; }
+  .skills-title {
+    font-size: 17px; }
+  .description {
+    font-size: 16px; }
+  .description-and-link {
+    font-size: 16px; }
+  .button-switch {
+    font-size: 17px; }
+  .button-switch-selected {
+    font-size: 17px; } }
 
 @media screen and (max-width: 424px) {
   .container {
