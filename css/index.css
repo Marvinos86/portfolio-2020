@@ -356,7 +356,7 @@ body {
 
 .description {
   font-family: "Roboto", sans-serif;
-  font-size: 0.5vw;
+  font-size: 1vw;
   color: #ffffff;
   text-align: justify;
   float: left;
@@ -365,7 +365,7 @@ body {
 
 .description-and-link {
   font-family: "Roboto", sans-serif;
-  font-size: 0.5vw;
+  font-size: 1vw;
   color: #ffffff;
   text-align: justify;
   float: left;
@@ -410,7 +410,7 @@ body {
   .link-container {
     order: 1; }
   .description-and-link {
-    font-size: 0.5vw;
+    font-size: 1vw;
     order: 2; }
   .project-title {
     font-size: 15px; }
@@ -429,7 +429,7 @@ body {
   .prev, .next {
     font-size: 30px; }
   .description {
-    font-size: 0.5vw; } }
+    font-size: 1vw; } }
 
 @media screen and (min-width: 2500px) {
   .top-bar {
@@ -483,9 +483,9 @@ body {
   .skills-title {
     font-size: 45px; }
   .description {
-    font-size: 0.5vw; }
+    font-size: 1vw; }
   .description-and-link {
-    font-size: 0.5vw; } }
+    font-size: 1vw; } }
 
 @media screen and (max-width: 884px) {
   .second-bar {
