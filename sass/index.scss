@@ -49,9 +49,7 @@ body {
 .top-bar {
   width: 100vw;
   height: $top-menu-height;
-  // background-color: $top-bar-background-color;
-  background: rgb(34,38,41);
-  background: linear-gradient(180deg, rgba(34,38,41,1) 0%, rgba(255,255,255,0) 100%);;
+  background-color: $top-bar-background-color;
   position: fixed;
   z-index: 1000; 
 }
@@ -62,6 +60,14 @@ body {
   margin-top: 10px; 
   padding-bottom: 8px;
   border-bottom: $top-menu-bottom-border-color $top-menu-border-width solid;
+}
+.second-top-bar {
+    width: 100vw;
+    height: $top-menu-height;
+    background: rgb(34,38,41);
+    background: linear-gradient(180deg, rgba(34,38,41,1) 0%, rgba(255,255,255,0) 100%);
+    position: fixed;
+    z-index: 1000; 
 }
   
 /** Index **/ 

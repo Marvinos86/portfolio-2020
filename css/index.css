@@ -213,8 +213,7 @@ body {
 .top-bar {
   width: 100vw;
   height: 50px;
-  background: #222629;
-  background: linear-gradient(180deg, #222629 0%, rgba(255, 255, 255, 0) 100%);
+  background-color: #222629;
   position: fixed;
   z-index: 1000; }
 
@@ -225,6 +224,14 @@ body {
   margin-top: 10px;
   padding-bottom: 8px;
   border-bottom: #84DCC6 2px solid; }
+
+.second-top-bar {
+  width: 100vw;
+  height: 50px;
+  background: #222629;
+  background: linear-gradient(180deg, #222629 0%, rgba(255, 255, 255, 0) 100%);
+  position: fixed;
+  z-index: 1000; }
 
 /** Index **/
 .index-container {
