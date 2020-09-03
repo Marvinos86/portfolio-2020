@@ -215,6 +215,7 @@ body {
 .top-bar {
   width: 100vw;
   height: 50px;
+  background-color: #222629;
   position: fixed;
   z-index: 1000; }
 
@@ -224,7 +225,6 @@ body {
   right: 10%;
   margin-top: 10px;
   padding-bottom: 8px;
-  background-color: #222629;
   border-bottom: #84DCC6 2px solid; }
 
 /** Index **/
