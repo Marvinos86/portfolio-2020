@@ -265,11 +265,6 @@ body {
     width: 75%;
     display: inline-block;
   }
-
-
-
-
-
   .project-title {
     font-size: $title-font-size-small;
   }
@@ -387,6 +382,15 @@ body {
   }
   .description-and-link {
     font-size: $description-font-size-very-small;
+    order: 2;
+    width: 100%;
+  }
+  .link-container {
+    order: 1;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
   }
   .button-switch {
     font-size: $button-switch-content-font-size-very-small;

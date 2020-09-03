@@ -490,7 +490,15 @@ body {
   .description {
     font-size: 16px; }
   .description-and-link {
-    font-size: 16px; }
+    font-size: 16px;
+    order: 2;
+    width: 100%; }
+  .link-container {
+    order: 1;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%; }
   .button-switch {
     font-size: 17px; }
   .button-switch-selected {
