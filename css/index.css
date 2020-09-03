@@ -386,12 +386,12 @@ body {
   .second-menu {
     right: 5%; }
   .index-name {
-    font-size: 70px;
+    font-size: 40px;
     padding-left: 3%;
-    line-height: 70px; }
+    line-height: 40px; }
   .index-specialism {
-    font-size: 60px;
-    line-height: 50px; }
+    font-size: 30px;
+    line-height: 30px; }
   .project-bar {
     margin-left: 2%; }
   .product-container {
