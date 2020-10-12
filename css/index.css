@@ -475,6 +475,9 @@ body {
     margin-top: 100px; }
   .second-bar {
     height: 47px; }
+  .skill-container {
+    width: 100%;
+    margin-left: 0%; }
   .container {
     padding-top: 70px; }
   .project-title {
