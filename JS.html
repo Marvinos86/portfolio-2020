@@ -1,0 +1,169 @@
+<html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 2.0">
+    <title>JavaScript Works</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="JS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
+    
+</head>
+    
+<body>
+    
+    
+ <div class="left-bar" id="left-bar"></div> 
+    
+<!-- DESKTOP MENU --> 
+<div class="top-bar">
+    <div class="top-menu">
+        <a href="index.html"><div class="button-selected">HOME</div></a>
+        <a href="skills.html"><div class="button-top-menu">SKILLS</div></a>
+        <a href="Marvin_Pelger_CV.pdf" target="_blank"><div class="button-top-menu">CV</div></a>
+        <a href="https://www.linkedin.com/in/marvin-pelger-309b2112/" target="_blank"><div class="button-linkedin">in</div></a>          
+    </div>
+</div>
+
+<!-- Clock -->
+<div class="javascript-top-bar">
+    <div class="clock-container">
+        <div id="ClockScreen" class="clock" onload="showTime()"></div>
+    </div>
+</div>
+
+<div class="javascript-container">
+    <!-- Calculator -->
+    <div class="javascript-container-left">
+        <div class="calculator" id="calculator">
+            <div class="calc-button clear" id="clear">C</div>
+            <div class="screen calc-screen" id="screen">0</div>
+            <div class="calc-button num" data-num="7">7</div>
+            <div class="calc-button num" data-num="8">8</div>
+            <div class="calc-button num" data-num="9">9</div>
+            <div class="calc-button ops" data-ops="plus">+</div>
+
+            <div class="calc-button num" data-num="4">4</div>
+            <div class="calc-button num" data-num="5">5</div>
+            <div class="calc-button num" data-num="6">6</div>
+            <div class="calc-button ops" data-ops="minus">-</div>
+
+            <div class="calc-button num" data-num="1">1</div>
+            <div class="calc-button num" data-num="2">2</div>
+            <div class="calc-button num" data-num="3">3</div>
+            <div class="calc-button ops" data-ops="times">*</div>
+
+            <div class="calc-button num" data-num="0">0</div>
+            <div class="calc-button num" data-num=".">.</div>
+            <div class="calc-button calculate" id="calculate" data-result="">=</div>
+            <div class="calc-button ops" data-ops="divided by">/</div>
+        </div>
+    </div>
+
+    <!-- To Do List -->
+    <div class="javascript-container-right">
+        <div class="todo-list">
+            <div class="todo-header">
+                <div style="margin:5px">To Do List</div>
+                <input class="todo-input" type="text" id="listInput" placeholder="Vul een taak in">
+                <span onclick="newElement()" class="todo-addbutton">+</span>
+            </div>
+            
+            <ul id="task">
+                <li>Sporten</li>
+                <li class="checked">Rekeningen betalen</li>
+                <li>JavaScript oefenen</li>
+                <li>Eieren kopen</li>
+                <li>Bloemen halen</li>
+                <li>Huis opruimen</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="javascript-container">
+    <!-- Video Player -->
+    <div class="javascript-container-left">
+            <div id="wrapper">
+                <div id='player_wrapper'>
+                    <video id='video_player'>
+                        <source src='Forest.mp4' type='video/mp4'>
+                    </video> 
+                    <div id='player_controls'>
+                        <input type="image" src="play.png" onclick="play_vid()" id="play_button">
+                        <input type="image" src="pause.png" onclick="pause_vid()" id="pause_button">
+                        <input type="image" src="stop.png" onclick="stop_vid()" id="stop_button">
+                        <img src="volume.png" id="vol_img">
+                        <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!-- Password Generator -->
+    <div class="javascript-container-right">
+        <div class="password-container">
+            <div class="password-header">
+                <div class="password" id="password-screen"> <!-- Hier komt wachtwoord --> </div>
+            </div>
+            <div class="password-content-container">
+                <div class="password-content">
+                    <label>Aantal tekens</label>
+                    <input id="lengte" value="15" type="number" min="2" max="30" />
+                </div>
+                <div class="password-content">
+                    <label>Hoofdletters</label>
+                    <input id="hoofdletters" type="checkbox" />
+                </div>
+                <div class="password-content">
+                    <label>Kleine letters</label>
+                    <input id="kleineletters" type="checkbox" checked />
+                </div>
+                <div class="password-content">
+                    <label>Cijfers</label>
+                    <input id="cijfers" type="checkbox" checked />
+                </div>
+                <div class="password-content">
+                    <label>Symbolen</label>
+                    <input id="symbolen" type="checkbox" />
+                </div>
+                <button class="generate" id="generate">
+                    Generate Password
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Winkelwagen-->
+<div class="javascript-top-bar" style="padding-top: 20px; height: auto;">  
+    <div class="winkel-container">
+        <div class="winkelwagen">
+            <div class="shopping-cart-head">
+                <span class="product-quantity">0</span> Winkelwagentje:
+            </div>
+            <ul class="shopping-cart-list">
+            </ul>
+            <div class="cart-buttons">
+                <a href="#0" class="winkel-knop empty-cart-btn">Leegmaken</a>
+                <a href="#0" class="winkel-knop cart-checkout">Totaalprijs - <span class="total-price">$0</span></a>
+            </div>
+        </div>
+        <div class="products">
+        </div>
+    </div>
+</div>
+        
+    
+<script src="JavaScriptProjects/calculator.js"></script>
+<script src="JavaScriptProjects/todo-list.js"></script>   
+<script src="JavaScriptProjects/clock.js"></script>
+<script src="JavaScriptProjects/password-generator.js"></script>
+<script src="JavaScriptProjects/videoplayer.js"></script>
+<script src="JavaScriptProjects/winkelwagen.js"></script>
+</body>
+
+</html>
+    
