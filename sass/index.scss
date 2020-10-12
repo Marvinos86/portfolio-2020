@@ -749,7 +749,6 @@ ul li.checked::before {
 
 /*** VIDEO PLAYER ***/
 #wrapper {
-	text-align:center;
   margin:0 auto;
   margin-left: 5%;
 	padding:0px;
@@ -761,13 +760,13 @@ ul li.checked::before {
 	margin-left:10%;
 }
 #video_player {
-	width:400px;
+	width:80%;
 }
 #player_controls {
 	top:98%;
 	position:absolute;
 	background-color:black;
-  width:400px;
+  width:80%;
 	padding:5px;
 	box-sizing:border-box;
 }
