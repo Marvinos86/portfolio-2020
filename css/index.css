@@ -530,10 +530,11 @@ body {
 /***** JavaScript Project Styling *****/
 /* JavaScript Containers */
 .javascript-top-bar {
-  width: 100%;
+  width: 50%;
   height: 100px;
   padding-top: 50px;
-  padding-left: 10%; }
+  padding-left: 50px;
+  text-align: center; }
 
 .javascript-container {
   height: 100vh;
@@ -584,7 +585,8 @@ body {
 .clock-container {
   border: 1px solid #fff;
   padding: 10px;
-  width: 285px; }
+  width: 285px;
+  display: inline-block; }
 
 .clock {
   color: #8B95C9;
