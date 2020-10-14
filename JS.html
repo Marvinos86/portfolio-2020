@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
-    
+    <!-- Highlight -->
+    <link rel="stylesheet" href="/prism/prism.css>">
 </head>
     
 <body>
@@ -157,6 +158,110 @@
         </div>
     </div>
 </div>
+
+<!-- Code Highlight -->
+<div class="javascript-container">
+    <div class="javascript-container-left">
+        <div style="text-align: left;">
+            
+<pre style="margin-left: 30px; overflow: auto; height: 500px;">
+    <code clas="language-javascript">
+    &lt;script&gt;
+(function() {
+    // Split elements in  single elements or nodelist
+    var x = function(element) {
+        if (element.charAt(0) === "#") { 
+        return document.querySelector(element); 
+        }
+        return document.querySelectorAll(element); 
+    };
+    
+    // VARIABELEN
+    var screen = x("#screen"), 
+        calculate = x("#calculate"), 
+        clear = x("#clear"),
+        nums = x(".num"), 
+        ops = x(".ops"),
+        currentNumber = "", 
+        oldNumber = "", 
+        resultNumber, 
+        operator; 
+    
+    // NUMMERS OPVANGEN
+    var catchNumber = function() {
+        if (resultNumber) { 
+        currentNumber = this.getAttribute("data-num"); 
+        resultNumber = "";
+        } else {  
+        currentNumber += this.getAttribute("data-num"); 
+        }
+        screen.innerHTML = currentNumber; 
+    };
+    
+    // CLICK EVENTS GETALLEN
+    for (var i = 0, l = nums.length; i < l; i++) {
+        nums[i].onclick = catchNumber;
+    }
+    
+    // OPERATOR OPVANGEN
+    var catchOperator = function() {
+        oldNumber = currentNumber; 
+        currentNumber = "";  
+        operator = this.getAttribute("data-ops");
+    };
+    
+    // CLICK EVENTS OPERATORS
+        for (var i = 0, l = ops.length; i < l; i++) {
+        ops[i].onclick = catchOperator;
+        }
+    
+    // RESULTAAT BEREKENEN
+    calculate.onclick =  function() {
+        oldNumber = parseFloat(oldNumber);
+        currentNumber = parseFloat(currentNumber);
+    
+        // BEREKENING MAKEN OBV GEKOZEN OPERATOR
+        switch (operator) {
+        case "plus":
+            resultNumber = oldNumber + currentNumber;
+            break;
+        case "minus":
+            resultNumber = oldNumber - currentNumber;
+            break;
+        case "times":
+            resultNumber = oldNumber * currentNumber;
+            break;
+        case "divided by":
+            resultNumber = oldNumber / currentNumber;
+            break;
+        default:
+            resultNumber = currentNumber;
+        }
+    
+        // UITKOMST BEREKENING TONEN + AANPASSINGEN VARIABELEN
+        screen.innerHTML = resultNumber;
+        oldNumber = "";  
+        currentNumber = resultNumber; 
+    };
+    
+    // EVENTUELE KLIK OP CLEAR RESET ALLES OP 0 OF LEEG
+    clear.onclick = function() {
+        oldNumber = "";
+        currentNumber = "";
+        screen.innerHTML = "0";
+    };
+    }()); 
+    &lt;/script&gt;
+</code>
+</pre>
+        
+        </div>
+    </div>
+
+    <div class="javascript-container-right">
+    </div>
+
+</div>
         
     
 <script src="JavaScriptProjects/calculator.js"></script>
@@ -165,6 +270,7 @@
 <script src="JavaScriptProjects/password-generator.js"></script>
 <script src="JavaScriptProjects/videoplayer.js"></script>
 <script src="JavaScriptProjects/winkelwagen.js"></script>
+<script src="/prism/prism.js"></script>
 </body>
 
 </html>
