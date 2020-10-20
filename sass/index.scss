@@ -272,6 +272,9 @@ body {
   .skills-title {
     font-size: $title-font-size-small;
   }
+  .javascript-title {
+    font-size: $title-font-size-small;
+  }
   .description {
     font-size: $description-font-size-small;
   }
@@ -705,6 +708,10 @@ input[type="image"] {
     margin-top: 70px;
     margin-bottom: 50px;
   }
+  .javascript-title {
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
   .button-switch {
     font-size: $button-switch-content-font-size-large;
     padding-bottom: $button-content-switch-padding-top-bottom-large;
@@ -732,6 +739,9 @@ input[type="image"] {
     font-size: $title-font-size-large;
   }
   .skills-title {
+    font-size: $title-font-size-large;
+  }
+  .javascript-title {
     font-size: $title-font-size-large;
   }
   .description {
@@ -772,6 +782,9 @@ input[type="image"] {
     font-size: $title-font-size-very-small;
   }
   .skills-title {
+    font-size: $title-font-size-very-small;
+  }
+  .javascript-title {
     font-size: $title-font-size-very-small;
   }
   .description {

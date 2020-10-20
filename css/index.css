@@ -412,6 +412,8 @@ body {
     font-size: 2vw; }
   .skills-title {
     font-size: 2vw; }
+  .javascript-title {
+    font-size: 2vw; }
   .description {
     font-size: 2vw; } }
 
@@ -824,6 +826,9 @@ input[type="image"] {
   .skills-title {
     margin-top: 70px;
     margin-bottom: 50px; }
+  .javascript-title {
+    margin-top: 70px;
+    margin-bottom: 50px; }
   .button-switch {
     font-size: 1vw;
     padding-bottom: 10px;
@@ -846,6 +851,8 @@ input[type="image"] {
   .project-title {
     font-size: 1.5vw; }
   .skills-title {
+    font-size: 1.5vw; }
+  .javascript-title {
     font-size: 1.5vw; }
   .description {
     font-size: 1vw; }
@@ -873,6 +880,8 @@ input[type="image"] {
   .project-title {
     font-size: 17px; }
   .skills-title {
+    font-size: 17px; }
+  .javascript-title {
     font-size: 17px; }
   .description {
     font-size: 16px; }
