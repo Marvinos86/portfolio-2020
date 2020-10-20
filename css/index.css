@@ -508,7 +508,33 @@ body {
   .button-switch {
     font-size: 17px; }
   .button-switch-selected {
-    font-size: 17px; } }
+    font-size: 17px; }
+  /************* JavaScript Elements for smaller than 884px *****************/
+  .javascript-container {
+    height: auto;
+    width: 100%;
+    display: block;
+    padding: 25px; }
+  .javascript-container-left {
+    left: 0;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    order: 1; }
+  .javascript-container-right {
+    right: 0;
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    order: 2; }
+  .javascript-top-bar {
+    padding: 25px; }
+  .calculator {
+    margin-top: 50px; } }
 
 @media screen and (max-width: 424px) {
   .container {
@@ -527,7 +553,9 @@ body {
   .small-fill {
     height: 70px; } }
 
-/***** JavaScript Project Styling *****/
+/************************* JavaScript Project Styling *************************/
+/******************************************************************************/
+/******************************************************************************/
 /* JavaScript Containers */
 .javascript-top-bar {
   width: 100%;
@@ -570,35 +598,11 @@ body {
   margin-top: 50px; }
 
 .code-container {
-  height: 400px;
+  height: 450px;
   width: 80%;
   margin-left: 10%;
-  height: 500px;
   overflow: scroll;
   text-align: left; }
-
-@media screen and (max-width: 884px) {
-  .javascript-container {
-    height: auto;
-    width: 100%;
-    display: block;
-    padding: 25px; }
-  .javascript-container-left {
-    left: 0;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    order: 1; }
-  .javascript-container-right {
-    right: 0;
-    width: 80%;
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
-    order: 2; }
-  .javascript-top-bar {
-    padding: 25px; } }
 
 /* Clock CSS */
 .clock-container {

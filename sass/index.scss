@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 
 @font-face {
   font-family: 'Roboto', sans-serif;
@@ -405,6 +406,38 @@ body {
   .button-switch-selected {
     font-size: $button-switch-content-font-size-very-small;
   }
+
+  /************* JavaScript Elements for smaller than 884px *****************/
+  .javascript-container {
+    height: auto;
+    width: 100%;
+    display: block;
+    padding: 25px;
+  }
+  .javascript-container-left {
+    left: 0;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    order: 1;
+  }
+  .javascript-container-right {
+    right: 0;
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    order: 2;
+  }
+  .javascript-top-bar {
+    padding: 25px;
+  }
+  .calculator {
+    margin-top: 50px;
+  }
 }
 
 // media query for elements on screen smaller than 424px
@@ -432,52 +465,9 @@ body {
 }
 
 
-//   .toggle-button {
-//     display: block;
-//     position: fixed;
-//     margin-left: -8px;
-//     top: 40px;
-//     left: 15px;
-//     width: 30px;
-//     height: 30px;
-//     background-image: url(content/hamburger.png);
-//     background-position: 0 0;
-//     background-size: 100% 100%;
-//     z-index: 3500;
-//     visibility: visible; }
-  
-//   .sidebar {
-//     background-color: #2b2b2b;
-//     top: 0px;
-//     left: -400px;
-//     width: 250px;
-//     height: 100vh;
-//     padding-left: 50px;
-//     position: fixed;
-//     z-index: 3000;
-//     padding-top: 30px;
-//     transition: 0.5s; }
-  
-//   .active {
-//     left: 0px; }
-  
-//   .button-sidebar {
-//     height: 50px;
-//     width: 100%;
-//     background-color: #2b2b2b;
-//     font-size: 20px;
-//     font-weight: bold;
-//     letter-spacing: 2px;
-//     color: #ccc;
-//     left: 0px;
-//     padding-left: 20px;
-//     padding-top: 10px; }
-  
-//   .button-sidebar:hover {
-//     background-color: #404040; }
-
-/***** JavaScript Project Styling *****/
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+/************************* JavaScript Project Styling *************************/
+/******************************************************************************/
+/******************************************************************************/
 
 /* JavaScript Containers */ 
 .javascript-top-bar {
@@ -521,40 +511,11 @@ body {
   margin-top: 50px;
 }
 .code-container {
-  height: 400px;
+  height: 450px;
   width: 80%;
   margin-left: 10%; 
-  height: 500px; 
   overflow: scroll;
   text-align: left;
-}
-
-@media screen and (max-width: 884px) {
-  .javascript-container {
-    height: auto;
-    width: 100%;
-    display: block;
-    padding: 25px;
-  }
-  .javascript-container-left {
-    left: 0;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    order: 1;
-  }
-  .javascript-container-right {
-    right: 0;
-    width: 80%;
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
-    order: 2;
-  }
-  .javascript-top-bar {
-    padding: 25px;
-  }
 }
 
 /* Clock CSS */
