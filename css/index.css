@@ -457,7 +457,8 @@ body {
   height: 30px;
   width: 100%;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 30px; }
 
 .code-container {
   height: 460px;
