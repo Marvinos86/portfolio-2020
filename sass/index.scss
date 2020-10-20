@@ -292,14 +292,14 @@ body {
   text-align: center;
 }
 .javascript-container {
-  height: 100vh;
+  height: auto;
   width: 100%;
   padding: 50px;
   display: block;
   overflow: hidden;
 }
 .javascript-container-left {
-  height: 100vh;
+  height: auto;
   width: 49%;
   left: 0;
   display: inline-block;
@@ -308,7 +308,7 @@ body {
   text-align: center;
 }
 .javascript-container-right {
-  height: 100vh;
+  height: auto;
   width: 49%;
   right: 0;
   display: inline-block;
@@ -708,14 +708,6 @@ input[type="image"] {
   .project-bar {
     padding-bottom: 80px;
   }
-  .skills-title {
-    margin-top: 70px;
-    margin-bottom: 50px;
-  }
-  .javascript-title {
-    margin-top: 70px;
-    margin-bottom: 50px;
-  }
   .button-switch {
     font-size: $button-switch-content-font-size-large;
     padding-bottom: $button-content-switch-padding-top-bottom-large;
@@ -744,9 +736,13 @@ input[type="image"] {
   }
   .skills-title {
     font-size: $title-font-size-large;
+    margin-top: 70px;
+    margin-bottom: 50px;
   }
   .javascript-title {
     font-size: $title-font-size-large;
+    margin-top: 70px;
+    margin-bottom: 50px;
   }
   .description {
     font-size: $description-font-size-large;

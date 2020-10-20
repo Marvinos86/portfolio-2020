@@ -428,14 +428,14 @@ body {
   text-align: center; }
 
 .javascript-container {
-  height: 100vh;
+  height: auto;
   width: 100%;
   padding: 50px;
   display: block;
   overflow: hidden; }
 
 .javascript-container-left {
-  height: 100vh;
+  height: auto;
   width: 49%;
   left: 0;
   display: inline-block;
@@ -444,7 +444,7 @@ body {
   text-align: center; }
 
 .javascript-container-right {
-  height: 100vh;
+  height: auto;
   width: 49%;
   right: 0;
   display: inline-block;
@@ -827,12 +827,6 @@ input[type="image"] {
     padding: 18px; }
   .project-bar {
     padding-bottom: 80px; }
-  .skills-title {
-    margin-top: 70px;
-    margin-bottom: 50px; }
-  .javascript-title {
-    margin-top: 70px;
-    margin-bottom: 50px; }
   .button-switch {
     font-size: 1vw;
     padding-bottom: 10px;
@@ -855,9 +849,13 @@ input[type="image"] {
   .project-title {
     font-size: 1.5vw; }
   .skills-title {
-    font-size: 1.5vw; }
+    font-size: 1.5vw;
+    margin-top: 70px;
+    margin-bottom: 50px; }
   .javascript-title {
-    font-size: 1.5vw; }
+    font-size: 1.5vw;
+    margin-top: 70px;
+    margin-bottom: 50px; }
   .description {
     font-size: 1vw; }
   .description-and-link {
