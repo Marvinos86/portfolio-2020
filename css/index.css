@@ -792,10 +792,12 @@ input[type="image"] {
   display: none; }
 
 .empty-cart-btn {
+  margin-top: 5px;
   margin-bottom: 5px; }
 
 .cart-checkout {
-  background: limegreen; }
+  background: limegreen;
+  border-radius: 0px; }
 
 @media screen and (min-width: 2500px) {
   .top-bar {

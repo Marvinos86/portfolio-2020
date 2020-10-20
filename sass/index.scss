@@ -662,10 +662,12 @@ input[type="image"] {
   display: none;
 }
 .empty-cart-btn {
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 .cart-checkout {
   background: limegreen;
+  border-radius: 0px;
 }
 
 // media query for elements on screen larger than 2500px
