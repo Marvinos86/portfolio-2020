@@ -243,23 +243,23 @@ function newElement() {
 
 <!-- Video Player -->
 <div class="javascript-container">
-
-    <div class="javascript-container-left"></div>
-            <div id="wrapper">
-                <div id='player_wrapper'>
-                    <video id='video_player'>
-                        <source src='JavaScriptProjects/Forest.mp4' type='video/mp4'>
-                    </video> 
-                    <div id='player_controls'>
-                        <input type="image" src="JavaScriptProjects/play.png" onclick="play_vid()" id="play_button">
-                        <input type="image" src="JavaScriptProjects/pause.png" onclick="pause_vid()" id="pause_button">
-                        <input type="image" src="JavaScriptProjects/stop.png" onclick="stop_vid()" id="stop_button">
-                        <img src="JavaScriptProjects/volume.png" id="vol_img">
-                        <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
-                    </div>
+    <div class="javascript-container-left">
+        <div id="wrapper">
+            <div id='player_wrapper'>
+                <video id='video_player'>
+                    <source src='JavaScriptProjects/Forest.mp4' type='video/mp4'>
+                </video> 
+                <div id='player_controls'>
+                    <input type="image" src="JavaScriptProjects/play.png" onclick="play_vid()" id="play_button">
+                    <input type="image" src="JavaScriptProjects/pause.png" onclick="pause_vid()" id="pause_button">
+                    <input type="image" src="JavaScriptProjects/stop.png" onclick="stop_vid()" id="stop_button">
+                    <img src="JavaScriptProjects/volume.png" id="vol_img">
+                    <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
                 </div>
             </div>
+        </div>
     </div>
+
 
     <div class="javascript-container-right">
         <pre class="code-container">
@@ -326,7 +326,6 @@ function change_vol()
                 </button>
             </div>
         </div>
-
     </div>
 
     <div class="javascript-container-right">
@@ -552,9 +551,6 @@ var ShoppingCart = (function($) {
     </pre>
 </div>
 
-
-        
-    
 <script src="JavaScriptProjects/calculator.js"></script>
 <script src="JavaScriptProjects/todo-list.js"></script>   
 <script src="JavaScriptProjects/clock.js"></script>
