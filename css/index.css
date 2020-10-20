@@ -532,13 +532,13 @@ body {
 .javascript-top-bar {
   width: 50%;
   height: auto;
-  padding: 25px;
+  padding: 50px;
   text-align: center; }
 
 .javascript-container {
   height: 100vh;
   width: 100%;
-  padding: 25px;
+  padding: 50px;
   display: block;
   overflow: hidden; }
 
@@ -581,7 +581,8 @@ body {
   .javascript-container {
     height: auto;
     width: 100%;
-    display: block; }
+    display: block;
+    padding: 25px; }
   .javascript-container-left {
     left: 0;
     width: 80%;
@@ -597,7 +598,8 @@ body {
     margin-bottom: 30px;
     order: 2; }
   .javascript-top-bar {
-    width: 100%; } }
+    width: 100%;
+    padding: 25px; } }
 
 /* Clock CSS */
 .clock-container {
