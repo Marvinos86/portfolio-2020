@@ -171,7 +171,7 @@
 /* Scrollbar styling */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #84DCC6 #515a61; }
+  scrollbar-color: #8B95C9 #515a61; }
 
 /* Works on Chrome/Edge/Safari */
 *::-webkit-scrollbar {
@@ -181,7 +181,7 @@
   background: #515a61; }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #84DCC6;
+  background-color: #8B95C9;
   border-radius: 20px;
   border: 3px solid #515a61; }
 
