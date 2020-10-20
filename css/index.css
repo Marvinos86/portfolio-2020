@@ -531,9 +531,8 @@ body {
 /* JavaScript Containers */
 .javascript-top-bar {
   width: 50%;
-  height: 100px;
-  padding-top: 50px;
-  padding-left: 50px;
+  height: auto;
+  padding: 25px;
   text-align: center; }
 
 .javascript-container {
