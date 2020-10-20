@@ -179,7 +179,65 @@
     </div>
 
     <div class="javascript-container-right">
+        <pre class="code-container">
+            <code class="language-javascript"> 
+// Close knop en toevoegen aan elk item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "todo-close";
+    span.appendChild(txt);
+    myNodelist[i].appendChild(span);
+}
 
+// Verwijderen uit lijst bij klik op close
+var close = document.getElementsByClassName("todo-close");
+var i;
+for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+    }
+}
+
+// Afvinken items door klik
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+    if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+    }
+}, false);
+
+// Nieuw item maken
+function newElement() {
+    var li = document.createElement("li");
+    var inputValue = document.getElementById("listInput").value;
+    var t = document.createTextNode(inputValue);
+    li.appendChild(t);
+    if (inputValue === '') {
+    alert("Voeg eerst een taak toe!");
+    } else {
+    document.getElementById("task").appendChild(li);
+    }
+    document.getElementById("listInput").value = "";
+
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "todo-close";
+    span.appendChild(txt);
+    li.appendChild(span);
+
+    for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+    }
+    }
+}
+            </code>
+        </pre>
     </div>
 </div>
 
@@ -204,7 +262,34 @@
     </div>
 
     <div class="javascript-container-right">
-
+        <pre class="code-container">
+            <code class="language-javascript"> 
+document.addEventListener("DOMContentLoaded", function() { startplayer(); }, false);
+var player;
+function startplayer() 
+{
+player = document.getElementById('video_player');
+player.controls = false;
+}
+function play_vid()
+{
+    player.play();
+}
+function pause_vid()
+{
+    player.pause();
+}
+function stop_vid() 
+{
+player.pause();
+player.currentTime = 0;
+}
+function change_vol()
+{
+    player.volume=document.getElementById("change_vol").value;
+}
+            </code>
+        </pre>
     </div>
 </div>
 
@@ -244,13 +329,79 @@
 
     </div>
 
-
-
     <div class="javascript-container-right">
+        <pre class="code-container">
+            <code class="language-javascript"> 
+var passwordElement = document.getElementById("password-screen");
+var lengthElement = document.getElementById("lengte");
+var capitalElement = document.getElementById("hoofdletters");
+var smallElement = document.getElementById("kleineletters");
+var integersElement = document.getElementById("cijfers");
+var symbolsElement = document.getElementById("symbolen");
+var generateElement = document.getElementById("generate");
 
-        
+var upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerLetters = "abcdefghijklmnopqrstuvwxyz";
+var numbers = "0123456789";
+var symbols = "!@#$%^&*()_+=";
+
+function getLowercase() {
+    return lowerLetters[Math.floor(Math.random() * lowerLetters.length)];
+}
+function getUppercase() {
+    return upperLetters[Math.floor(Math.random() * upperLetters.length)];
+}
+function getNumber() {
+    return numbers[Math.floor(Math.random() * numbers.length)];
+}
+function getSymbol() {
+    return symbols[Math.floor(Math.random() * symbols.length)];
+}
+
+function generatePassword() {
+    var len = lengthElement.value;
+    var password = "";
+    if (capitalElement.checked) {
+        password += getUppercase();
+    }
+    if (smallElement.checked) {
+        password += getLowercase();
+    }
+    if (integersElement.checked) {
+        password += getNumber();
+    }
+    if (symbolsElement.checked) {
+        password += getSymbol();
+    }
+    for (let i = password.length; i < len; i++) {
+        const x = generateX();
+        password += x;
+    }
+    passwordElement.innerText = password;
+}
+
+function generateX() {
+    var xs = [];
+    if (capitalElement.checked) {
+        xs.push(getUppercase());
+    }
+    if (smallElement.checked) {
+        xs.push(getLowercase());
+    }
+    if (integersElement.checked) {
+        xs.push(getNumber());
+    }
+    if (symbolsElement.checked) {
+        xs.push(getSymbol());
+    }
+    if (xs.length === 0) return "";
+    return xs[Math.floor(Math.random() * xs.length)];
+}
+
+generateElement.addEventListener("click", generatePassword);
+            </code>
+        </pre>
     </div>
-
 </div>
 
 <!-- Winkelwagen-->
@@ -273,7 +424,145 @@
 </div>
 
 <div class="javascript-top-bar" style="padding-top: 20px; height: auto;"> 
+    <pre class="code-container">
+        <code class="language-javascript language-html"> 
+var ShoppingCart = (function($) {
+    var productsEl = document.querySelector(".products"),
+        cartEl = document.querySelector(".shopping-cart-list"),
+        productQuantityEl = document.querySelector(".product-quantity"),
+        emptyCartEl = document.querySelector(".empty-cart-btn"),
+        cartCheckoutEl = document.querySelector(".cart-checkout"),
+        totalPriceEl = document.querySelector(".total-price");
+    
+    // Fake JSON data array
+    var products = [
+        {
+        id: 0,
+        name: "Citroen",
+        description: "Lekkere zoete citroenen vers uit Groenland",
+        imageUrl: "https://3.imimg.com/data3/IC/JO/MY-9839190/organic-lemon-250x250.jpg",
+        productUrl: "https://3.imimg.com/data3/IC/JO/MY-9839190/organic-lemon-250x250.jpg",
+        price: 1
+        },
+        {
+        id: 1,
+        name: "Bananen",
+        description: "Smerige zure bananen uit Rusland",
+        imageUrl: "https://images.all-free-download.com/images/graphicthumb/vector_illustration_of_ripe_bananas_567893.jpg",
+        productUrl: "https://images.all-free-download.com/images/graphicthumb/vector_illustration_of_ripe_bananas_567893.jpg",
+        price: 2.50,
+        },
+        {
+        id: 2,
+        name: "Sinaasappel",
+        description: "Verse sinaasappels uit West-Friesland",
+        imageUrl: "http://www.azspagirls.com/files/2010/09/orange.jpg",
+        productUrl: "http://www.azspagirls.com/files/2010/09/orange.jpg",
+        price: 1.50
+        }
+    ],
+        productsInCart = [];
+    
+    var generateProductList = function() {
+        products.forEach(function(item) {
+        var productEl = document.createElement("div");
+        productEl.className = "product";
+        productEl.innerHTML = '<div class="product-image">
+                                    <img src="${item.imageUrl}" alt="${item.name}">
+                                </div>
+                                <div>
+                                <div class="product-name"><span>Product:</span> ${item.name}</div>
+                                <div class="product-description"><span>Omschrijving:</span> ${item.description}</div>
+                                <div class="product-price"><span>Prijs:</span> €${item.price}</div>
+                                </div>
+                                <div class="product-add-to-cart">
+                                    <a href="${item.productUrl}" target=blank class="winkel-knop see-more">Meer zien</a>
+                                    <a href="#0" class="winkel-knop add-to-cart" data-id=${item.id}>Toevoegen</a>
+                                </div>
+                            </div>
+    '';     
+    productsEl.appendChild(productEl);
+        });
+    }
 
+    var generateCartList = function() {
+        cartEl.innerHTML = "";
+        productsInCart.forEach(function(item) {
+        var li = document.createElement("li");
+        li.innerHTML = `${item.quantity} ${item.product.name} - €${item.product.price * item.quantity}`;
+        cartEl.appendChild(li);
+        });
+        productQuantityEl.innerHTML = productsInCart.length;
+        generateCartButtons()
+    }
+    
+    // Build cards
+    var generateCartButtons = function() {
+        if(productsInCart.length > 0) {
+        emptyCartEl.style.display = "block";
+        cartCheckoutEl.style.display = "block"
+        totalPriceEl.innerHTML = "€ " + calculateTotalPrice();
+        } else {
+        emptyCartEl.style.display = "none";
+        cartCheckoutEl.style.display = "none";
+        }
+    }
+    
+    // Listeners
+    var setupListeners = function() {
+        productsEl.addEventListener("click", function(event) {
+        var el = event.target;
+        if(el.classList.contains("add-to-cart")) {
+            var elId = el.dataset.id;
+            addToCart(elId);
+        }
+        });
+        emptyCartEl.addEventListener("click", function(event) {
+        if(confirm("Are you sure?")) {
+            productsInCart = [];
+        }
+        generateCartList();
+        });
+    }
+    
+    // Adds new items or updates existing one in array
+    var addToCart = function(id) {
+        var obj = products[id];
+        if(productsInCart.length === 0 || productFound(obj.id) === undefined) {
+        productsInCart.push({product: obj, quantity: 1});
+        } else {
+        productsInCart.forEach(function(item) {
+            if(item.product.id === obj.id) {
+            item.quantity++;
+            }
+        });
+        }
+        generateCartList();
+    }
+    
+    // check if project is added in productsInCart array
+    var productFound = function(productId) {
+        return productsInCart.find(function(item) {
+        return item.product.id === productId;
+        });
+    }
+    var calculateTotalPrice = function() {
+        return productsInCart.reduce(function(total, item) {
+        return total + (item.product.price *  item.quantity);
+        }, 0);
+    }
+    var init = function() {
+        generateProductList();
+        setupListeners();
+    }
+    return {
+        init: init
+    };
+    })(jQuery);
+    
+    ShoppingCart.init();
+        </code>
+    </pre>
 </div>
 
 
