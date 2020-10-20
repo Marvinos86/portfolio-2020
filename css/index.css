@@ -787,6 +787,9 @@ input[type="image"] {
   color: #222629;
   padding: 5px; }
 
+.todo-input {
+  width: 70%; }
+
 .empty-cart-btn,
 .cart-checkout {
   display: none; }
