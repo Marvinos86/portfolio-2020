@@ -27,16 +27,15 @@
     </div>
 </div>
 
-<div class="skills-title" style="padding-top: 100px; margin-top: 0px;">JAVASCRIPT PROJECTS</div>
-
 <!-- Clock -->
-<div class="javascript-top-bar">
+<!-- <div class="javascript-top-bar">
     <div class="clock-container">
         <div id="ClockScreen" class="clock" onload="showTime()"></div>
     </div>
-</div>
+</div> -->
 
 <div class="javascript-container">
+    <div class="skills-title" style="padding-top: 100px; margin-top: 0px;">JAVASCRIPT CALCULATOR</div>
     <!-- Calculator -->
     <div class="javascript-container-left">
         <div class="calculator" id="calculator">
@@ -64,8 +63,14 @@
         </div>
     </div>
 
-    <!-- To Do List -->
     <div class="javascript-container-right">
+        
+    </div>
+</div>
+
+<!-- To Do List -->
+<div class="javascript-container">
+    <div class="javascript-container-left">
         <div class="todo-list">
             <div class="todo-header">
                 <div style="margin:5px">To Do List</div>
@@ -83,11 +88,16 @@
             </ul>
         </div>
     </div>
+
+    <div class="javascript-container-right">
+
+    </div>
 </div>
 
+<!-- Video Player -->
 <div class="javascript-container">
-    <!-- Video Player -->
-    <div class="javascript-container-left">
+
+    <div class="javascript-container-left"></div>
             <div id="wrapper">
                 <div id='player_wrapper'>
                     <video id='video_player'>
@@ -104,9 +114,14 @@
             </div>
     </div>
 
-
-    <!-- Password Generator -->
     <div class="javascript-container-right">
+
+    </div>
+</div>
+
+<!-- Password Generator -->
+<div class="javascript-container">
+    <div class="javascript-container-left">
         <div class="password-container">
             <div class="password-header">
                 <div class="password" id="password-screen"> <!-- Hier komt wachtwoord --> </div>
@@ -137,7 +152,16 @@
                 </button>
             </div>
         </div>
+
     </div>
+
+
+
+    <div class="javascript-container-right">
+
+        
+    </div>
+
 </div>
 
 <!-- Winkelwagen-->
@@ -159,97 +183,27 @@
     </div>
 </div>
 
+<div class="javascript-top-bar" style="padding-top: 20px; height: auto;"> 
+
 <!-- Code Highlight -->
 <div class="javascript-container">
     <div class="javascript-container-left">
         <div style="text-align: left;">
             
 <pre style="margin-left: 30px; overflow: auto; height: 500px;">
-    <code class="language-javascript">
-(function() {
-    // Split elements in  single elements or nodelist
-    var x = function(element) {
-        if (element.charAt(0) === "#") { 
-        return document.querySelector(element); 
-        }
-        return document.querySelectorAll(element); 
-    };
-    
-    // VARIABELEN
-    var screen = x("#screen"), 
-        calculate = x("#calculate"), 
-        clear = x("#clear"),
-        nums = x(".num"), 
-        ops = x(".ops"),
-        currentNumber = "", 
-        oldNumber = "", 
-        resultNumber, 
-        operator; 
-    
-    // NUMMERS OPVANGEN
-    var catchNumber = function() {
-        if (resultNumber) { 
-        currentNumber = this.getAttribute("data-num"); 
-        resultNumber = "";
-        } else {  
-        currentNumber += this.getAttribute("data-num"); 
-        }
-        screen.innerHTML = currentNumber; 
-    };
-    
-    // CLICK EVENTS GETALLEN
-    for (var i = 0, l = nums.length; i < l; i++) {
-        nums[i].onclick = catchNumber;
-    }
-    
-    // OPERATOR OPVANGEN
-    var catchOperator = function() {
-        oldNumber = currentNumber; 
-        currentNumber = "";  
-        operator = this.getAttribute("data-ops");
-    };
-    
-    // CLICK EVENTS OPERATORS
-        for (var i = 0, l = ops.length; i < l; i++) {
-        ops[i].onclick = catchOperator;
-        }
-    
-    // RESULTAAT BEREKENEN
-    calculate.onclick =  function() {
-        oldNumber = parseFloat(oldNumber);
-        currentNumber = parseFloat(currentNumber);
-    
-        // BEREKENING MAKEN OBV GEKOZEN OPERATOR
-        switch (operator) {
-        case "plus":
-            resultNumber = oldNumber + currentNumber;
-            break;
-        case "minus":
-            resultNumber = oldNumber - currentNumber;
-            break;
-        case "times":
-            resultNumber = oldNumber * currentNumber;
-            break;
-        case "divided by":
-            resultNumber = oldNumber / currentNumber;
-            break;
-        default:
-            resultNumber = currentNumber;
-        }
-    
-        // UITKOMST BEREKENING TONEN + AANPASSINGEN VARIABELEN
-        screen.innerHTML = resultNumber;
-        oldNumber = "";  
-        currentNumber = resultNumber; 
-    };
-    
-    // EVENTUELE KLIK OP CLEAR RESET ALLES OP 0 OF LEEG
-    clear.onclick = function() {
-        oldNumber = "";
-        currentNumber = "";
-        screen.innerHTML = "0";
-    };
-    }());
+    <code class="language-css">
+        .button-top-menu {
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: normal;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: 7px;
+            padding-right: 7px;
+            text-align: center;
+            display: inline-block;
+            cursor: pointer;
+            letter-spacing: 1px; }
 </code>
 </pre>
         
