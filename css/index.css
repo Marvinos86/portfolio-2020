@@ -171,19 +171,19 @@
 /* Scrollbar styling */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #8B95C9 #3a4145; }
+  scrollbar-color: #8B95C9 #2e3438; }
 
 /* Works on Chrome/Edge/Safari */
 *::-webkit-scrollbar {
   width: 12px; }
 
 *::-webkit-scrollbar-track {
-  background: #3a4145; }
+  background: #2e3438; }
 
 *::-webkit-scrollbar-thumb {
   background-color: #8B95C9;
   border-radius: 20px;
-  border: 3px solid #3a4145; }
+  border: 3px solid #2e3438; }
 
 .tester {
   line-height: 10px;
