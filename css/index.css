@@ -539,7 +539,7 @@ body {
 .javascript-container {
   height: 100vh;
   width: 100%;
-  padding-left: 50px;
+  padding: 25px;
   display: block;
   overflow: hidden; }
 
