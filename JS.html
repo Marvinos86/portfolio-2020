@@ -425,7 +425,7 @@ generateElement.addEventListener("click", generatePassword);
 
 <div class="javascript-top-bar" style="padding-top: 20px; height: auto;"> 
     <pre class="code-container">
-        <code class="language-javascript language-html"> 
+        <code class="language-javascript"> 
 var ShoppingCart = (function($) {
     var productsEl = document.querySelector(".products"),
         cartEl = document.querySelector(".shopping-cart-list"),
@@ -467,20 +467,7 @@ var ShoppingCart = (function($) {
         products.forEach(function(item) {
         var productEl = document.createElement("div");
         productEl.className = "product";
-        productEl.innerHTML = '<div class="product-image">
-                                    <img src="${item.imageUrl}" alt="${item.name}">
-                                </div>
-                                <div>
-                                <div class="product-name"><span>Product:</span> ${item.name}</div>
-                                <div class="product-description"><span>Omschrijving:</span> ${item.description}</div>
-                                <div class="product-price"><span>Prijs:</span> €${item.price}</div>
-                                </div>
-                                <div class="product-add-to-cart">
-                                    <a href="${item.productUrl}" target=blank class="winkel-knop see-more">Meer zien</a>
-                                    <a href="#0" class="winkel-knop add-to-cart" data-id=${item.id}>Toevoegen</a>
-                                </div>
-                            </div>
-    '';     
+        productEl.innerHTML = ' '';     
     productsEl.appendChild(productEl);
         });
     }
