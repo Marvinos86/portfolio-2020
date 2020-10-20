@@ -330,7 +330,6 @@ body {
   height: 460px;
   width: 80%;
   margin-left: 10%; 
-  overflow: scroll;
   text-align: left;
 }
 .code-block {
@@ -784,9 +783,6 @@ input[type="image"] {
   .skills-title {
     font-size: $title-font-size-very-small;
   }
-  .javascript-title {
-    font-size: $title-font-size-very-small;
-  }
   .description {
     font-size: $description-font-size-very-small;
   }
@@ -837,8 +833,36 @@ input[type="image"] {
   .javascript-top-bar {
     padding: 25px;
   }
-  .calculator {
+  .javascript-title {
+    font-size: $title-font-size-very-small;
+  }
+  .code-container {
+    height: 460px;
+    width: 90%;
+    margin-left: 5%; 
+    text-align: left;
     margin-top: 50px;
+  }
+  .calculator {
+    margin-top: 30px;
+  }
+  .todo-list {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25px;
+  }
+  .password-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .winkel-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .winkelwagen {
+    width: 100%;
   }
 }
 

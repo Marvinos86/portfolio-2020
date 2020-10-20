@@ -466,7 +466,6 @@ body {
   height: 460px;
   width: 80%;
   margin-left: 10%;
-  overflow: scroll;
   text-align: left; }
 
 .code-block {
@@ -881,8 +880,6 @@ input[type="image"] {
     font-size: 17px; }
   .skills-title {
     font-size: 17px; }
-  .javascript-title {
-    font-size: 17px; }
   .description {
     font-size: 16px; }
   .description-and-link {
@@ -923,8 +920,30 @@ input[type="image"] {
     order: 2; }
   .javascript-top-bar {
     padding: 25px; }
+  .javascript-title {
+    font-size: 17px; }
+  .code-container {
+    height: 460px;
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    margin-top: 50px; }
   .calculator {
-    margin-top: 50px; } }
+    margin-top: 30px; }
+  .todo-list {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25px; }
+  .password-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+  .winkel-container {
+    width: 90%;
+    margin-left: 5%; }
+  .winkelwagen {
+    width: 100%; } }
 
 @media screen and (max-width: 424px) {
   .container {
