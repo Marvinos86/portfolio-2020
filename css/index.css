@@ -415,144 +415,6 @@ body {
   .description {
     font-size: 2vw; } }
 
-@media screen and (min-width: 2500px) {
-  .top-bar {
-    height: 90px; }
-  .second-bar {
-    height: 50px;
-    margin-top: 90px; }
-  .container {
-    padding-top: 120px; }
-  .index-name {
-    font-size: 10vw;
-    line-height: 9vw;
-    padding-left: 4%;
-    margin-top: 200px; }
-  .index-specialism {
-    font-size: 9vw;
-    line-height: 8vw; }
-  .button-top-menu {
-    font-size: 48px; }
-  .button-selected {
-    font-size: 48px; }
-  .button-linkedin {
-    font-size: 48px;
-    padding: 18px; }
-  .project-bar {
-    padding-bottom: 80px; }
-  .skills-title {
-    margin-top: 70px;
-    margin-bottom: 50px; }
-  .button-switch {
-    font-size: 1vw;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px; }
-  .button-switch-selected {
-    font-size: 1vw;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px; }
-  .button-content {
-    font-size: 1vw;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: 40px; }
-  .prev, .next {
-    font-size: 80px; }
-  .project-title {
-    font-size: 1.5vw; }
-  .skills-title {
-    font-size: 1.5vw; }
-  .description {
-    font-size: 1vw; }
-  .description-and-link {
-    font-size: 1vw; } }
-
-@media screen and (max-width: 884px) {
-  .index-name {
-    margin-top: 100px; }
-  .second-bar {
-    height: 47px; }
-  .skill-container {
-    width: 100%;
-    margin-left: 0%; }
-  .container {
-    padding-top: 70px; }
-  .project-title {
-    width: 100%;
-    position: relative; }
-  .project-bar {
-    margin-bottom: 50px;
-    padding-bottom: 0px; }
-  .button-top-menu {
-    font-size: 17px; }
-  .project-title {
-    font-size: 17px; }
-  .skills-title {
-    font-size: 17px; }
-  .description {
-    font-size: 16px; }
-  .description-and-link {
-    font-size: 16px;
-    order: 2;
-    width: 100%; }
-  .link-container {
-    order: 1;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%; }
-  .button-switch {
-    font-size: 17px; }
-  .button-switch-selected {
-    font-size: 17px; }
-  /************* JavaScript Elements for smaller than 884px *****************/
-  .javascript-container {
-    height: auto;
-    width: 100%;
-    display: block;
-    padding: 25px; }
-  .javascript-container-left {
-    left: 0;
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    order: 1; }
-  .javascript-container-right {
-    right: 0;
-    width: 80%;
-    height: auto;
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
-    order: 2; }
-  .javascript-top-bar {
-    padding: 25px; }
-  .calculator {
-    margin-top: 50px; } }
-
-@media screen and (max-width: 424px) {
-  .container {
-    padding-top: 40px; }
-  .index-text {
-    height: auto;
-    width: 90%;
-    margin-left: 5%;
-    float: left; }
-  .button-top-menu {
-    margin-left: 2px;
-    margin-right: 2px; }
-  .button-selected {
-    margin-left: 2px;
-    margin-right: 2px; }
-  .small-fill {
-    height: 70px; } }
-
 /************************* JavaScript Project Styling *************************/
 /******************************************************************************/
 /******************************************************************************/
@@ -929,3 +791,141 @@ input[type="image"] {
 
 .cart-checkout {
   background: limegreen; }
+
+@media screen and (min-width: 2500px) {
+  .top-bar {
+    height: 90px; }
+  .second-bar {
+    height: 50px;
+    margin-top: 90px; }
+  .container {
+    padding-top: 120px; }
+  .index-name {
+    font-size: 10vw;
+    line-height: 9vw;
+    padding-left: 4%;
+    margin-top: 200px; }
+  .index-specialism {
+    font-size: 9vw;
+    line-height: 8vw; }
+  .button-top-menu {
+    font-size: 48px; }
+  .button-selected {
+    font-size: 48px; }
+  .button-linkedin {
+    font-size: 48px;
+    padding: 18px; }
+  .project-bar {
+    padding-bottom: 80px; }
+  .skills-title {
+    margin-top: 70px;
+    margin-bottom: 50px; }
+  .button-switch {
+    font-size: 1vw;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .button-switch-selected {
+    font-size: 1vw;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .button-content {
+    font-size: 1vw;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 40px; }
+  .prev, .next {
+    font-size: 80px; }
+  .project-title {
+    font-size: 1.5vw; }
+  .skills-title {
+    font-size: 1.5vw; }
+  .description {
+    font-size: 1vw; }
+  .description-and-link {
+    font-size: 1vw; } }
+
+@media screen and (max-width: 884px) {
+  .index-name {
+    margin-top: 100px; }
+  .second-bar {
+    height: 47px; }
+  .skill-container {
+    width: 100%;
+    margin-left: 0%; }
+  .container {
+    padding-top: 70px; }
+  .project-title {
+    width: 100%;
+    position: relative; }
+  .project-bar {
+    margin-bottom: 50px;
+    padding-bottom: 0px; }
+  .button-top-menu {
+    font-size: 17px; }
+  .project-title {
+    font-size: 17px; }
+  .skills-title {
+    font-size: 17px; }
+  .description {
+    font-size: 16px; }
+  .description-and-link {
+    font-size: 16px;
+    order: 2;
+    width: 100%; }
+  .link-container {
+    order: 1;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%; }
+  .button-switch {
+    font-size: 17px; }
+  .button-switch-selected {
+    font-size: 17px; }
+  /************* JavaScript Elements for smaller than 884px *****************/
+  .javascript-container {
+    height: auto;
+    width: 100%;
+    display: block;
+    padding: 25px; }
+  .javascript-container-left {
+    left: 0;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    order: 1; }
+  .javascript-container-right {
+    right: 0;
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    order: 2; }
+  .javascript-top-bar {
+    padding: 25px; }
+  .calculator {
+    margin-top: 50px; } }
+
+@media screen and (max-width: 424px) {
+  .container {
+    padding-top: 40px; }
+  .index-text {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    float: left; }
+  .button-top-menu {
+    margin-left: 2px;
+    margin-right: 2px; }
+  .button-selected {
+    margin-left: 2px;
+    margin-right: 2px; }
+  .small-fill {
+    height: 70px; } }

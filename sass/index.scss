@@ -277,194 +277,6 @@ body {
   }
 }
 
-// media query for elements on screen larger than 2500px
-@media screen and (min-width: 2500px) {
-  .top-bar {
-    height: 90px;
-  }
-  .second-bar {
-    height: 50px;
-    margin-top: 90px;
-  }
-  .container {
-    padding-top: 120px;
-  }
-  .index-name {
-    font-size: $index-name-font-size-large;
-    line-height: $index-name-line-height-large;
-    padding-left: 4%;
-    margin-top: 200px;
-  }
-  .index-specialism {
-    font-size: $index-specialism-font-size-large;
-    line-height: $index-specialism-line-height-large;
-  }
-  .button-top-menu {
-    font-size: $top-menu-button-font-size-large;
-  }
-  .button-selected {
-    font-size: $top-menu-button-font-size-large;
-  }
-  .button-linkedin {
-    font-size: 48px;
-    padding: 18px;
-  }
-  .project-bar {
-    padding-bottom: 80px;
-  }
-  .skills-title {
-    margin-top: 70px;
-    margin-bottom: 50px;
-  }
-  .button-switch {
-    font-size: $button-switch-content-font-size-large;
-    padding-bottom: $button-content-switch-padding-top-bottom-large;
-    padding-top: $button-content-switch-padding-top-bottom-large;
-    margin-left: $button-switch-margin-left-right-large;
-    margin-right: $button-switch-margin-left-right-large;
-  }
-  .button-switch-selected {
-    font-size: $button-switch-content-font-size-large;
-    padding-bottom: $button-content-switch-padding-top-bottom-large;
-    padding-top: $button-content-switch-padding-top-bottom-large;
-    margin-left: $button-switch-margin-left-right-large;
-    margin-right: $button-switch-margin-left-right-large;
-  }
-  .button-content {
-    font-size: $button-switch-content-font-size-large;
-    padding-bottom: $button-content-switch-padding-top-bottom-large;
-    padding-top: $button-content-switch-padding-top-bottom-large;
-    margin-top: 40px;
-  }
-  .prev, .next {
-    font-size: $prev-next-buttons-font-size-large;
-  }
-  .project-title {
-    font-size: $title-font-size-large;
-  }
-  .skills-title {
-    font-size: $title-font-size-large;
-  }
-  .description {
-    font-size: $description-font-size-large;
-  }
-  .description-and-link {
-    font-size: $description-font-size-large;
-  }
-}
-
-// media query for elements on screen smaller than 884px
-@media screen and (max-width: 884px) {
-  .index-name {
-    margin-top: 100px;
-  }  
-  .second-bar {
-    height: $second-menu-height-very-small;
-  }
-  .skill-container {
-    width: 100%;
-    margin-left: 0%;
-  }
-  .container {
-    padding-top: 70px;
-  }
-  .project-title {
-    width: 100%;
-    position: relative;
-  }
-  .project-bar {
-    margin-bottom: 50px;
-    padding-bottom: 0px;
-  }
-  .button-top-menu {
-    font-size: $top-menu-button-font-size-very-small;
-  }
-  .project-title {
-    font-size: $title-font-size-very-small;
-  }
-  .skills-title {
-    font-size: $title-font-size-very-small;
-  }
-  .description {
-    font-size: $description-font-size-very-small;
-  }
-  .description-and-link {
-    font-size: $description-font-size-very-small;
-    order: 2;
-    width: 100%;
-  }
-  .link-container {
-    order: 1;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-  }
-  .button-switch {
-    font-size: $button-switch-content-font-size-very-small;
-  }
-  .button-switch-selected {
-    font-size: $button-switch-content-font-size-very-small;
-  }
-
-  /************* JavaScript Elements for smaller than 884px *****************/
-  .javascript-container {
-    height: auto;
-    width: 100%;
-    display: block;
-    padding: 25px;
-  }
-  .javascript-container-left {
-    left: 0;
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    order: 1;
-  }
-  .javascript-container-right {
-    right: 0;
-    width: 80%;
-    height: auto;
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
-    order: 2;
-  }
-  .javascript-top-bar {
-    padding: 25px;
-  }
-  .calculator {
-    margin-top: 50px;
-  }
-}
-
-// media query for elements on screen smaller than 424px
-@media screen and (max-width: 424px) {
-  .container {
-    padding-top: 40px;
-  }
-  .index-text {
-    height: auto;
-    width: 90%;
-    margin-left: 5%;
-    float: left;
-  }
-  .button-top-menu {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  .button-selected {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  .small-fill {
-    height: 70px;
-  }
-}
-
-
 /************************* JavaScript Project Styling *************************/
 /******************************************************************************/
 /******************************************************************************/
@@ -850,3 +662,189 @@ input[type="image"] {
   background: limegreen;
 }
 
+// media query for elements on screen larger than 2500px
+@media screen and (min-width: 2500px) {
+  .top-bar {
+    height: 90px;
+  }
+  .second-bar {
+    height: 50px;
+    margin-top: 90px;
+  }
+  .container {
+    padding-top: 120px;
+  }
+  .index-name {
+    font-size: $index-name-font-size-large;
+    line-height: $index-name-line-height-large;
+    padding-left: 4%;
+    margin-top: 200px;
+  }
+  .index-specialism {
+    font-size: $index-specialism-font-size-large;
+    line-height: $index-specialism-line-height-large;
+  }
+  .button-top-menu {
+    font-size: $top-menu-button-font-size-large;
+  }
+  .button-selected {
+    font-size: $top-menu-button-font-size-large;
+  }
+  .button-linkedin {
+    font-size: 48px;
+    padding: 18px;
+  }
+  .project-bar {
+    padding-bottom: 80px;
+  }
+  .skills-title {
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .button-switch {
+    font-size: $button-switch-content-font-size-large;
+    padding-bottom: $button-content-switch-padding-top-bottom-large;
+    padding-top: $button-content-switch-padding-top-bottom-large;
+    margin-left: $button-switch-margin-left-right-large;
+    margin-right: $button-switch-margin-left-right-large;
+  }
+  .button-switch-selected {
+    font-size: $button-switch-content-font-size-large;
+    padding-bottom: $button-content-switch-padding-top-bottom-large;
+    padding-top: $button-content-switch-padding-top-bottom-large;
+    margin-left: $button-switch-margin-left-right-large;
+    margin-right: $button-switch-margin-left-right-large;
+  }
+  .button-content {
+    font-size: $button-switch-content-font-size-large;
+    padding-bottom: $button-content-switch-padding-top-bottom-large;
+    padding-top: $button-content-switch-padding-top-bottom-large;
+    margin-top: 40px;
+  }
+  .prev, .next {
+    font-size: $prev-next-buttons-font-size-large;
+  }
+  .project-title {
+    font-size: $title-font-size-large;
+  }
+  .skills-title {
+    font-size: $title-font-size-large;
+  }
+  .description {
+    font-size: $description-font-size-large;
+  }
+  .description-and-link {
+    font-size: $description-font-size-large;
+  }
+}
+
+// media query for elements on screen smaller than 884px
+@media screen and (max-width: 884px) {
+  .index-name {
+    margin-top: 100px;
+  }  
+  .second-bar {
+    height: $second-menu-height-very-small;
+  }
+  .skill-container {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .container {
+    padding-top: 70px;
+  }
+  .project-title {
+    width: 100%;
+    position: relative;
+  }
+  .project-bar {
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+  }
+  .button-top-menu {
+    font-size: $top-menu-button-font-size-very-small;
+  }
+  .project-title {
+    font-size: $title-font-size-very-small;
+  }
+  .skills-title {
+    font-size: $title-font-size-very-small;
+  }
+  .description {
+    font-size: $description-font-size-very-small;
+  }
+  .description-and-link {
+    font-size: $description-font-size-very-small;
+    order: 2;
+    width: 100%;
+  }
+  .link-container {
+    order: 1;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .button-switch {
+    font-size: $button-switch-content-font-size-very-small;
+  }
+  .button-switch-selected {
+    font-size: $button-switch-content-font-size-very-small;
+  }
+
+  /************* JavaScript Elements for smaller than 884px *****************/
+  .javascript-container {
+    height: auto;
+    width: 100%;
+    display: block;
+    padding: 25px;
+  }
+  .javascript-container-left {
+    left: 0;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    order: 1;
+  }
+  .javascript-container-right {
+    right: 0;
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    order: 2;
+  }
+  .javascript-top-bar {
+    padding: 25px;
+  }
+  .calculator {
+    margin-top: 50px;
+  }
+}
+
+// media query for elements on screen smaller than 424px
+@media screen and (max-width: 424px) {
+  .container {
+    padding-top: 40px;
+  }
+  .index-text {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+  }
+  .button-top-menu {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .button-selected {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .small-fill {
+    height: 70px;
+  }
+}
