@@ -126,6 +126,15 @@ body {
   text-align: center;
   margin-top: 50px;
 }
+.javascript-title {
+  font-size: $title-font-size-normal;
+  background-color: $body-background-color;
+  color: $title-font-color;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
 .button-switch-container {
   width: 100%;
   height: 40px;
@@ -159,6 +168,12 @@ body {
   display: block;
   padding: 10px; 
   text-align: center;
+}
+.code-container {
+  margin-left: 30px; 
+  overflow: auto; 
+  height: 500px; 
+  text-align: left;
 }
 
 /** Content **/
